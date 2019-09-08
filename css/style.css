@@ -1,0 +1,54 @@
+@font-face {
+  font-family: Fontin;
+  src: url(../font/fontin.otf);
+}
+
+body {
+  background-color: #111;
+  color: #A38D6D;
+  font-family: Fontin, Verdana, Arial, Helvetica, sans-serif;
+}
+
+.anointing {
+  border: 3px #745A2F solid;
+  border-radius: 2px;
+  min-width: 350px;
+}
+
+.boxed {
+  border: 2px #A08C4A solid;
+  background-color: rgba(200, 200, 200, 0.05);
+}
+
+.item-select {
+  width: 110px;
+  height: 220px;
+}
+
+.oil-select {
+  width: 82px;
+  height: 82px;
+  margin: 1rem 0;
+}
+
+.oil-select:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.passive {
+  border: 3px #745A2F solid;
+  width: 750px;
+  height: 200px;
+}
+
+.name {
+  color: #EEE;
+}
+
+.description {
+  color: #8787FE;
+}
+
+.oil {
+  cursor: pointer;
+}
