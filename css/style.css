@@ -3,10 +3,33 @@
   src: url(../font/fontin.otf);
 }
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   background-color: #111;
   color: #A38D6D;
   font-family: Fontin, Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  line-height: 20px;
+}
+
+a {
+  color: #A38D6D;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: inherit;
 }
 
 .anointing {
@@ -37,6 +60,7 @@ body {
 
 .passive {
   border: 3px #745A2F solid;
+  border-radius: 2px;
   width: 750px;
   height: 200px;
 }

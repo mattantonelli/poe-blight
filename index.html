@@ -9,6 +9,9 @@
     <meta property="og:title" content="Path of Exile - Blight Helper">
     <meta property="og:description" content="A helper for Path of Exile's Blight League.">
 
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
@@ -38,7 +41,7 @@
             <p v-html="passive.description" class="description mb-0"></p>
           </div>
         </div>
-        <div class="d-flex flex-wrap justify-content-around mt-3 w-50">
+        <div class="d-flex flex-wrap justify-content-around my-3 w-50">
           <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" :title="title(oil)"
                data-toggle="tooltip" data-html="true" class="oil boxed mt-1">
         </div>
@@ -46,4 +49,7 @@
     </div>
     <script src="js/app.js"></script>
   </body>
+  <footer class="text-center">
+    Created by /u/raelys — <a href="https://docs.google.com/spreadsheets/d/1-7JMc6ux0jSblGbQsV0qB1f2mNdVz1XqODMkLqMoShw/htmlview?sle=true#" target="_blank">Data by /u/theangryfurlong</a>
+  </footer>
 </html>
