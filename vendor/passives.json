@@ -1,4 +1,4 @@
-const passives = {
+{
   "3": {
     "name": "Alacrity",
     "description": "+30 to Dexterity"

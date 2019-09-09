@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: inherit;
+  color: #87745A;
 }
 
 .anointing {
@@ -61,8 +61,8 @@ a:hover {
 .passive {
   border: 3px #745A2F solid;
   border-radius: 2px;
-  width: 750px;
-  height: 200px;
+  min-width: 350px;
+  min-height: 200px;
 }
 
 .name {
@@ -75,4 +75,37 @@ a:hover {
 
 .oil {
   cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #745A2F;
+  border-radius: 2px;
+  color: #A38D6D;
+  padding: 0 0.2rem;
+}
+
+.my-oils > div:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.my-oils img {
+  width: 50px;
+  height: 50px;
+}
+
+.my-oils input {
+  width: 55px;
+}
+
+.table {
+  color: #A38D6D;
+}
+
+.table-bordered td, .table thead th {
+  border-color: #745A2F;
 }

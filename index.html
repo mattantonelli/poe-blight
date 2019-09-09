@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Path of Exile - Blight Helper</title>
+    <title>Path of Exile - Blight Passives</title>
     <meta name="description" content="A helper for Path of Exile's Blight League.">
-    <meta property="og:title" content="Path of Exile - Blight Helper">
+    <meta property="og:title" content="Path of Exile - Blight Passives">
     <meta property="og:description" content="A helper for Path of Exile's Blight League.">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -15,41 +15,77 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.core.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
   </head>
   <body>
-    <div class="container" id="app">
-      <div class="d-flex flex-column align-items-center mt-3">
-        <div class="anointing px-3 py-2">
-          <h1 class="text-center">ANOINTING</h1>
-          <div class="item-select boxed mx-auto my-3"></div>
-          <div class="d-flex justify-content-around">
-            <div v-for="(oil, i) in combo" class="oil-select boxed">
-              <img v-on:click="removeOil(i)" :src="oil.image" :alt="oil.name" class="oil">
+    <div class="container-fluid" id="app">
+      <div class="row mt-3">
+        <div class="col-12 col-md-5 offset-md-1">
+          <div class="d-flex flex-column align-items-center">
+            <div class="anointing px-3 py-2">
+              <h1 class="text-center">ANOINTING</h1>
+              <div class="item-select boxed mx-auto my-3"></div>
+              <div class="d-flex justify-content-around">
+                <div v-for="(oil, i) in combo" class="oil-select boxed">
+                  <img v-on:click="removeOil(i)" :src="oil.image" :alt="oil.name" class="oil">
+                </div>
+                <div v-for="n in (3 - combo.length)" class="oil-select boxed"></div>
+              </div>
             </div>
-            <div v-for="n in (3 - combo.length)" class="oil-select boxed"></div>
+            <div class="passive mt-3 p-3 w-100">
+              <div v-if="passive !== undefined">
+                <h3 class="name">{{ passive.name }}</h3>
+                <p v-html="passive.description" class="description mb-0"></p>
+              </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center my-3">
+              <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" :title="title(oil)"
+                   data-toggle="tooltip" data-html="true" class="oil boxed mr-2 mt-2">
+            </div>
           </div>
         </div>
-        <div class="passive mt-3 p-3">
-          <div v-if="passive !== null">
-            <h3 class="name">{{ passive.name }}</h3>
-            <p v-html="passive.description" class="description mb-0"></p>
+        <div class="col-12 col-md-5 offset-md-1 mt-4 mt-md-0 mx-auto">
+          <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="w-100 mb-2">
+          <p class="text-center mb-0">
+            Input your oils below to see which passives are available to anoint (vendor recipe included.)
+          </p>
+          <div class="my-oils d-flex flex-wrap justify-content-center mx-auto mb-2">
+            <div v-for="(oil, i) in oils" class="d-flex flex-column align-items-center mt-2">
+              <label :for="`oil-${i}`">
+                <img :src="oil.image" :alt="oil.name" :title="oil.name" data-toggle="tooltip">
+              </label>
+              <input type="number" name="`oil-${i}`" min="0" max="999" :id="`oil-${i}`" v-model="myOils[i]">
+            </div>
           </div>
-        </div>
-        <div class="d-flex flex-wrap justify-content-around my-3 w-50">
-          <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" :title="title(oil)"
-               data-toggle="tooltip" data-html="true" class="oil boxed mt-1">
+          <passives-table :passives="passives" :search="search" :my-oils="myOils">
         </div>
       </div>
     </div>
-    <script src="js/app.js"></script>
   </body>
   <footer class="text-center">
     Created by /u/raelys — <a href="https://docs.google.com/spreadsheets/d/1-7JMc6ux0jSblGbQsV0qB1f2mNdVz1XqODMkLqMoShw/htmlview?sle=true#" target="_blank">Data by /u/theangryfurlong</a>
   </footer>
 </html>
+
+<script type="text/x-template" id="passives-table">
+  <table class="table table-bordered table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="(passive, value) in searchResults">
+        <td><a href="#" @click.prevent="setCombo(value)">{{ passive.name }}</a></td>
+        <td v-html="passive.description"></td>
+      </tr>
+    </tbody>
+  </table>
+</script>
+
+<script src="js/app.js"></script>

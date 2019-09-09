@@ -1,5 +1,3 @@
-require(['js/passives.js'])
-
 const app = new Vue({
   el: '#app',
   data: {
@@ -19,12 +17,20 @@ const app = new Vue({
       { name: 'Golden Oil', level: 80 }
     ],
     combo: [],
-    passive: null
+    passives: null,
+    search: '',
+    myOils: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
   created: function () {
+    const self = this
+
     _.map(this.oils, function (oil, i) {
       oil.image = `img/${oil.name.toLowerCase().replace(' ', '_')}.png`
       oil.value = 3 ** i
+    })
+
+    $.getJSON('vendor/passives.json', function (passives) {
+      self.passives = passives
     })
   },
   methods: {
@@ -34,18 +40,84 @@ const app = new Vue({
     addOil: function(oil) {
       if (this.combo.length < 3) {
         this.combo.push(oil)
-
-        if (this.combo.length === 3) {
-          const value = _.reduce(this.combo, function(sum, oil) {
-            return sum + oil.value
-          }, 0)
-          this.passive = passives[value]
-        }
       }
     },
     removeOil: function(index) {
       this.combo.splice(index, 1)
-      this.passive = null
+    },
+  },
+  computed: {
+    passive: function() {
+      if (this.combo.length === 3) {
+        const value = _.reduce(this.combo, function(sum, oil) {
+          return sum + oil.value
+        }, 0)
+
+        return this.passives[value]
+      }
+    }
+  }
+})
+
+Vue.component('passives-table', {
+  props: ['passives', 'search', 'myOils'],
+  template: '#passives-table',
+  methods: {
+    setCombo: function(value) {
+      var combo = []
+
+      while (value > 0) {
+        const oil = _.maxBy(this.$parent.oils, function(oil) {
+          if (value - oil.value > 0) {
+            return oil.value
+          } else if (value - oil.value === 0 && combo.length === 2) {
+            return oil.value
+          }
+        })
+
+        combo.push(oil)
+        value -= oil.value
+      }
+
+      this.$parent.combo = combo
+    }
+  },
+  computed: {
+    searchResults: function() {
+      const search = this.search.toLowerCase()
+      const oils = _.map(this.myOils, function(x) { return parseInt(x) })
+      const oilCount = _.sum(oils)
+      var results = this.passives
+
+      if (search !== '') {
+        results = _.pickBy(results, function(passive) {
+          return passive.name.toLowerCase().indexOf(search) > -1 ||
+            passive.description.toLowerCase().indexOf(search) > -1
+        })
+      }
+
+      if (oilCount > 0 && oilCount < 3) {
+        results = {}
+      } else if (oilCount >= 3) {
+        if (_.sum(oils) > 2) {
+          results = _.pickBy(results, function(passive, value) {
+            const usableOils = oils.slice(0, Math.ceil(Math.cbrt(value)))
+            var totalUsed = 0
+
+            for (i = usableOils.length - 1; i > -1; i--) {
+              const oilValue = 3 ** i
+              for (q = usableOils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= 2); q--) {
+                value -= oilValue
+                totalUsed += 1
+              }
+            }
+
+            return value === 0
+          })
+        }
+      }
+
+      return results
     }
   }
 })
