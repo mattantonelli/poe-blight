@@ -1,236 +1,314 @@
 {
   "2": {
-    "name": "Chilling Tower Damage"
+    "name": "Chilling Tower Damage",
+    "image": "img/towers/chilling.png"
   },
   "4": {
-    "name": "Freezebolt Tower Damage"
+    "name": "Freezebolt Tower Damage",
+    "image": "img/towers/freezebolt.png"
   },
   "6": {
-    "name": "Glacial Cage Tower Duration"
+    "name": "Glacial Cage Tower Duration",
+    "image": "img/towers/glacial_cage.png"
   },
   "10": {
-    "name": "Fireball Tower Damage"
+    "name": "Fireball Tower Damage",
+    "image": "img/towers/fireball.png"
   },
   "12": {
-    "name": "Flamethrower Tower Damage"
+    "name": "Flamethrower Tower Damage",
+    "image": "img/towers/flamethrower.png"
   },
   "28": {
-    "name": "Meteor Tower Damage"
+    "name": "Meteor Tower Damage",
+    "image": "img/towers/meteor.png"
   },
   "30": {
-    "name": "Summoning Tower Damage"
+    "name": "Summoning Tower Damage",
+    "image": "img/towers/summoning.png"
   },
   "18": {
-    "name": "Scout Tower Damage"
+    "name": "Scout Tower Damage",
+    "image": "img/towers/scout.png"
   },
   "82": {
-    "name": "Sentinel Tower Damage"
+    "name": "Sentinel Tower Damage",
+    "image": "img/towers/sentinel.png"
   },
   "36": {
-    "name": "Shock Nova Tower Damage"
+    "name": "Shock Nova Tower Damage",
+    "image": "img/towers/shock_nova.png"
   },
   "84": {
-    "name": "Lightning Storm Tower Damage"
+    "name": "Lightning Storm Tower Damage",
+    "image": "img/towers/lightning_storm.png"
   },
   "54": {
-    "name": "Arc Tower Damage"
+    "name": "Arc Tower Damage",
+    "image": "img/towers/arc.png"
   },
   "90": {
-    "name": "Seismic Tower Damage"
+    "name": "Seismic Tower Damage",
+    "image": "img/towers/seismic.png"
   },
   "244": {
-    "name": "Temporal Tower Effect"
+    "name": "Temporal Tower Effect",
+    "image": "img/towers/temporal.png"
   },
   "108": {
-    "name": "Stone Gaze Tower Effect"
+    "name": "Stone Gaze Tower Effect",
+    "image": "img/towers/stone_gaze.png"
   },
   "246": {
-    "name": "Empowering Tower Effect"
+    "name": "Empowering Tower Effect",
+    "image": "img/towers/empowering.png"
   },
   "252": {
-    "name": "Imbuing Tower Effect"
+    "name": "Imbuing Tower Effect",
+    "image": "img/towers/imbuing.png"
   },
   "162": {
-    "name": "Smothering Tower Effect"
+    "name": "Smothering Tower Effect",
+    "image": "img/towers/smothering.png"
   },
   "270": {
-    "name": "Chilling Tower Range"
+    "name": "Chilling Tower Range",
+    "image": "img/towers/chilling.png"
   },
   "730": {
-    "name": "Freezebolt Tower Range"
+    "name": "Freezebolt Tower Range",
+    "image": "img/towers/freezebolt.png"
   },
   "324": {
-    "name": "Glacial Cage Tower Range"
+    "name": "Glacial Cage Tower Range",
+    "image": "img/towers/glacial_cage.png"
   },
   "732": {
-    "name": "Fireball Tower Range"
+    "name": "Fireball Tower Range",
+    "image": "img/towers/fireball.png"
   },
   "738": {
-    "name": "Flamethrower Tower Range"
+    "name": "Flamethrower Tower Range",
+    "image": "img/towers/flamethrower.png"
   },
   "756": {
-    "name": "Meteor Tower Range"
+    "name": "Meteor Tower Range",
+    "image": "img/towers/meteor.png"
   },
   "486": {
-    "name": "Summoning Tower Range"
+    "name": "Summoning Tower Range",
+    "image": "img/towers/summoning.png"
   },
   "810": {
-    "name": "Scout Tower Range"
+    "name": "Scout Tower Range",
+    "image": "img/towers/scout.png"
   },
   "972": {
-    "name": "Sentinel Tower Range"
+    "name": "Sentinel Tower Range",
+    "image": "img/towers/sentinel.png"
   },
   "2188": {
-    "name": "Shock Nova Tower Range"
+    "name": "Shock Nova Tower Range",
+    "image": "img/towers/shock_nova.png"
   },
   "2190": {
-    "name": "Lightning Storm Tower Range"
+    "name": "Lightning Storm Tower Range",
+    "image": "img/towers/lightning_storm.png"
   },
   "2196": {
-    "name": "Arc Tower Range"
+    "name": "Arc Tower Range",
+    "image": "img/towers/arc.png"
   },
   "1458": {
-    "name": "Chilling Tower Chill Effect"
+    "name": "Chilling Tower Chill Effect",
+    "image": "img/towers/chilling.png"
   },
   "2214": {
-    "name": "Freezebolt Tower Full Damage"
+    "name": "Freezebolt Tower Full Damage",
+    "image": "img/towers/freezebolt.png"
   },
   "2268": {
-    "name": "Glacial Cage Tower Cooldown"
+    "name": "Glacial Cage Tower Cooldown",
+    "image": "img/towers/glacial_cage.png"
   },
   "2430": {
-    "name": "Fireball Tower Cast Speed"
+    "name": "Fireball Tower Cast Speed",
+    "image": "img/towers/fireball.png"
   },
   "2916": {
-    "name": "Flamethrower Tower Full Damage"
+    "name": "Flamethrower Tower Full Damage",
+    "image": "img/towers/flamethrower.png"
   },
   "4374": {
-    "name": "Meteor Tower Stun"
+    "name": "Meteor Tower Stun",
+    "image": "img/towers/meteor.png"
   },
   "6562": {
-    "name": "Seismic Tower Range"
+    "name": "Seismic Tower Range",
+    "image": "img/towers/seismic.png"
   },
   "6564": {
-    "name": "Temporal Tower Range"
+    "name": "Temporal Tower Range",
+    "image": "img/towers/temporal.png"
   },
   "6570": {
-    "name": "Stone Gaze Tower Range"
+    "name": "Stone Gaze Tower Range",
+    "image": "img/towers/stone_gaze.png"
   },
   "6588": {
-    "name": "Empowering Tower Range"
+    "name": "Empowering Tower Range",
+    "image": "img/towers/empowering.png"
   },
   "6642": {
-    "name": "Imbuing Tower Range"
+    "name": "Imbuing Tower Range",
+    "image": "img/towers/imbuing.png"
   },
   "6804": {
-    "name": "Smothering Tower Range"
+    "name": "Smothering Tower Range",
+    "image": "img/towers/smothering.png"
   },
   "7290": {
-    "name": "Chilling Tower Duration"
+    "name": "Chilling Tower Duration",
+    "image": "img/towers/chilling.png"
   },
   "8748": {
-    "name": "Freezebolt Tower Additional Projectile"
+    "name": "Freezebolt Tower Additional Projectile",
+    "image": "img/towers/freezebolt.png"
   },
   "19684": {
-    "name": "Glacial Cage Tower Increased Damage"
+    "name": "Glacial Cage Tower Increased Damage",
+    "image": "img/towers/glacial_cage.png"
   },
   "19686": {
-    "name": "Fireball Tower Projectile"
+    "name": "Fireball Tower Projectile",
+    "image": "img/towers/fireball.png"
   },
   "19692": {
-    "name": "Flamethrower Tower Cast Speed"
+    "name": "Flamethrower Tower Cast Speed",
+    "image": "img/towers/flamethrower.png"
   },
   "19710": {
-    "name": "Meteor Tower Additional Meteor"
+    "name": "Meteor Tower Additional Meteor",
+    "image": "img/towers/meteor.png"
   },
   "19764": {
-    "name": "Summoning Tower Speed"
+    "name": "Summoning Tower Speed",
+    "image": "img/towers/summoning.png"
   },
   "19926": {
-    "name": "Scout Tower Speed"
+    "name": "Scout Tower Speed",
+    "image": "img/towers/scout.png"
   },
   "20412": {
-    "name": "Sentinel Tower Speed"
+    "name": "Sentinel Tower Speed",
+    "image": "img/towers/sentinel.png"
   },
   "21870": {
-    "name": "Shock Nova Tower Full Damage"
+    "name": "Shock Nova Tower Full Damage",
+    "image": "img/towers/shock_nova.png"
   },
   "13122": {
-    "name": "Lightning Storm Tower Delay"
+    "name": "Lightning Storm Tower Delay",
+    "image": "img/towers/lightning_storm.png"
   },
   "59050": {
-    "name": "Arc Tower Repeat"
+    "name": "Arc Tower Repeat",
+    "image": "img/towers/arc.png"
   },
   "59052": {
-    "name": "Seismic Tower Stun Duration"
+    "name": "Seismic Tower Stun Duration",
+    "image": "img/towers/seismic.png"
   },
   "59058": {
-    "name": "Temporal Tower Reduced Tick Speed"
+    "name": "Temporal Tower Reduced Tick Speed",
+    "image": "img/towers/temporal.png"
   },
   "59076": {
-    "name": "Stone Gaze Tower Cooldown"
+    "name": "Stone Gaze Tower Cooldown",
+    "image": "img/towers/stone_gaze.png"
   },
   "59130": {
-    "name": "Summoning Tower Life"
+    "name": "Summoning Tower Life",
+    "image": "img/towers/summoning.png"
   },
   "59292": {
-    "name": "Scout Tower Life"
+    "name": "Scout Tower Life",
+    "image": "img/towers/scout.png"
   },
   "26244": {
-    "name": "Sentinel Tower Life"
+    "name": "Sentinel Tower Life",
+    "image": "img/towers/sentinel.png"
   },
   "59778": {
-    "name": "Empowering Tower Cast Speed"
+    "name": "Empowering Tower Cast Speed",
+    "image": "img/towers/empowering.png"
   },
   "61236": {
-    "name": "Imbuing Tower Critical"
+    "name": "Imbuing Tower Critical",
+    "image": "img/towers/imbuing.png"
   },
   "39366": {
-    "name": "Smothering Tower Reduced Speed"
+    "name": "Smothering Tower Reduced Speed",
+    "image": "img/towers/smothering.png"
   },
   "177148": {
-    "name": "Shock Nova Tower Shock Effect"
+    "name": "Shock Nova Tower Shock Effect",
+    "image": "img/towers/shock_nova.png"
   },
   "177150": {
-    "name": "Lightning Storm Tower Explosion Area"
+    "name": "Lightning Storm Tower Explosion Area",
+    "image": "img/towers/lightning_storm.png"
   },
   "177156": {
-    "name": "Arc Tower Chain"
+    "name": "Arc Tower Chain",
+    "image": "img/towers/arc.png"
   },
   "177174": {
-    "name": "Seismic Tower Additional Cascade"
+    "name": "Seismic Tower Additional Cascade",
+    "image": "img/towers/seismic.png"
   },
   "177228": {
-    "name": "Temporal Tower Duration"
+    "name": "Temporal Tower Duration",
+    "image": "img/towers/temporal.png"
   },
   "177390": {
-    "name": "Stone Gaze Tower Reduced Duration"
+    "name": "Stone Gaze Tower Reduced Duration",
+    "image": "img/towers/stone_gaze.png"
   },
   "65610": {
-    "name": "Empowering Tower Damage"
+    "name": "Empowering Tower Damage",
+    "image": "img/towers/empowering.png"
   },
   "177876": {
-    "name": "Imbuing Tower Damage"
+    "name": "Imbuing Tower Damage",
+    "image": "img/towers/imbuing.png"
   },
   "179334": {
-    "name": "Smothering Tower Reduced Damage"
+    "name": "Smothering Tower Reduced Damage",
+    "image": "img/towers/smothering.png"
   },
   "78732": {
-    "name": "Chilling Tower Freeze"
+    "name": "Chilling Tower Freeze",
+    "image": "img/towers/chilling.png"
   },
   "183708": {
-    "name": "Shock Nova Tower Repeating"
+    "name": "Shock Nova Tower Repeating",
+    "image": "img/towers/shock_nova.png"
   },
   "118098": {
-    "name": "Summoning Tower Additional Minions"
+    "name": "Summoning Tower Additional Minions",
+    "image": "img/towers/summoning.png"
   },
   "196830": {
-    "name": "Fireball Tower Nova"
+    "name": "Fireball Tower Nova",
+    "image": "img/towers/fireball.png"
   },
   "236196": {
-    "name": "Seismic Tower Cascade Reach"
+    "name": "Seismic Tower Cascade Reach",
+    "image": "img/towers/seismic.png"
   },
   "354294": {
-    "name": "Empowering Tower Double Damage"
+    "name": "Empowering Tower Double Damage",
+    "image": "img/towers/empowering.png"
   }
 }

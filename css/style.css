@@ -108,3 +108,25 @@ input {
 .table-bordered td, .table thead th {
   border-color: #745A2F;
 }
+
+.table th {
+  cursor: pointer;
+}
+
+.table th u {
+  margin-right: 0.1rem;
+}
+
+td.icon img, img.icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+}
+
+td img.icon {
+  margin-right: 0.5rem;
+}
+
+h3 img.icon {
+  margin-right: -0.25rem;
+}

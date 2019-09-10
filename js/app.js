@@ -1,7 +1,6 @@
 const app = new Vue({
   el: '#app',
   data: {
-    message: 'Hello world!',
     oils: [
       { name: 'Clear Oil', level: 1 },
       { name: 'Sepia Oil', level: 10 },
@@ -27,16 +26,18 @@ const app = new Vue({
     const self = this
 
     _.map(this.oils, function (oil, i) {
-      oil.image = `img/${oil.name.toLowerCase().replace(' ', '_')}.png`
+      oil.image = `img/oils/${oil.name.toLowerCase().replace(' ', '_')}.png`
       oil.value = 3 ** i
     })
 
-    $.getJSON('vendor/passives.json', function (passives) {
-      self.passives = passives
-    })
+    _.each(['passives', 'enchantments'], function(type) {
+      $.getJSON(`vendor/${type}.json`, function (data) {
+        _.each(data, function(value, key) {
+          data[key]['value'] = key
+        })
 
-    $.getJSON('vendor/enchantments.json', function (enchantments) {
-      self.enchantments = enchantments
+        self[type] = data
+      })
     })
   },
   methods: {
@@ -95,6 +96,9 @@ const app = new Vue({
 
 Vue.component('anointments-table', {
   props: ['anointments', 'type', 'search', 'myOils'],
+  data: function() {
+    return { sortKey: null, sortOrder: 'asc' }
+  },
   template: '#anointments-table',
   methods: {
     setCombo: function(value) {
@@ -113,6 +117,22 @@ Vue.component('anointments-table', {
       }
 
       this.$parent.combo = combo
+    },
+    sortBy: function(key) {
+      if (this.sortKey === key) {
+        this.sortOrder = this.sortOrder === 'asc' ? 'desc' : 'asc'
+      } else {
+        this.sortOrder = 'asc'
+      }
+
+      this.sortKey = key
+    },
+    sortHeader: function(key) {
+      if (this.sortKey === key.toLowerCase()) {
+        return `<u>${key}</u>${this.sortOrder === 'asc' ? "\u23F7" : "\u23F6"}`
+      } else {
+        return `<u>${key}</u>`
+      }
     }
   },
   computed: {
@@ -153,6 +173,14 @@ Vue.component('anointments-table', {
 
             return value === 0
           })
+        }
+      }
+
+      if (this.sortKey !== null) {
+        const key = this.sortKey
+        results = _.sortBy(_.values(results), function(result) { return result[key] })
+        if (this.sortOrder === 'desc') {
+          results = _.reverse(results)
         }
       }
 
