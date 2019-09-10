@@ -17,7 +17,9 @@ const app = new Vue({
       { name: 'Golden Oil', level: 80 }
     ],
     combo: [],
+    type: 'amulet',
     passives: null,
+    enchantments: null,
     search: '',
     myOils: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
@@ -32,28 +34,52 @@ const app = new Vue({
     $.getJSON('vendor/passives.json', function (passives) {
       self.passives = passives
     })
+
+    $.getJSON('vendor/enchantments.json', function (enchantments) {
+      self.enchantments = enchantments
+    })
   },
   methods: {
     title: function(oil) {
       return `${oil.name}<br>Drop Level: ${oil.level}`
     },
     addOil: function(oil) {
-      if (this.combo.length < 3) {
+      if (this.combo.length < this.maxOils) {
         this.combo.push(oil)
       }
     },
     removeOil: function(index) {
       this.combo.splice(index, 1)
     },
+    setType: function(type) {
+      if (type === 'ring') {
+        this.combo = this.combo.slice(0, 2)
+      }
+      this.type = type
+    }
   },
   computed: {
-    passive: function() {
-      if (this.combo.length === 3) {
+    anointment: function() {
+      if (this.combo.length === this.maxOils) {
         const value = _.reduce(this.combo, function(sum, oil) {
           return sum + oil.value
         }, 0)
 
-        return this.passives[value]
+        return this.anointments[value]
+      }
+    },
+    anointments: function() {
+      if (this.type === 'amulet') {
+        return this.passives
+      } else if (this.type === 'ring') {
+        return this.enchantments
+      }
+    },
+    maxOils: function() {
+      if (this.type === 'amulet') {
+        return 3
+      } else if (this.type === 'ring') {
+        return 2
       }
     }
   },
@@ -67,18 +93,17 @@ const app = new Vue({
   }
 })
 
-Vue.component('passives-table', {
-  props: ['passives', 'search', 'myOils'],
-  template: '#passives-table',
+Vue.component('anointments-table', {
+  props: ['anointments', 'type', 'search', 'myOils'],
+  template: '#anointments-table',
   methods: {
     setCombo: function(value) {
       var combo = []
+      const maxOils = this.$parent.maxOils
 
       while (value > 0) {
         const oil = _.maxBy(this.$parent.oils, function(oil) {
-          if (value - oil.value > 0) {
-            return oil.value
-          } else if (value - oil.value === 0 && combo.length === 2) {
+          if (value - oil.value > 0 || (value - oil.value === 0 && (combo.length == maxOils - 1))) {
             return oil.value
           }
         })
@@ -95,26 +120,32 @@ Vue.component('passives-table', {
       const search = this.search.toLowerCase()
       const oils = _.map(this.myOils, function(x) { return parseInt(x) })
       const oilCount = _.sum(oils)
-      var results = this.passives
+      const maxOils = this.$parent.maxOils
+      const type = this.type
+      var results = this.anointments
 
       if (search !== '') {
-        results = _.pickBy(results, function(passive) {
-          return passive.name.toLowerCase().indexOf(search) > -1 ||
-            passive.description.toLowerCase().indexOf(search) > -1
+        results = _.pickBy(results, function(anointment) {
+          if (type === 'amulet') {
+            return anointment.name.toLowerCase().indexOf(search) > -1 ||
+              anointment.description.toLowerCase().indexOf(search) > -1
+          } else {
+            return anointment.name.toLowerCase().indexOf(search) > -1
+          }
         })
       }
 
-      if (oilCount > 0 && oilCount < 3) {
+      if (oilCount > 0 && oilCount < maxOils) {
         results = {}
-      } else if (oilCount >= 3) {
-        if (_.sum(oils) > 2) {
-          results = _.pickBy(results, function(passive, value) {
+      } else if (oilCount >= maxOils) {
+        if (_.sum(oils) >= maxOils) {
+          results = _.pickBy(results, function(anointment, value) {
             const usableOils = oils.slice(0, Math.ceil(Math.cbrt(value)))
             var totalUsed = 0
 
             for (i = usableOils.length - 1; i > -1; i--) {
               const oilValue = 3 ** i
-              for (q = usableOils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= 2); q--) {
+              for (q = usableOils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= maxOils - 1); q--) {
                 value -= oilValue
                 totalUsed += 1
               }

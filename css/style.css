@@ -43,9 +43,12 @@ a:hover {
   background-color: rgba(200, 200, 200, 0.05);
 }
 
-.item-select {
-  width: 110px;
-  height: 220px;
+.oil, .type-select {
+  cursor: pointer;
+}
+
+.faded {
+  opacity: 0.5;
 }
 
 .oil-select {
@@ -58,7 +61,7 @@ a:hover {
   margin-right: 2rem;
 }
 
-.passive {
+.anointment {
   border: 3px #745A2F solid;
   border-radius: 2px;
   min-width: 350px;
@@ -71,10 +74,6 @@ a:hover {
 
 .description {
   color: #8787FE;
-}
-
-.oil {
-  cursor: pointer;
 }
 
 label {

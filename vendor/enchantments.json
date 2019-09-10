@@ -1,0 +1,236 @@
+{
+  "2": {
+    "name": "Chilling Tower Damage"
+  },
+  "4": {
+    "name": "Freezebolt Tower Damage"
+  },
+  "6": {
+    "name": "Glacial Cage Tower Duration"
+  },
+  "10": {
+    "name": "Fireball Tower Damage"
+  },
+  "12": {
+    "name": "Flamethrower Tower Damage"
+  },
+  "28": {
+    "name": "Meteor Tower Damage"
+  },
+  "30": {
+    "name": "Summoning Tower Damage"
+  },
+  "18": {
+    "name": "Scout Tower Damage"
+  },
+  "82": {
+    "name": "Sentinel Tower Damage"
+  },
+  "36": {
+    "name": "Shock Nova Tower Damage"
+  },
+  "84": {
+    "name": "Lightning Storm Tower Damage"
+  },
+  "54": {
+    "name": "Arc Tower Damage"
+  },
+  "90": {
+    "name": "Seismic Tower Damage"
+  },
+  "244": {
+    "name": "Temporal Tower Effect"
+  },
+  "108": {
+    "name": "Stone Gaze Tower Effect"
+  },
+  "246": {
+    "name": "Empowering Tower Effect"
+  },
+  "252": {
+    "name": "Imbuing Tower Effect"
+  },
+  "162": {
+    "name": "Smothering Tower Effect"
+  },
+  "270": {
+    "name": "Chilling Tower Range"
+  },
+  "730": {
+    "name": "Freezebolt Tower Range"
+  },
+  "324": {
+    "name": "Glacial Cage Tower Range"
+  },
+  "732": {
+    "name": "Fireball Tower Range"
+  },
+  "738": {
+    "name": "Flamethrower Tower Range"
+  },
+  "756": {
+    "name": "Meteor Tower Range"
+  },
+  "486": {
+    "name": "Summoning Tower Range"
+  },
+  "810": {
+    "name": "Scout Tower Range"
+  },
+  "972": {
+    "name": "Sentinel Tower Range"
+  },
+  "2188": {
+    "name": "Shock Nova Tower Range"
+  },
+  "2190": {
+    "name": "Lightning Storm Tower Range"
+  },
+  "2196": {
+    "name": "Arc Tower Range"
+  },
+  "1458": {
+    "name": "Chilling Tower Chill Effect"
+  },
+  "2214": {
+    "name": "Freezebolt Tower Full Damage"
+  },
+  "2268": {
+    "name": "Glacial Cage Tower Cooldown"
+  },
+  "2430": {
+    "name": "Fireball Tower Cast Speed"
+  },
+  "2916": {
+    "name": "Flamethrower Tower Full Damage"
+  },
+  "4374": {
+    "name": "Meteor Tower Stun"
+  },
+  "6562": {
+    "name": "Seismic Tower Range"
+  },
+  "6564": {
+    "name": "Temporal Tower Range"
+  },
+  "6570": {
+    "name": "Stone Gaze Tower Range"
+  },
+  "6588": {
+    "name": "Empowering Tower Range"
+  },
+  "6642": {
+    "name": "Imbuing Tower Range"
+  },
+  "6804": {
+    "name": "Smothering Tower Range"
+  },
+  "7290": {
+    "name": "Chilling Tower Duration"
+  },
+  "8748": {
+    "name": "Freezebolt Tower Additional Projectile"
+  },
+  "19684": {
+    "name": "Glacial Cage Tower Increased Damage"
+  },
+  "19686": {
+    "name": "Fireball Tower Projectile"
+  },
+  "19692": {
+    "name": "Flamethrower Tower Cast Speed"
+  },
+  "19710": {
+    "name": "Meteor Tower Additional Meteor"
+  },
+  "19764": {
+    "name": "Summoning Tower Speed"
+  },
+  "19926": {
+    "name": "Scout Tower Speed"
+  },
+  "20412": {
+    "name": "Sentinel Tower Speed"
+  },
+  "21870": {
+    "name": "Shock Nova Tower Full Damage"
+  },
+  "13122": {
+    "name": "Lightning Storm Tower Delay"
+  },
+  "59050": {
+    "name": "Arc Tower Repeat"
+  },
+  "59052": {
+    "name": "Seismic Tower Stun Duration"
+  },
+  "59058": {
+    "name": "Temporal Tower Reduced Tick Speed"
+  },
+  "59076": {
+    "name": "Stone Gaze Tower Cooldown"
+  },
+  "59130": {
+    "name": "Summoning Tower Life"
+  },
+  "59292": {
+    "name": "Scout Tower Life"
+  },
+  "26244": {
+    "name": "Sentinel Tower Life"
+  },
+  "59778": {
+    "name": "Empowering Tower Cast Speed"
+  },
+  "61236": {
+    "name": "Imbuing Tower Critical"
+  },
+  "39366": {
+    "name": "Smothering Tower Reduced Speed"
+  },
+  "177148": {
+    "name": "Shock Nova Tower Shock Effect"
+  },
+  "177150": {
+    "name": "Lightning Storm Tower Explosion Area"
+  },
+  "177156": {
+    "name": "Arc Tower Chain"
+  },
+  "177174": {
+    "name": "Seismic Tower Additional Cascade"
+  },
+  "177228": {
+    "name": "Temporal Tower Duration"
+  },
+  "177390": {
+    "name": "Stone Gaze Tower Reduced Duration"
+  },
+  "65610": {
+    "name": "Empowering Tower Damage"
+  },
+  "177876": {
+    "name": "Imbuing Tower Damage"
+  },
+  "179334": {
+    "name": "Smothering Tower Reduced Damage"
+  },
+  "78732": {
+    "name": "Chilling Tower Freeze"
+  },
+  "183708": {
+    "name": "Shock Nova Tower Repeating"
+  },
+  "118098": {
+    "name": "Summoning Tower Additional Minions"
+  },
+  "196830": {
+    "name": "Fireball Tower Nova"
+  },
+  "236196": {
+    "name": "Seismic Tower Cascade Reach"
+  },
+  "354294": {
+    "name": "Empowering Tower Double Damage"
+  }
+}

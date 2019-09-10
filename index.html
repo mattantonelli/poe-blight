@@ -27,20 +27,30 @@
         <div class="col-12 col-md-5 offset-md-1">
           <div class="d-flex flex-column align-items-center">
             <div class="anointing px-3 py-2">
-              <h1 class="text-center">ANOINTING</h1>
-              <div class="item-select boxed mx-auto my-3"></div>
-              <div class="d-flex justify-content-around">
+              <h1 class="text-center">{{ _.capitalize(type) }} Anointing</h1>
+              <div class="d-flex justify-content-center my-3">
+                <img v-on:click="setType('amulet')" src="img/amulet.png" alt="Anoint Amulet" class="type-select mr-3"
+                  :class="type === 'amulet' ? '' : 'faded'">
+                <img v-on:click="setType('ring')" src="img/ring.png" alt="Anoint Ring" class="type-select"
+                  :class="type === 'ring' ? '' : 'faded'">
+              </div>
+              <div class="d-flex justify-content-center">
                 <div v-for="(oil, i) in combo" class="oil-select boxed">
                   <img v-on:click="removeOil(i)" :src="oil.image" :alt="oil.name" :title="oil.name"
                     data-toggle="tooltip" class="oil">
                 </div>
-                <div v-for="n in (3 - combo.length)" class="oil-select boxed"></div>
+                <div v-for="n in (maxOils - combo.length)" class="oil-select boxed"></div>
               </div>
             </div>
-            <div class="passive mt-3 p-3 w-100">
-              <div v-if="passive !== undefined">
-                <h3 class="name">{{ passive.name }}</h3>
-                <p v-html="passive.description" class="description mb-0"></p>
+            <div class="anointment mt-3 p-3 w-100">
+              <div v-if="anointment !== undefined">
+                <div v-if="type === 'amulet'">
+                  <h3 class="name">{{ anointment.name }}</h3>
+                  <p v-html="anointment.description" class="description mb-0"></p>
+                </div>
+                <div v-else-if="type === 'ring'">
+                  <h3 class="description mb-0">{{ anointment.name}}</p>
+                </div>
               </div>
             </div>
             <div class="d-flex flex-wrap justify-content-center my-3">
@@ -52,7 +62,7 @@
         <div class="col-12 col-md-5 offset-md-1 mt-4 mt-md-0 mx-auto">
           <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="w-100 mb-2">
           <p class="text-center mb-0">
-            Input your oils below to see which passives are available to anoint (vendor recipe included.)
+            Input your oils below to see which anointments are available to anoint (vendor recipe included.)
           </p>
           <div class="my-oils d-flex flex-wrap justify-content-center mx-auto mb-2">
             <div v-for="(oil, i) in oils" class="d-flex flex-column align-items-center mt-2">
@@ -62,7 +72,7 @@
               <input type="number" name="`oil-${i}`" min="0" max="999" :id="`oil-${i}`" v-model="myOils[i]">
             </div>
           </div>
-          <passives-table :passives="passives" :search="search" :my-oils="myOils">
+          <anointments-table :anointments="anointments" :type="type" :search="search" :my-oils="myOils">
         </div>
       </div>
     </div>
@@ -72,18 +82,18 @@
   </footer>
 </html>
 
-<script type="text/x-template" id="passives-table">
+<script type="text/x-template" id="anointments-table">
   <table class="table table-bordered table-sm">
     <thead>
       <tr>
-        <th scope="col">Name</th>
+        <th scope="col" v-if="type === 'amulet'">Name</th>
         <th scope="col">Description</th>
       </tr>
     </thead>
     <tbody>
-      <tr v-for="(passive, value) in searchResults">
-        <td><a href="#" @click.prevent="setCombo(value)">{{ passive.name }}</a></td>
-        <td v-html="passive.description"></td>
+      <tr v-for="(anointment, value) in searchResults">
+        <td><a href="#" @click.prevent="setCombo(value)">{{ anointment.name }}</a></td>
+        <td v-html="anointment.description" v-if="type === 'amulet'"></td>
       </tr>
     </tbody>
   </table>
