@@ -56,6 +56,14 @@ const app = new Vue({
         return this.passives[value]
       }
     }
+  },
+  watch: {
+    combo: function() {
+      $('.oil-select img').tooltip('dispose')
+      Vue.nextTick(function () {
+        $('.oil-select img').tooltip()
+      })
+    }
   }
 })
 
