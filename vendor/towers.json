@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Fireball Tower",
+    "description": "Casts 1-5 fireballs<br>Damage: Medium",
+    "image": "img/towers/fireball.png"
+  },
+  {
+    "name": "Flamethrower Tower",
+    "description": "Casts a stream of fire<br>Damage: High",
+    "image": "img/towers/flamethrower.png"
+  },
+  {
+    "name": "Meteor Tower",
+    "description": "Rains meteors from the sky<br>Damage: Very High",
+    "image": "img/towers/meteor.png"
+  },
+  {
+    "name": "Chilling Tower",
+    "description": "Chills and damages nearby enemies<br>Damage: Low",
+    "image": "img/towers/chilling.png"
+  },
+  {
+    "name": "Freezebolt Tower",
+    "description": "Shoots a piercing projectile which freezes enemies<br>Damage: Very High",
+    "image": "img/towers/freezebolt.png"
+  },
+  {
+    "name": "Glacial Cage Tower",
+    "description": "Deals no damage<br>Imprisons enemies",
+    "image": "img/towers/glacial_cage.png"
+  },
+  {
+    "name": "Shock Nova Tower",
+    "description": "Creates Shocked Ground<br>Casts Shock Nova<br>Damage: Low",
+    "image": "img/towers/shock_nova.png"
+  },
+  {
+    "name": "Lightning Storm Tower",
+    "description": "Lightning rapidly strikes around the tower<br>Damage: High",
+    "image": "img/towers/lightning_storm.png"
+  },
+  {
+    "name": "Arc Tower",
+    "description": "Casts Arc<br>Damage: Medium",
+    "image": "img/towers/arc.png"
+  },
+  {
+    "name": "Summoning Tower",
+    "description": "Summons 3-7 minions<br>Minion Damage: Low<br>Minion Life: Low",
+    "image": "img/towers/summoning.png"
+  },
+  {
+    "name": "Scout Tower",
+    "description": "Summons 10 flying minions<br>Minion Damage: High<br>Minion Life: Low",
+    "image": "img/towers/scout.png"
+  },
+  {
+    "name": "Sentinel Tower",
+    "description": "Summons 1 durable minion<br>Minion Damage: Low<br>Minion Life: High",
+    "image": "img/towers/sentinel.png"
+  },
+  {
+    "name": "Seismic Tower",
+    "description": "Damages and stuns nearby enemies<br>Damage: Low",
+    "image": "img/towers/seismic.png"
+  },
+  {
+    "name": "Temporal Tower",
+    "description": "Persistently slows monsters<br>Does not damage enemies",
+    "image": "img/towers/temporal.png"
+  },
+  {
+    "name": "Stone Gaze Tower",
+    "description": "Periodically petrifies monsters<br>Does not damage enemies",
+    "image": "img/towers/stone_gaze.png"
+  },
+  {
+    "name": "Empowering Tower",
+    "description": "Improves the effectiveness of other towers<br>Does not damage enemies",
+    "image": "img/towers/empowering.png"
+  },
+  {
+    "name": "Imbuing Tower",
+    "description": "Improves the effectiveness of players in range<br>Does not damage enemies",
+    "image": "img/towers/imbuing.png"
+  },
+  {
+    "name": "Smothering Tower",
+    "description": "Weakens enemies in range<br>Does not damage enemies",
+    "image": "img/towers/smothering.png"
+  }
+]

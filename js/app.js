@@ -17,8 +17,9 @@ const app = new Vue({
     ],
     combo: [],
     type: 'amulet',
-    passives: null,
-    enchantments: null,
+    passives: {},
+    enchantments: {},
+    towers: {},
     search: '',
     myOils: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
@@ -39,11 +40,15 @@ const app = new Vue({
         self[type] = data
       })
     })
+
+    $.getJSON('vendor/towers.json', function (towers) {
+      self.towers = towers
+      Vue.nextTick(function() {
+        $('.tower-select img').tooltip()
+      })
+    })
   },
   methods: {
-    title: function(oil) {
-      return `${oil.name}<br>Drop Level: ${oil.level}`
-    },
     addOil: function(oil) {
       if (this.combo.length < this.maxOils) {
         this.combo.push(oil)
@@ -57,6 +62,7 @@ const app = new Vue({
         this.combo = this.combo.slice(0, 2)
       }
       this.type = type
+      this.search = ''
     }
   },
   computed: {
@@ -87,7 +93,7 @@ const app = new Vue({
   watch: {
     combo: function() {
       $('.oil-select img').tooltip('dispose')
-      Vue.nextTick(function () {
+      Vue.nextTick(function() {
         $('.oil-select img').tooltip()
       })
     }

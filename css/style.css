@@ -32,6 +32,14 @@ a:hover {
   color: #87745A;
 }
 
+.tooltip-inner {
+  max-width: none;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .anointing {
   border: 3px #745A2F solid;
   border-radius: 2px;
@@ -40,11 +48,20 @@ a:hover {
 
 .boxed {
   border: 2px #A08C4A solid;
-  background-color: rgba(200, 200, 200, 0.05);
+  background-color: #1A1A1A;
 }
 
-.oil, .type-select {
+.oil:hover {
   cursor: pointer;
+  background-color: #212121;
+}
+
+.type-select:hover {
+  cursor: pointer;
+}
+
+.type-select.faded:hover {
+  opacity: 0.8;
 }
 
 .faded {
@@ -99,6 +116,18 @@ input {
 
 .my-oils input {
   width: 55px;
+}
+
+.tower-select img {
+  margin: 1rem 2rem 0 0;
+  border: 2px #A08C4A solid;
+  border-radius: 50%;
+  background-color: rgba(100, 100, 100, 0.15);
+}
+
+.tower-select img:hover {
+  background-color: rgba(100, 100, 100, 0.30);
+  cursor: pointer;
 }
 
 .table {

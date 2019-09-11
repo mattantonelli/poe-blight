@@ -12,12 +12,16 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.15/lodash.min.js"></script>
   </head>
@@ -57,22 +61,28 @@
               </div>
             </div>
             <div class="d-flex flex-wrap justify-content-center my-3">
-              <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" :title="title(oil)"
-                   data-toggle="tooltip" data-html="true" class="oil boxed mr-2 mt-2">
+              <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil boxed mr-2 mt-2"
+                :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
             </div>
           </div>
         </div>
         <div class="col-12 col-md-5 offset-md-1 mt-4 mt-md-0 mx-auto">
-          <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="w-100 mb-3">
+          <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="w-100 mb-2">
           <p class="text-center mb-0">
             Input your oils below to see which anointments are available (vendor recipe included.)
           </p>
-          <div class="my-oils d-flex flex-wrap justify-content-center mx-auto mb-3">
+          <div class="my-oils d-flex flex-wrap justify-content-center">
             <div v-for="(oil, i) in oils" class="d-flex flex-column align-items-center mt-2">
               <label :for="`oil-${i}`">
                 <img :src="oil.image" :alt="oil.name" :title="oil.name" data-toggle="tooltip">
               </label>
               <input type="number" name="`oil-${i}`" min="0" max="999" :id="`oil-${i}`" v-model="myOils[i]">
+            </div>
+          </div>
+          <div class="tower-select d-flex flex-wrap justify-content-center" :class="type === 'ring' ? '' : 'hidden'">
+            <div v-for="group in _.chunk(towers, 3)">
+              <img v-for="tower in group" v-on:click="search = tower.name" :src="tower.image" class="icon"
+                :title="`<b>${tower.name}</b><br>${tower.description}`" data-toggle="tooltip" data-html="true">
             </div>
           </div>
           <anointments-table :anointments="anointments" :type="type" :search="search" :my-oils="myOils">
@@ -86,7 +96,7 @@
 </html>
 
 <script type="text/x-template" id="anointments-table">
-  <table class="table table-bordered table-sm">
+  <table class="table table-bordered table-sm mt-3">
     <thead>
       <tr>
         <th scope="col" v-on:click="sortBy('name')" v-html="sortHeader('Name')"></th>
