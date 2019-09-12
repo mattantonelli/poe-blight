@@ -1,314 +1,392 @@
 {
   "2": {
     "name": "Chilling Tower Damage",
+    "description": "Your Chilling Towers deal 25% increased Damage",
     "image": "img/towers/chilling.png"
   },
   "4": {
     "name": "Freezebolt Tower Damage",
+    "description": "Your Freezebolt Towers deal 25% increased Damage",
     "image": "img/towers/freezebolt.png"
   },
   "6": {
     "name": "Glacial Cage Tower Duration",
+    "description": "Your Glacial Cage Towers have 25% increased Duration",
     "image": "img/towers/glacial_cage.png"
   },
   "10": {
     "name": "Fireball Tower Damage",
+    "description": "Your Fireball Towers deal 25% increased Damage",
     "image": "img/towers/fireball.png"
   },
   "12": {
     "name": "Flamethrower Tower Damage",
+    "description": "Your Flamethrower Towers deal 25% increased Damage",
     "image": "img/towers/flamethrower.png"
   },
   "28": {
     "name": "Meteor Tower Damage",
+    "description": "Your Meteor Towers deal 25% increased Damage",
     "image": "img/towers/meteor.png"
   },
   "30": {
     "name": "Summoning Tower Damage",
+    "description": "Minions summoned by Your Summoning Towers have 25% increased Damage",
     "image": "img/towers/summoning.png"
   },
   "18": {
     "name": "Scout Tower Damage",
+    "description": "Minions summoned by Your Scout Tower have 25% increased Damage",
     "image": "img/towers/scout.png"
   },
   "82": {
     "name": "Sentinel Tower Damage",
+    "description": "Minions summoned by Your Sentinel Towers have 25% increased Damage",
     "image": "img/towers/sentinel.png"
   },
   "36": {
     "name": "Shock Nova Tower Damage",
+    "description": "Your Shock Nova Towers deal 25% increased Damage",
     "image": "img/towers/shock_nova.png"
   },
   "84": {
     "name": "Lightning Storm Tower Damage",
+    "description": "Your Lightning Storm Towers deal 25% increased Damage",
     "image": "img/towers/lightning_storm.png"
   },
   "54": {
     "name": "Arc Tower Damage",
+    "description": "Your Arc Towers deal 25% increased Damage",
     "image": "img/towers/arc.png"
   },
   "90": {
     "name": "Seismic Tower Damage",
+    "description": "Your Seismic Towers deal 25% increased Damage",
     "image": "img/towers/seismic.png"
   },
   "244": {
     "name": "Temporal Tower Effect",
+    "description": "Your Temporal Towers have 25% increased Effect",
     "image": "img/towers/temporal.png"
   },
   "108": {
     "name": "Stone Gaze Tower Effect",
+    "description": "Your Stone Gaze Towers have 25% increased Duration",
     "image": "img/towers/stone_gaze.png"
   },
   "246": {
     "name": "Empowering Tower Effect",
+    "description": "Your Empowering Towers have 25% increased Effect",
     "image": "img/towers/empowering.png"
   },
   "252": {
     "name": "Imbuing Tower Effect",
+    "description": "Your Imbuing Towers have 25% increased Effect",
     "image": "img/towers/imbuing.png"
   },
   "162": {
     "name": "Smothering Tower Effect",
+    "description": "Your Smothering Towers have 25% increased Effect",
     "image": "img/towers/smothering.png"
   },
   "270": {
     "name": "Chilling Tower Range",
+    "description": "Your Chilling Towers have 25% increased Range",
     "image": "img/towers/chilling.png"
   },
   "730": {
     "name": "Freezebolt Tower Range",
+    "description": "Your Freezebolt Towers have 25% increased Range",
     "image": "img/towers/freezebolt.png"
   },
   "324": {
     "name": "Glacial Cage Tower Range",
+    "description": "Your Glacial Cage Towers have 25% increased Range",
     "image": "img/towers/glacial_cage.png"
   },
   "732": {
     "name": "Fireball Tower Range",
+    "description": "Your Fireball Towers have 25% increased Range",
     "image": "img/towers/fireball.png"
   },
   "738": {
     "name": "Flamethrower Tower Range",
+    "description": "Your Flamethrower Towers have 25% increased Range",
     "image": "img/towers/flamethrower.png"
   },
   "756": {
     "name": "Meteor Tower Range",
+    "description": "Your Meteor Towers have 25% increased Range",
     "image": "img/towers/meteor.png"
   },
   "486": {
     "name": "Summoning Tower Range",
+    "description": "Your Summoning Towers have 25% increased Range",
     "image": "img/towers/summoning.png"
   },
   "810": {
     "name": "Scout Tower Range",
+    "description": "Your Scout Towers have 25% increased Range",
     "image": "img/towers/scout.png"
   },
   "972": {
     "name": "Sentinel Tower Range",
+    "description": "Your Sentinel Towers have 25% increased Range",
     "image": "img/towers/sentinel.png"
   },
   "2188": {
     "name": "Shock Nova Tower Range",
+    "description": "Your Shock Nova Towers have 25% increased Range",
     "image": "img/towers/shock_nova.png"
   },
   "2190": {
     "name": "Lightning Storm Tower Range",
+    "description": "Your Lightning Storm Towers have 25% increased Range",
     "image": "img/towers/lightning_storm.png"
   },
   "2196": {
     "name": "Arc Tower Range",
+    "description": "Your Arc Towers have 25% increased Range",
     "image": "img/towers/arc.png"
   },
   "1458": {
     "name": "Chilling Tower Chill Effect",
+    "description": "Your Chilling Towers have 25% increased effect of Chill",
     "image": "img/towers/chilling.png"
   },
   "2214": {
     "name": "Freezebolt Tower Full Damage",
+    "description": "Your Freezebolt Tower deal full damage to Cold Enemies",
     "image": "img/towers/freezebolt.png"
   },
   "2268": {
     "name": "Glacial Cage Tower Cooldown",
+    "description": "Your Glacial Cage Towers have 20% increased Cooldown Recovery",
     "image": "img/towers/glacial_cage.png"
   },
   "2430": {
     "name": "Fireball Tower Cast Speed",
+    "description": "Your Fireball Towers have 15% increased Cast Speed",
     "image": "img/towers/fireball.png"
   },
   "2916": {
     "name": "Flamethrower Tower Full Damage",
+    "description": "Your Flamethrower Towers deal full damage to Fire Enemies",
     "image": "img/towers/flamethrower.png"
   },
   "4374": {
     "name": "Meteor Tower Stun",
+    "description": "Your Meteor Towers always Stun",
     "image": "img/towers/meteor.png"
   },
   "6562": {
     "name": "Seismic Tower Range",
+    "description": "Your Seismic Towers have 25% increased Range",
     "image": "img/towers/seismic.png"
   },
   "6564": {
     "name": "Temporal Tower Range",
+    "description": "Your Temporal Towers have 25% increased Range",
     "image": "img/towers/temporal.png"
   },
   "6570": {
     "name": "Stone Gaze Tower Range",
+    "description": "Your Stone Gaze Cage Towers have 25% increased Range",
     "image": "img/towers/stone_gaze.png"
   },
   "6588": {
     "name": "Empowering Tower Range",
+    "description": "Your Empowering Towers have 25% increased Range",
     "image": "img/towers/empowering.png"
   },
   "6642": {
     "name": "Imbuing Tower Range",
+    "description": "Your Imbuing Towers have 25% increased Range",
     "image": "img/towers/imbuing.png"
   },
   "6804": {
     "name": "Smothering Tower Range",
+    "description": "Your Smothering Towers have 25% increased Range",
     "image": "img/towers/smothering.png"
   },
   "7290": {
     "name": "Chilling Tower Duration",
+    "description": "Your Chilling Towers have 25% increased Duration",
     "image": "img/towers/chilling.png"
   },
   "8748": {
     "name": "Freezebolt Tower Additional Projectile",
+    "description": "Your Freezebolt Towers fire 2 additional Projectiles",
     "image": "img/towers/freezebolt.png"
   },
   "19684": {
     "name": "Glacial Cage Tower Increased Damage",
+    "description": "Enemies inside Glacial Cage take 10% increased Damage",
     "image": "img/towers/glacial_cage.png"
   },
   "19686": {
     "name": "Fireball Tower Projectile",
+    "description": "Your Fireball Towers fire an additional 2 Projectiles",
     "image": "img/towers/fireball.png"
   },
   "19692": {
     "name": "Flamethrower Tower Cast Speed",
+    "description": "Your Flamethrower Towers have 15% increased Cast Speed",
     "image": "img/towers/flamethrower.png"
   },
   "19710": {
     "name": "Meteor Tower Additional Meteor",
+    "description": "Your Meteor Towers drop an additional Meteor",
     "image": "img/towers/meteor.png"
   },
   "19764": {
     "name": "Summoning Tower Speed",
+    "description": "Minions summoned by Your Summoning Towers have 25% increased Movement Speed",
     "image": "img/towers/summoning.png"
   },
   "19926": {
     "name": "Scout Tower Speed",
+    "description": "Minions summoned by Your Scout Towers have 25% increased Movement Speed",
     "image": "img/towers/scout.png"
   },
   "20412": {
     "name": "Sentinel Tower Speed",
+    "description": "Minions summoned by Your Sentinel Towers have 25% increased Movement Speed",
     "image": "img/towers/sentinel.png"
   },
   "21870": {
     "name": "Shock Nova Tower Full Damage",
+    "description": "Your Shock Nova Towers deal full damage to Lightning Enemies",
     "image": "img/towers/shock_nova.png"
   },
   "13122": {
     "name": "Lightning Storm Tower Delay",
+    "description": "Your Lightning Storm Towers have 25% reduced Impact Delay",
     "image": "img/towers/lightning_storm.png"
   },
   "59050": {
     "name": "Arc Tower Repeat",
+    "description": "Your Arc Towers repeats 1 additional Times",
     "image": "img/towers/arc.png"
   },
   "59052": {
     "name": "Seismic Tower Stun Duration",
+    "description": "Your Seismic Towers have 25% increased Stun Duration",
     "image": "img/towers/seismic.png"
   },
   "59058": {
     "name": "Temporal Tower Reduced Tick Speed",
+    "description": "Your Temporal Towers effects decay 25% slower",
     "image": "img/towers/temporal.png"
   },
   "59076": {
     "name": "Stone Gaze Tower Cooldown",
+    "description": "Your Stone Gaze Towers have 20% increased Cooldown Recovery",
     "image": "img/towers/stone_gaze.png"
   },
   "59130": {
     "name": "Summoning Tower Life",
+    "description": "Minions summoned by Your Summoning Towers have 50% increased Life",
     "image": "img/towers/summoning.png"
   },
   "59292": {
     "name": "Scout Tower Life",
+    "description": "Minions summoned by Your Scout Towers have 50% increased Life",
     "image": "img/towers/scout.png"
   },
   "26244": {
     "name": "Sentinel Tower Life",
+    "description": "Minions summoned by Your Sentinel Towers have 50% increased Life",
     "image": "img/towers/sentinel.png"
   },
   "59778": {
     "name": "Empowering Tower Cast Speed",
+    "description": "Your Empowering Towers also grant 20% increased Cast Speed",
     "image": "img/towers/empowering.png"
   },
   "61236": {
     "name": "Imbuing Tower Critical",
+    "description": "Your Imbuing Towers also grant 50% increased Critical Strike Chance",
     "image": "img/towers/imbuing.png"
   },
   "39366": {
     "name": "Smothering Tower Reduced Speed",
+    "description": "Your Smothering Towers also grant 20% reduced Movement Speed",
     "image": "img/towers/smothering.png"
   },
   "177148": {
     "name": "Shock Nova Tower Shock Effect",
+    "description": "Your Shock Nova Towers have 25% increased effect of Shock",
     "image": "img/towers/shock_nova.png"
   },
   "177150": {
     "name": "Lightning Storm Tower Explosion Area",
+    "description": "Your Lightning Storm Towers have 25% increased explosion Area of Effect",
     "image": "img/towers/lightning_storm.png"
   },
   "177156": {
     "name": "Arc Tower Chain",
+    "description": "Your Arc Towers have 3 additional chains",
     "image": "img/towers/arc.png"
   },
   "177174": {
     "name": "Seismic Tower Additional Cascade",
+    "description": "Your Seismic Towers have an additional Cascade",
     "image": "img/towers/seismic.png"
   },
   "177228": {
     "name": "Temporal Tower Duration",
+    "description": "Your Temporal Towers also grant you 20% increased action speed",
     "image": "img/towers/temporal.png"
   },
   "177390": {
     "name": "Stone Gaze Tower Reduced Duration",
+    "description": "Your Stone Gaze Towers have 20% reduced Petrification Delay",
     "image": "img/towers/stone_gaze.png"
   },
   "65610": {
     "name": "Empowering Tower Damage",
+    "description": "Your Empowering Towers also grant 25% increased Damage",
     "image": "img/towers/empowering.png"
   },
   "177876": {
     "name": "Imbuing Tower Damage",
+    "description": "Your Imbuing Towers also grant 50% increased Damage",
     "image": "img/towers/imbuing.png"
   },
   "179334": {
     "name": "Smothering Tower Reduced Damage",
+    "description": "Your Smothering Towers also grant 10% reduced Damage",
     "image": "img/towers/smothering.png"
   },
   "78732": {
     "name": "Chilling Tower Freeze",
+    "description": "Your Chilling Towers freeze enemies for 0.2 seconds while they are affected by chilling beams",
     "image": "img/towers/chilling.png"
   },
   "183708": {
     "name": "Shock Nova Tower Repeating",
+    "description": "Your Shock Nova Towers have 30% increased area of effect per repeat<br>Your Shock Nova Towers repeats 2 additional Times",
     "image": "img/towers/shock_nova.png"
   },
   "118098": {
     "name": "Summoning Tower Additional Minions",
+    "description": "Your Summoning Tower summons 2 additional Minions",
     "image": "img/towers/summoning.png"
   },
   "196830": {
     "name": "Fireball Tower Nova",
+    "description": "Your Fireball Towers fire an additional 8 Projectiles<br>Your Fireball Towers Projectiles fire in a Nova",
     "image": "img/towers/fireball.png"
   },
   "236196": {
     "name": "Seismic Tower Cascade Reach",
+    "description": "Your Seismic Towers has 100% increased length and range of Cascades",
     "image": "img/towers/seismic.png"
   },
   "354294": {
     "name": "Empowering Tower Double Damage",
+    "description": "All Towers in range of your Empowering Towers have 50% chance to deal Double Damage",
     "image": "img/towers/empowering.png"
   }
 }

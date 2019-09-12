@@ -146,14 +146,20 @@ input {
   margin-right: 0.1rem;
 }
 
-td.icon img, img.icon {
-  width: 40px;
-  height: 40px;
+.table td {
   vertical-align: middle;
 }
 
-td img.icon {
-  margin-right: 0.5rem;
+td.name {
+  min-width: 175px;
+}
+
+img.icon {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  min-height: 40px;
+  vertical-align: middle;
 }
 
 h3 img.icon {

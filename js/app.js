@@ -152,12 +152,8 @@ Vue.component('anointments-table', {
 
       if (search !== '') {
         results = _.pickBy(results, function(anointment) {
-          if (type === 'amulet') {
-            return anointment.name.toLowerCase().indexOf(search) > -1 ||
-              anointment.description.toLowerCase().indexOf(search) > -1
-          } else {
-            return anointment.name.toLowerCase().indexOf(search) > -1
-          }
+          return anointment.name.toLowerCase().indexOf(search) > -1 ||
+            anointment.description.toLowerCase().indexOf(search) > -1
         })
       }
 

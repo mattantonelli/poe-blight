@@ -48,15 +48,12 @@
             </div>
             <div class="anointment mt-3 p-3 w-100">
               <div v-if="anointment !== undefined">
-                <div v-if="type === 'amulet'">
-                  <h3 class="name">{{ anointment.name }}</h3>
-                  <p v-html="anointment.description" class="description mb-0"></p>
-                </div>
-                <div v-else-if="type === 'ring'">
-                  <h3 class="description mb-0">
-                    <img :src="anointment.image" class="icon">
-                    {{ anointment.name}}
+                <div>
+                  <h3 class="name">
+                    <img v-if="type === 'ring'":src="anointment.image" class="icon">
+                    {{ anointment.name }}
                   </h3>
+                  <p v-html="anointment.description" class="description mb-0"></p>
                 </div>
               </div>
             </div>
@@ -100,16 +97,18 @@
     <thead>
       <tr>
         <th scope="col" v-on:click="sortBy('name')" v-html="sortHeader('Name')"></th>
-        <th scope="col" v-on:click="sortBy('description')" v-if="type === 'amulet'" v-html="sortHeader('Description')"></th>
+        <th scope="col" v-on:click="sortBy('description')" v-html="sortHeader('Description')"></th>
       </tr>
     </thead>
     <tbody>
       <tr v-for="anointment in searchResults">
-        <td>
-          <img v-if="type === 'ring'" :src="anointment.image" class="icon">
-          <a href="#" @click.prevent="setCombo(anointment.value)">{{ anointment.name }}</a>
+        <td class="name">
+          <div class="d-flex align-items-center h-100">
+            <img v-if="type === 'ring'" :src="anointment.image" class="icon mr-2">
+            <a href="#" @click.prevent="setCombo(anointment.value)">{{ anointment.name }}</a>
+          </div>
         </td>
-        <td v-html="anointment.description" v-if="type === 'amulet'"></td>
+        <td v-html="anointment.description"></td>
       </tr>
     </tbody>
   </table>
