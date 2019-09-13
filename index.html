@@ -75,7 +75,8 @@
               <label :for="`oil-${i}`">
                 <img :src="oil.image" :alt="oil.name" :title="oil.name" data-toggle="tooltip">
               </label>
-              <input type="number" name="`oil-${i}`" min="0" max="999" :id="`oil-${i}`" v-model="myOils[i]">
+              <input type="number" name="`oil-${i}`" min="0" max="999" :id="`oil-${i}`" v-model="myOils[i]"
+                onClick="this.select()">
             </div>
           </div>
           <div class="tower-select d-flex flex-wrap justify-content-center" :class="type === 'ring' ? '' : 'hidden'">
@@ -84,7 +85,9 @@
                 :title="`<b>${tower.name}</b><br>${tower.description}`" data-toggle="tooltip" data-html="true">
             </div>
           </div>
-          <anointments-table :anointments="anointments" :type="type" :search="search" :my-oils="myOils">
+          <div class="table-data mt-3" :class="type === 'ring' ? 'short' : ''">
+            <anointments-table :anointments="anointments" :type="type" :search="search" :my-oils="myOils">
+          </div>
         </div>
       </div>
     </div>
@@ -95,7 +98,7 @@
 </html>
 
 <script type="text/x-template" id="anointments-table">
-  <table class="table table-bordered table-sm mt-3">
+  <table class="table table-bordered table-sm mb-0">
     <thead>
       <tr>
         <th scope="col" v-on:click="sortBy('name')" v-html="sortHeader('Name')"></th>
