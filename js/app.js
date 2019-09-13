@@ -62,6 +62,7 @@ const app = new Vue({
       this.type = type
       this.search = ''
       this.combo = this.combo.slice(0, this.maxOils)
+      $('.table-data').scrollTop(0)
     }
   },
   computed: {
