@@ -59,11 +59,9 @@ const app = new Vue({
       this.combo.splice(index, 1)
     },
     setType: function(type) {
-      if (type === 'ring') {
-        this.combo = this.combo.slice(0, 2)
-      }
       this.type = type
       this.search = ''
+      this.combo = this.combo.slice(0, this.maxOils)
     }
   },
   computed: {
@@ -72,6 +70,7 @@ const app = new Vue({
         const anointments = this.anointments
         var mods = {}
 
+        // Sum up the total values for each mod
         _.each(this.combo, function(oil) {
           const anointment = anointments[oil.value]
           if (mods[anointment.description]) {
@@ -81,8 +80,10 @@ const app = new Vue({
           }
         })
 
+        // Add the implicit +5% pack size per oil
         const packSize = 'MOD% Monster pack size'
         if (mods[packSize]) {
+          // If we use an oil with additional pack size, move it to the end of the list for consisteny
           const size = mods[packSize]
           delete mods[packSize]
           mods[packSize] = size + this.combo.length * 5
@@ -90,6 +91,7 @@ const app = new Vue({
           mods[packSize] = this.combo.length * 5
         }
 
+        // Substitue the total mod values into the descriptions
         const description = _.map(mods, function(value, mod) {
           return `${mod.replace('MOD', value)}`
         })
@@ -150,6 +152,7 @@ Vue.component('anointments-table', {
         var combo = []
         const maxOils = this.$parent.maxOils
 
+        // Build up the oil combination by collecting the largest value oils usable
         while (value > 0) {
           const oil = _.maxBy(this.$parent.oils, function(oil) {
             if (value - oil.value > 0 || (value - oil.value === 0 && (combo.length === maxOils - 1))) {
@@ -166,6 +169,7 @@ Vue.component('anointments-table', {
     },
     formatDescription: function(anointment) {
       if (this.type === 'map') {
+        // Substitue mod values into their descriptions. For oils with pack size, we need to add 5 extra
         if (anointment.value === 27 || anointment.value === 19683) {
           return anointment.description.replace('MOD', anointment.mod + 5)
         } else {
@@ -209,21 +213,25 @@ Vue.component('anointments-table', {
       }
 
       if (oilCount > 0 && oilCount < maxOils) {
+        // Show no results if an inadequate amount of oils are selected
         results = {}
       } else if (oilCount >= maxOils) {
         results = _.pickBy(results, function(anointment) {
           var value = anointment.value
           var totalUsed = 0
 
+          // Loop through the user's selected oils, from largest to smallest
           for (i = oils.length - 1; i > -1; i--) {
             const oilValue = 3 ** i
+            // If the value of the oil fits into our running value of the anointment, we can use it
             for (q = oils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= maxOils - 1); q--) {
               value -= oilValue
               totalUsed += 1
             }
           }
 
-          return value == 0
+          // If we managed to bring the value of the anointment down to 0, it is obtainable
+          return value === 0
         })
       }
 
