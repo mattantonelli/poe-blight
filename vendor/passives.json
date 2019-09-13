@@ -661,7 +661,7 @@
   },
   "19773": {
     "name": "Juggernaut",
-    "description": "+1000 to Accuracy Rating<br>Cannot be Chilled<br>Cannot be Stunned<br>5% increased Damage per Endurance Charge<br>Gain an Endurance Charge every second if you've been Hit Recently"
+    "description": "6% increased maximum Life<br>16% increased Armour<br>20% increased Life Recovery from Flasks"
   },
   "8991": {
     "name": "Dervish",
