@@ -1,0 +1,74 @@
+{
+  "1": {
+    "name": "Clear Oil",
+    "description": "MOD% reduced Monster Movement Speed",
+    "image": "img/oils/clear_oil.png",
+    "mod": 10
+  },
+  "3": {
+    "name": "Sepia Oil",
+    "description": "Towers deal MOD% more Damage",
+    "image": "img/oils/sepia_oil.png",
+    "mod": 20
+  },
+  "9": {
+    "name": "Amber Oil",
+    "description": "MOD% reduced Cost of Building and Upgrading Towers",
+    "image": "img/oils/amber_oil.png",
+    "mod": 20
+  },
+  "27": {
+    "name": "Verdant Oil",
+    "description": "MOD% Monster pack size",
+    "image": "img/oils/verdant_oil.png",
+    "mod": 10
+  },
+  "81": {
+    "name": "Teal Oil",
+    "description": "MOD Blight Chests are Lucky",
+    "image": "img/oils/teal_oil.png",
+    "mod": 2
+  },
+  "243": {
+    "name": "Azure Oil",
+    "description": "MOD% increased Experience gain",
+    "image": "img/oils/azure_oil.png",
+    "mod": 15
+  },
+  "729": {
+    "name": "Violet Oil",
+    "description": "MOD% increased Quantity of Items found in this Area",
+    "image": "img/oils/violet_oil.png",
+    "mod": 30
+  },
+  "2187": {
+    "name": "Crimson Oil",
+    "description": "MOD Blight Chests are Lucky",
+    "image": "img/oils/crimson_oil.png",
+    "mod": 3
+  },
+  "6561": {
+    "name": "Black Oil",
+    "description": "MOD% chance for Blight Chests to drop an additional Reward",
+    "image": "img/oils/black_oil.png",
+    "mod": 10
+  },
+  "19683": {
+    "name": "Opalescent Oil",
+    "description": "MOD% Monster pack size",
+    "image": "img/oils/opalescent_oil.png",
+    "mod": 20
+  },
+  "59049": {
+    "name": "Silver Oil",
+    "description": "MOD Blight Chests are Lucky",
+    "image": "img/oils/silver_oil.png",
+    "mod": 5
+  },
+  "177147": {
+    "name": "Golden Oil",
+    "description": "MOD% chance for Blight Chests to drop an additional Reward",
+    "image": "img/oils/golden_oil.png",
+    "mod": 25
+  }
+}

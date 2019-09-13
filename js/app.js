@@ -20,6 +20,7 @@ const app = new Vue({
     passives: {},
     enchantments: {},
     towers: {},
+    maps: {},
     search: '',
     myOils: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
   },
@@ -31,10 +32,10 @@ const app = new Vue({
       oil.value = 3 ** i
     })
 
-    _.each(['passives', 'enchantments'], function(type) {
+    _.each(['passives', 'enchantments', 'maps'], function(type) {
       $.getJSON(`vendor/${type}.json`, function (data) {
         _.each(data, function(value, key) {
-          data[key]['value'] = key
+          data[key]['value'] = parseInt(key)
         })
 
         self[type] = data
@@ -67,7 +68,34 @@ const app = new Vue({
   },
   computed: {
     anointment: function() {
-      if (this.combo.length === this.maxOils) {
+      if (this.combo.length > 0 && this.type === 'map') {
+        const anointments = this.anointments
+        var mods = {}
+
+        _.each(this.combo, function(oil) {
+          const anointment = anointments[oil.value]
+          if (mods[anointment.description]) {
+            mods[anointment.description] += anointment.mod
+          } else {
+            mods[anointment.description] = anointment.mod
+          }
+        })
+
+        const packSize = 'MOD% Monster pack size'
+        if (mods[packSize]) {
+          const size = mods[packSize]
+          delete mods[packSize]
+          mods[packSize] = size + this.combo.length * 5
+        } else {
+          mods[packSize] = this.combo.length * 5
+        }
+
+        const description = _.map(mods, function(value, mod) {
+          return `${mod.replace('MOD', value)}`
+        })
+
+        return { "description": _.join(description, '<br>') }
+      } else if (this.combo.length === this.maxOils) {
         const value = _.reduce(this.combo, function(sum, oil) {
           return sum + oil.value
         }, 0)
@@ -80,13 +108,15 @@ const app = new Vue({
         return this.passives
       } else if (this.type === 'ring') {
         return this.enchantments
+      } else if (this.type === 'map') {
+        return this.maps
       }
     },
     maxOils: function() {
-      if (this.type === 'amulet') {
-        return 3
-      } else if (this.type === 'ring') {
+      if (this.type === 'ring') {
         return 2
+      } else {
+        return 3
       }
     }
   },
@@ -108,21 +138,42 @@ Vue.component('anointments-table', {
   template: '#anointments-table',
   methods: {
     setCombo: function(value) {
-      var combo = []
-      const maxOils = this.$parent.maxOils
+      value = parseInt(value)
 
-      while (value > 0) {
-        const oil = _.maxBy(this.$parent.oils, function(oil) {
-          if (value - oil.value > 0 || (value - oil.value === 0 && (combo.length == maxOils - 1))) {
-            return oil.value
-          }
+      if (this.type === 'map') {
+        const oil = _.find(this.$parent.oils, function(oil) {
+          return oil.value === value
         })
 
-        combo.push(oil)
-        value -= oil.value
-      }
+        this.$parent.addOil(oil)
+      } else {
+        var combo = []
+        const maxOils = this.$parent.maxOils
 
-      this.$parent.combo = combo
+        while (value > 0) {
+          const oil = _.maxBy(this.$parent.oils, function(oil) {
+            if (value - oil.value > 0 || (value - oil.value === 0 && (combo.length === maxOils - 1))) {
+              return oil.value
+            }
+          })
+
+          combo.push(oil)
+          value -= oil.value
+        }
+
+        this.$parent.combo = combo
+      }
+    },
+    formatDescription: function(anointment) {
+      if (this.type === 'map') {
+        if (anointment.value === 27 || anointment.value === 19683) {
+          return anointment.description.replace('MOD', anointment.mod + 5)
+        } else {
+          return `${anointment.description.replace('MOD', anointment.mod)}<br>+5% Monster pack size`
+        }
+      } else {
+        return anointment.description
+      }
     },
     sortBy: function(key) {
       if (this.sortKey === key) {
@@ -146,7 +197,7 @@ Vue.component('anointments-table', {
       const search = this.search.toLowerCase()
       const oils = _.map(this.myOils, function(x) { return parseInt(x) })
       const oilCount = _.sum(oils)
-      const maxOils = this.$parent.maxOils
+      const maxOils = this.type === 'map' ? 1 : this.$parent.maxOils
       const type = this.type
       var results = this.anointments
 
@@ -160,22 +211,20 @@ Vue.component('anointments-table', {
       if (oilCount > 0 && oilCount < maxOils) {
         results = {}
       } else if (oilCount >= maxOils) {
-        if (_.sum(oils) >= maxOils) {
-          results = _.pickBy(results, function(anointment, value) {
-            const usableOils = oils.slice(0, Math.ceil(Math.cbrt(value)))
-            var totalUsed = 0
+        results = _.pickBy(results, function(anointment) {
+          var value = anointment.value
+          var totalUsed = 0
 
-            for (i = usableOils.length - 1; i > -1; i--) {
-              const oilValue = 3 ** i
-              for (q = usableOils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= maxOils - 1); q--) {
-                value -= oilValue
-                totalUsed += 1
-              }
+          for (i = oils.length - 1; i > -1; i--) {
+            const oilValue = 3 ** i
+            for (q = oils[i]; q > 0 && (value > oilValue || value === oilValue && totalUsed >= maxOils - 1); q--) {
+              value -= oilValue
+              totalUsed += 1
             }
+          }
 
-            return value === 0
-          })
-        }
+          return value == 0
+        })
       }
 
       if (this.sortKey !== null) {
