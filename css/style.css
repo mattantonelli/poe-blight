@@ -32,6 +32,22 @@ a:hover {
   color: #87745A;
 }
 
+.btn {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 2px solid #745A2F;
+  border-radius: 2px;
+  color: #A38D6D;
+}
+
+.btn:hover {
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+
+.btn:active {
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
 .tooltip-inner {
   max-width: none;
 }
@@ -41,13 +57,13 @@ a:hover {
 }
 
 .anointing {
-  border: 3px #745A2F solid;
+  border: 3px solid #745A2F;
   border-radius: 2px;
   min-width: 350px;
 }
 
 .boxed {
-  border: 2px #A08C4A solid;
+  border: 2px solid #A08C4A;
   background-color: #1A1A1A;
 }
 
@@ -79,7 +95,7 @@ a:hover {
 }
 
 .anointment {
-  border: 3px #745A2F solid;
+  border: 3px solid #745A2F;
   border-radius: 2px;
   min-width: 350px;
   min-height: 200px;
@@ -120,7 +136,7 @@ input {
 
 .tower-select img {
   margin: 1rem 2rem 0 0;
-  border: 2px #A08C4A solid;
+  border: 2px solid #A08C4A;
   border-radius: 50%;
   background-color: rgba(100, 100, 100, 0.15);
 }

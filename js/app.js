@@ -22,7 +22,7 @@ const app = new Vue({
     towers: {},
     maps: {},
     search: '',
-    myOils: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    myOils: _.fill(Array(12), 0)
   },
   created: function () {
     const self = this
@@ -63,6 +63,11 @@ const app = new Vue({
       this.search = ''
       this.combo = this.combo.slice(0, this.maxOils)
       $('.table-data').scrollTop(0)
+    },
+    reset: function() {
+      this.search = ''
+      this.combo = []
+      this.myOils = _.fill(Array(12), 0)
     }
   },
   computed: {

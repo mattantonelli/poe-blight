@@ -66,7 +66,10 @@
           </div>
         </div>
         <div class="col-12 col-md-5 offset-md-1 mt-4 mt-md-0 mx-auto">
-          <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="w-100 mb-2">
+          <div class="d-flex align-items-center mb-2">
+            <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="flex-grow-1">
+            <button type="button" class="btn btn-sm ml-4" v-on:click="reset()">Reset All</button>
+          </div>
           <p class="text-center mb-0">
             Input your oils below to see which anointments are available (vendor recipe included.)
           </p>
