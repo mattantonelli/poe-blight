@@ -8,6 +8,7 @@ const app = new Vue({
       { name: 'Verdant Oil', level: 27 },
       { name: 'Teal Oil', level: 36 },
       { name: 'Azure Oil', level: 44 },
+      { name: 'Indigo Oil', level: '??' },
       { name: 'Violet Oil', level: 52 },
       { name: 'Crimson Oil', level: 60 },
       { name: 'Black Oil', level: 68 },
@@ -22,7 +23,7 @@ const app = new Vue({
     towers: {},
     maps: {},
     search: '',
-    myOils: _.fill(Array(12), 0)
+    myOils: _.fill(Array(13), 0)
   },
   created: function () {
     const self = this

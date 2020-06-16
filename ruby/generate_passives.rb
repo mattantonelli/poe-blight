@@ -2,7 +2,7 @@
 
 require 'json'
 
-OIL_NAMES = %w(ClearOil SepiaOil AmberOil VerdantOil TealOil AzureOil
+OIL_NAMES = %w(ClearOil SepiaOil AmberOil VerdantOil TealOil AzureOil IndigoOil
                VioletOil CrimsonOil BlackOil OpalescentOil SilverOil GoldenOil).freeze
 
 oils = OIL_NAMES.each_with_object({}).with_index do |(oil, h), i|
