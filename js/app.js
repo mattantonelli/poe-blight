@@ -176,8 +176,8 @@ Vue.component('anointments-table', {
     },
     formatDescription: function(anointment) {
       if (this.type === 'map') {
-        // Substitue mod values into their descriptions. For oils with pack size, we need to add 5 extra
-        if (anointment.value === 27 || anointment.value === 19683) {
+        // Substitue mod values into their descriptions. For oils with pack size, we need to add 5 extra.
+        if (anointment.description.match('pack size')) {
           return anointment.description.replace('MOD', anointment.mod + 5)
         } else {
           return `${anointment.description.replace('MOD', anointment.mod)}<br>+5% Monster pack size`
