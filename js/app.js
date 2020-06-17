@@ -52,7 +52,7 @@ const app = new Vue({
   },
   methods: {
     addOil: function(oil) {
-      if (this.combo.length < this.maxOils) {
+      if (this.combo.length < this.maxOils && (this.type == 'amulet' || oil.name != 'Indigo Oil')) {
         this.combo.push(oil)
       }
     },
@@ -62,7 +62,7 @@ const app = new Vue({
     setType: function(type) {
       this.type = type
       this.search = ''
-      this.combo = this.combo.slice(0, this.maxOils)
+      this.combo = []
       $('.table-data').scrollTop(0)
     },
     reset: function() {

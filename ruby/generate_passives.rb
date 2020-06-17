@@ -13,7 +13,7 @@ data = JSON.load(File.read('tmp/data.json'))
 passives = {}
 
 data['nodes'].each do |_, node|
-  if node['isNotable'] && node['recipe']
+  if node['recipe']
     value = node['recipe'].sum { |oil| oils[oil] }
     description = node['stats'].join('<br>')
     passives[value.to_s] = { name: node['name'], description: description }
