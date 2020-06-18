@@ -52,6 +52,10 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.09);
 }
 
+.alert-dark > a {
+  color: #1b1e21;
+}
+
 .tooltip-inner {
   max-width: none;
 }
