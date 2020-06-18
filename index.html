@@ -71,7 +71,6 @@
             </div>
             <div class="d-flex flex-wrap justify-content-center px-xl-4 mx-xl-4 my-3">
               <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil boxed mr-2 mt-2"
-                :class=" { disabled: type !== 'amulet' && oil.name == 'Indigo Oil' }" 
                 :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
             </div>
           </div>

@@ -104,6 +104,41 @@
     "description": "Your Summoning Towers have 25% increased Range",
     "image": "img/towers/summoning.png"
   },
+  "730": {
+    "name": "Smothering Tower Ailment Chance",
+    "description": "",
+    "image": "img/towers/smothering.png"
+  },
+  "732": {
+    "name": "Flamethrower Tower Scorch Chance",
+    "description": "",
+    "image": "img/towers/flamethrower.png"
+  },
+  "738": {
+    "name": "Arc Tower Sap Chance",
+    "description": "",
+    "image": "img/towers/arc.png"
+  },
+  "756": {
+    "name": "Freezebolt Tower Brittle Chance",
+    "description": "",
+    "image": "img/towers/freezebolt.png"
+  },
+  "810": {
+    "name": "Temporal Tower Stun Immunity",
+    "description": "",
+    "image": "img/towers/temporal.png"
+  },
+  "972": {
+    "name": "Imbuing Tower Onslaught",
+    "description": "",
+    "image": "img/towers/imbuing.png"
+  },
+  "1458": {
+    "name": "Sentinel Tower Life Leech",
+    "description": "",
+    "image": "img/towers/sentinel.png"
+  },
   "2188": {
     "name": "Freezebolt Tower Range",
     "description": "Your Freezebolt Towers have 25% increased Range",
@@ -133,6 +168,11 @@
     "name": "Sentinel Tower Range",
     "description": "Your Sentinel Towers have 25% increased Range",
     "image": "img/towers/sentinel.png"
+  },
+  "2916": {
+    "name": "Meteor Tower Burning Ground",
+    "description": "",
+    "image": "img/towers/meteor.png"
   },
   "4374": {
     "name": "Chilling Tower Chill Effect",
@@ -168,6 +208,11 @@
     "name": "Fireball Tower Cast Speed",
     "description": "Your Fireball Towers have 15% increased Cast Speed",
     "image": "img/towers/fireball.png"
+  },
+  "7290": {
+    "name": "Stone Gaze Tower Fragility",
+    "description": "",
+    "image": "img/towers/stone_gaze.png"
   },
   "8748": {
     "name": "Flamethrower Tower Full Damage",
@@ -208,6 +253,11 @@
     "name": "Smothering Tower Range",
     "description": "Your Smothering Towers have 25% increased Range",
     "image": "img/towers/smothering.png"
+  },
+  "20412": {
+    "name": "Scout Tower Malediction",
+    "description": "",
+    "image": "img/towers/scout.png"
   },
   "21870": {
     "name": "Chilling Tower Duration",
@@ -253,6 +303,11 @@
     "name": "Scout Tower Speed",
     "description": "Minions summoned by Your Scout Towers have 25% increased Movement Speed",
     "image": "img/towers/scout.png"
+  },
+  "59778": {
+    "name": "Glacial Cage Tower Area of Effect",
+    "description": "",
+    "image": "img/towers/glacial_cage.png"
   },
   "61236": {
     "name": "Sentinel Tower Speed",
@@ -303,6 +358,11 @@
     "name": "Scout Tower Life",
     "description": "Minions summoned by Your Scout Towers have 50% increased Life",
     "image": "img/towers/scout.png"
+  },
+  "177876": {
+    "name": "Lightning Storm Tower Targeting",
+    "description": "",
+    "image": "img/towers/lightning_storm.png"
   },
   "179334": {
     "name": "Empowering Tower Cast Speed",
@@ -358,6 +418,11 @@
     "name": "Stone Gaze Tower Reduced Duration",
     "description": "Your Stone Gaze Towers have 20% reduced Petrification Delay",
     "image": "img/towers/stone_gaze.png"
+  },
+  "532170": {
+    "name": "Tower Synergy",
+    "description": "",
+    "image": "img/towers/empowering.png"
   },
   "533628": {
     "name": "Imbuing Tower Damage",

@@ -35,6 +35,12 @@
     "image": "img/oils/azure_oil.png",
     "mod": 15
   },
+  "729": {
+    "name": "Indigo Oil",
+    "description": "Towers deal MOD% More Damage",
+    "image": "img/oils/indigo_oil.png",
+    "mod": 40
+  },
   "2187": {
     "name": "Violet Oil",
     "description": "MOD% increased Quantity of Items found in this Area",
