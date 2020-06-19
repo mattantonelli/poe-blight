@@ -106,37 +106,37 @@
   },
   "730": {
     "name": "Smothering Tower Ailment Chance",
-    "description": "",
+    "description": "Your Smothering Towers also grant 10% chance to be Frozen, Shocked and Ignited",
     "image": "img/towers/smothering.png"
   },
   "732": {
     "name": "Flamethrower Tower Scorch Chance",
-    "description": "",
+    "description": "Your Flamethrower Towers have 20% chance to inflict Scorch",
     "image": "img/towers/flamethrower.png"
   },
   "738": {
     "name": "Arc Tower Sap Chance",
-    "description": "",
+    "description": "Your Arc Towers have 20% chance to inflict Sap",
     "image": "img/towers/arc.png"
   },
   "756": {
     "name": "Freezebolt Tower Brittle Chance",
-    "description": "",
+    "description": "Your Freezebolt Towers have 20% chance to inflict Brittle",
     "image": "img/towers/freezebolt.png"
   },
   "810": {
     "name": "Temporal Tower Stun Immunity",
-    "description": "",
+    "description": "Your Temporal Towers also grant Stun Immunity",
     "image": "img/towers/temporal.png"
   },
   "972": {
     "name": "Imbuing Tower Onslaught",
-    "description": "",
+    "description": "Your Imbuing Towers also grant Onslaught",
     "image": "img/towers/imbuing.png"
   },
   "1458": {
     "name": "Sentinel Tower Life Leech",
-    "description": "",
+    "description": "Minions summoned by Your Sentinel Towers Leech 2% of Damage as Life",
     "image": "img/towers/sentinel.png"
   },
   "2188": {
@@ -171,7 +171,7 @@
   },
   "2916": {
     "name": "Meteor Tower Burning Ground",
-    "description": "",
+    "description": "Your Meteor Towers create Burning Ground for 3 seconds on Hit",
     "image": "img/towers/meteor.png"
   },
   "4374": {
@@ -211,7 +211,7 @@
   },
   "7290": {
     "name": "Stone Gaze Tower Fragility",
-    "description": "",
+    "description": "Enemies Petrified by Your Stone Gaze Towers take 10% increased Damage",
     "image": "img/towers/stone_gaze.png"
   },
   "8748": {
@@ -256,7 +256,7 @@
   },
   "20412": {
     "name": "Scout Tower Malediction",
-    "description": "",
+    "description": "Minions summoned by Your Scout Towers inflict Malediction on Hit",
     "image": "img/towers/scout.png"
   },
   "21870": {
@@ -306,7 +306,7 @@
   },
   "59778": {
     "name": "Glacial Cage Tower Area of Effect",
-    "description": "",
+    "description": "Cages created by Your Glacial Cage Towers are 20% larger",
     "image": "img/towers/glacial_cage.png"
   },
   "61236": {
@@ -361,7 +361,7 @@
   },
   "177876": {
     "name": "Lightning Storm Tower Targeting",
-    "description": "",
+    "description": "Your Lightning Storm Towers create Storms centred on Enemies",
     "image": "img/towers/lightning_storm.png"
   },
   "179334": {
@@ -421,7 +421,7 @@
   },
   "532170": {
     "name": "Empowering Tower Synergy",
-    "description": "",
+    "description": "Your Towers deal 10% increased Damage per Type of Tower Active",
     "image": "img/towers/empowering.png"
   },
   "533628": {
