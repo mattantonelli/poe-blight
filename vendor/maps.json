@@ -36,36 +36,42 @@
     "mod": 15
   },
   "729": {
+    "name": "Indigo Oil",
+    "description": "Towers deal MOD% More Damage",
+    "image": "img/oils/indigo_oil.png",
+    "mod": 40
+  },
+  "2187": {
     "name": "Violet Oil",
     "description": "MOD% increased Quantity of Items found in this Area",
     "image": "img/oils/violet_oil.png",
     "mod": 30
   },
-  "2187": {
+  "6561": {
     "name": "Crimson Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/crimson_oil.png",
     "mod": 3
   },
-  "6561": {
+  "19683": {
     "name": "Black Oil",
     "description": "MOD% chance for Blight Chests to drop an additional Reward",
     "image": "img/oils/black_oil.png",
     "mod": 10
   },
-  "19683": {
+  "59049": {
     "name": "Opalescent Oil",
     "description": "MOD% Monster pack size",
     "image": "img/oils/opalescent_oil.png",
     "mod": 20
   },
-  "59049": {
+  "177147": {
     "name": "Silver Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/silver_oil.png",
     "mod": 5
   },
-  "177147": {
+  "531441": {
     "name": "Golden Oil",
     "description": "MOD% chance for Blight Chests to drop an additional Reward",
     "image": "img/oils/golden_oil.png",

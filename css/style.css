@@ -80,6 +80,11 @@ a:hover {
   background-color: #212121;
 }
 
+.oil.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
 .type-select:hover {
   cursor: pointer;
 }

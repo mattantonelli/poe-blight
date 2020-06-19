@@ -38,12 +38,7 @@
   <body>
     <div class="container-fluid" id="app">
       <div class="row mt-3">
-        <div class="alert alert-dark mx-auto">
-          Looking for the new Indigo Oil? Check out the <a href="http://blight-beta.raelys.com/">Beta site</a>.
-        </div>
-      </div>
-      <div class="row mt-3">
-        <div class="col-12 col-md-5 offset-md-1">
+        <div class="col-12 col-lg-4 offset-lg-1">
           <div class="d-flex flex-column align-items-center">
             <div class="anointing px-3 py-2">
               <h1 class="text-center">{{ _.capitalize(type) }} Anointing</h1>
@@ -74,13 +69,13 @@
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-wrap justify-content-center my-3">
+            <div class="d-flex flex-wrap justify-content-center px-xl-4 mx-xl-4 my-3">
               <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil boxed mr-2 mt-2"
                 :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-5 offset-md-1 mt-4 mt-md-0 mx-auto">
+        <div class="col-12 col-lg-6 offset-lg-1 mt-4 mt-lg-0 mx-auto">
           <div class="d-flex align-items-center mb-2">
             <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="flex-grow-1">
             <button type="button" class="btn btn-sm ml-4" v-on:click="reset()">Reset All</button>
