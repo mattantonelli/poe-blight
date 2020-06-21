@@ -1,14 +1,31 @@
 # Generators
 
-These Ruby scripts are used to generate the latest versions of the application's JSON anointment data. They accomplish this by leveraging data made publicly available by GGG before a new patch.
+These Ruby scripts are used to generate the latest versions of the application's JSON anointment data.
 
 ## Dependencies
+
 * Ruby (2.4.1+)
+
+## Installation
+
+```
+bundle install
+```
 
 ## Usage
 ### Passives
 
-##### 1. Download the passive tree data when it becomes available. Modify the URL and filenames as appropriate.
+#### Option 1: Use the live passive tree data
+
+```
+ruby generate_passives.rb live
+```
+
+**Note:** The `live` option will also save the passive data to `tmp/data.json`. This allows you to run the script again *without* the `live` option to avoid having to re-download the data.
+
+#### Option 2: Use the pre-patch data
+
+Download the passive tree data when it becomes available. Modify the URL and filenames as appropriate.
 
 ```
 cd tmp
@@ -17,13 +34,10 @@ unzip 3100_PassiveSkillTree.zip
 mv 3100/data.json .
 rm -rf 3100*
 cd ..
-```
-
-##### 2. Run the script to generate the updated file
-
-```
 ruby generate_passives.rb
 ```
+
+---
 
 After running the script, the `passives.json` file used by the application will be updated with the latest data.
 
