@@ -1,7 +1,6 @@
 #!/usr/bin/env ruby
 
 require 'json'
-require 'nokogiri'
 require 'open-uri'
 require_relative 'oils.rb'
 
@@ -11,8 +10,8 @@ oils = Oils.all
 passives = {}
 
 if ARGV[0] == 'live'
-  page = Nokogiri::HTML(open(SKILL_TREE_URL))
-  json = page.css('script')[-1].text.sub(/.*passiveSkillTreeData = /m, '').sub(/};.*/m, '}')
+  page = open(SKILL_TREE_URL).read
+  json = page.sub(/.*passiveSkillTreeData = /m, '').sub(/};.*/m, '}')
   File.write('tmp/data.json', json)
   data = JSON.parse(json)
 else

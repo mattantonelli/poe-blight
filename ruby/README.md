@@ -6,12 +6,6 @@ These Ruby scripts are used to generate the latest versions of the application's
 
 * Ruby (2.4.1+)
 
-## Installation
-
-```
-bundle install
-```
-
 ## Usage
 ### Passives
 
