@@ -223,6 +223,18 @@
     "name": "Slaughter",
     "description": "25% increased Physical Damage with Axes<br>Axe Attacks deal 25% increased Damage with Ailments<br>8% increased Attack Speed with Axes<br>10% chance to gain Onslaught for 4 seconds on Kill"
   },
+  "739": {
+    "name": "Combat Control",
+    "description": "Warcries cannot Exert Travel Skills"
+  },
+  "741": {
+    "name": "Exposure Tolerance",
+    "description": "15% increased Elemental Damage<br>30% reduced Reflected Elemental Damage taken"
+  },
+  "757": {
+    "name": "Risk Awareness",
+    "description": "30% reduced Reflected Physical Damage taken<br>15% increased Physical Damage"
+  },
   "2187": {
     "name": "Shocking Strikes",
     "description": "15% chance to Shock<br>40% increased Critical Strike Chance against Shocked Enemies<br>24% increased Lightning Damage with Attack Skills<br>15% increased Effect of Shock"
@@ -433,7 +445,7 @@
   },
   "8019": {
     "name": "Escalation",
-    "description": "15% increased Warcry Speed<br>15% increased Warcry Cooldown Recovery Speed<br>20% increased Damage for each time you've Warcried Recently"
+    "description": "Recover 10% of Life when you use a Warcry<br>15% increased Warcry Cooldown Recovery Speed<br>20% increased Damage for each time you've Warcried Recently"
   },
   "8749": {
     "name": "Flaying",
@@ -585,7 +597,7 @@
   },
   "20413": {
     "name": "Versatile Stance",
-    "description": "10% increased Attack Speed if you’ve changed Stance Recently<br>30% increased Damage while in Blood Stance<br>15% increased Area of Effect while in Sand Stance"
+    "description": "30% increased Damage while in Blood Stance<br>15% increased Area of Effect while in Sand Stance<br>10% increased Attack Speed if you’ve changed Stance Recently"
   },
   "20421": {
     "name": "Intensity",
@@ -597,7 +609,7 @@
   },
   "21141": {
     "name": "Undertaker",
-    "description": "30% increased Damage if you have Consumed a corpse Recently<br>Skills which create corpses have +2 to Maximum number of corpses allowed<br>Regenerate 2% of Life per second if you've Consumed a corpse Recently"
+    "description": "30% increased Damage if you have Consumed a corpse Recently<br>Desecrate and Unearth have +2 to Maximum number of corpses allowed<br>Regenerate 2% of Life per second if you've Consumed a corpse Recently"
   },
   "21871": {
     "name": "Acuity",
