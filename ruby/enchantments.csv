@@ -1,0 +1,91 @@
+ClearOil,ClearOil,Chilling Tower Damage
+ClearOil,SepiaOil,Freezebolt Tower Damage
+SepiaOil,SepiaOil,Glacial Cage Tower Duration
+ClearOil,AmberOil,Fireball Tower Damage
+SepiaOil,AmberOil,Flamethrower Tower Damage
+ClearOil,VerdantOil,Meteor Tower Damage
+SepiaOil,VerdantOil,Summoning Tower Damage
+AmberOil,AmberOil,Scout Tower Damage
+ClearOil,TealOil,Sentinel Tower Damage
+AmberOil,VerdantOil,Shock Nova Tower Damage
+SepiaOil,TealOil,Lightning Storm Tower Damage
+VerdantOil,VerdantOil,Arc Tower Damage
+AmberOil,TealOil,Seismic Tower Damage
+ClearOil,AzureOil,Temporal Tower Effect
+VerdantOil,TealOil,Stone Gaze Tower Effect
+SepiaOil,AzureOil,Empowering Tower Effect
+AmberOil,AzureOil,Imbuing Tower Effect
+TealOil,TealOil,Smothering Tower Effect
+VerdantOil,AzureOil,Chilling Tower Range
+ClearOil,VioletOil,Freezebolt Tower Range
+TealOil,AzureOil,Glacial Cage Tower Range
+SepiaOil,VioletOil,Fireball Tower Range
+AmberOil,VioletOil,Flamethrower Tower Range
+VerdantOil,VioletOil,Meteor Tower Range
+AzureOil,AzureOil,Summoning Tower Range
+TealOil,VioletOil,Scout Tower Range
+AzureOil,VioletOil,Sentinel Tower Range
+ClearOil,CrimsonOil,Shock Nova Tower Range
+SepiaOil,CrimsonOil,Lightning Storm Tower Range
+AmberOil,CrimsonOil,Arc Tower Range
+VioletOil,VioletOil,Chilling Tower Chill Effect
+VerdantOil,CrimsonOil,Freezebolt Tower Full Damage
+TealOil,CrimsonOil,Glacial Cage Tower Cooldown
+AzureOil,CrimsonOil,Fireball Tower Cast Speed
+VioletOil,CrimsonOil,Flamethrower Tower Full Damage
+CrimsonOil,CrimsonOil,Meteor Tower Stun
+ClearOil,BlackOil,Seismic Tower Range
+SepiaOil,BlackOil,Temporal Tower Range
+AmberOil,BlackOil,Stone Gaze Tower Range
+VerdantOil,BlackOil,Empowering Tower Range
+TealOil,BlackOil,Imbuing Tower Range
+AzureOil,BlackOil,Smothering Tower Range
+VioletOil,BlackOil,Chilling Tower Duration
+CrimsonOil,BlackOil,Freezebolt Tower Additional Projectile
+ClearOil,OpalescentOil,Glacial Cage Tower Increased Damage
+SepiaOil,OpalescentOil,Fireball Tower Projectile
+AmberOil,OpalescentOil,Flamethrower Tower Cast Speed
+VerdantOil,OpalescentOil,Meteor Tower Additional Meteor
+TealOil,OpalescentOil,Summoning Tower Speed
+AzureOil,OpalescentOil,Scout Tower Speed
+VioletOil,OpalescentOil,Sentinel Tower Speed
+CrimsonOil,OpalescentOil,Shock Nova Tower Full Damage
+BlackOil,BlackOil,Lightning Storm Tower Delay
+ClearOil,SilverOil,Arc Tower Repeat
+SepiaOil,SilverOil,Seismic Tower Stun Duration
+AmberOil,SilverOil,Temporal Tower Reduced Tick Speed
+VerdantOil,SilverOil,Stone Gaze Tower Cooldown
+TealOil,SilverOil,Summoning Tower Life
+AzureOil,SilverOil,Scout Tower Life
+BlackOil,OpalescentOil,Sentinel Tower Life
+VioletOil,SilverOil,Empowering Tower Cast Speed
+CrimsonOil,SilverOil,Imbuing Tower Critical
+OpalescentOil,OpalescentOil,Smothering Tower Reduced Speed
+ClearOil,GoldenOil,Shock Nova Tower Shock Effect
+SepiaOil,GoldenOil,Lightning Storm Tower Explosion Area
+AmberOil,GoldenOil,Arc Tower Chain
+VerdantOil,GoldenOil,Seismic Tower Additional Cascade
+TealOil,GoldenOil,Temporal Tower Duration
+AzureOil,GoldenOil,Stone Gaze Tower Reduced Duration
+BlackOil,SilverOil,Empowering Tower Damage
+VioletOil,GoldenOil,Imbuing Tower Damage
+CrimsonOil,GoldenOil,Smothering Tower Reduced Damage
+OpalescentOil,SilverOil,Chilling Tower Freeze
+BlackOil,GoldenOil,Shock Nova Tower Repeating
+SilverOil,SilverOil,Summoning Tower Additional Minions
+OpalescentOil,GoldenOil,Fireball Tower Nova
+SilverOil,GoldenOil,Seismic Tower Cascade Reach
+GoldenOil,GoldenOil,Empowering Tower Double Damage
+IndigoOil,ClearOil,Smothering Tower Ailment Chance
+IndigoOil,SepiaOil,Flamethrower Tower Scorch Chance
+IndigoOil,AmberOil,Arc Tower Sap Chance
+IndigoOil,VerdantOil,Freezebolt Tower Brittle Chance
+IndigoOil,TealOil,Temporal Tower Stun Immunity
+IndigoOil,AzureOil,Imbuing Tower Onslaught
+IndigoOil,IndigoOil,Sentinel Tower Life Leech
+IndigoOil,VioletOil,Meteor Tower Burning Ground
+IndigoOil,CrimsonOil,Stone Gaze Tower Fragility
+IndigoOil,BlackOil,Scout Tower Malediction
+IndigoOil,OpalescentOil,Glacial Cage Tower Area of Effect
+IndigoOil,SilverOil,Lightning Storm Tower Targeting
+IndigoOil,GoldenOil,Empowering Tower Synergy

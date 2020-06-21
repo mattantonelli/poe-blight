@@ -1,15 +1,10 @@
 #!/usr/bin/env ruby
 
 require 'json'
+require_relative 'oils.rb'
 
-OIL_NAMES = %w(ClearOil SepiaOil AmberOil VerdantOil TealOil AzureOil IndigoOil
-               VioletOil CrimsonOil BlackOil OpalescentOil SilverOil GoldenOil).freeze
-
-oils = OIL_NAMES.each_with_object({}).with_index do |(oil, h), i|
-  h[oil] = 3 ** i
-end
-
-data = JSON.load(File.read('tmp/data.json'))
+oils = Oils.all
+data = JSON.load(open('tmp/data.json'))
 passives = {}
 
 data['nodes'].each do |_, node|
