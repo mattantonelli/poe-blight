@@ -8,7 +8,7 @@ const app = new Vue({
       { name: 'Verdant Oil', level: 27 },
       { name: 'Teal Oil', level: 36 },
       { name: 'Azure Oil', level: 44 },
-      { name: 'Indigo Oil', level: '??' },
+      { name: 'Indigo Oil', level: 48 },
       { name: 'Violet Oil', level: 52 },
       { name: 'Crimson Oil', level: 60 },
       { name: 'Black Oil', level: 68 },
