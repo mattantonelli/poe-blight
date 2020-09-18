@@ -161,7 +161,7 @@
   },
   "261": {
     "name": "Hasty Reconstruction",
-    "description": "20% increased Trap Damage<br>10% increased Cooldown Recovery Speed for throwing Traps<br>Skills which Throw Traps have +1 Cooldown Use"
+    "description": "20% increased Trap Damage<br>10% increased Cooldown Recovery Rate for throwing Traps<br>Skills which Throw Traps have +1 Cooldown Use"
   },
   "271": {
     "name": "Martial Experience",
@@ -237,7 +237,7 @@
   },
   "2187": {
     "name": "Shocking Strikes",
-    "description": "15% chance to Shock<br>40% increased Critical Strike Chance against Shocked Enemies<br>24% increased Lightning Damage with Attack Skills<br>15% increased Effect of Shock"
+    "description": "15% chance to Shock<br>40% increased Critical Strike Chance against Shocked Enemies<br>15% increased Effect of Lightning Ailments<br>24% increased Lightning Damage with Attack Skills"
   },
   "2189": {
     "name": "Practical Application",
@@ -429,7 +429,7 @@
   },
   "6831": {
     "name": "Flash Freeze",
-    "description": "24% increased Cold Damage<br>20% increased Projectile Speed<br>10% chance to Freeze<br>20% increased Effect of Chill"
+    "description": "24% increased Cold Damage<br>20% increased Projectile Speed<br>10% chance to Freeze<br>20% increased Effect of Cold Ailments"
   },
   "6885": {
     "name": "Fearsome Force",
@@ -445,7 +445,7 @@
   },
   "8019": {
     "name": "Escalation",
-    "description": "Recover 10% of Life when you use a Warcry<br>15% increased Warcry Cooldown Recovery Speed<br>20% increased Damage for each time you've Warcried Recently"
+    "description": "Recover 10% of Life when you use a Warcry<br>15% increased Warcry Cooldown Recovery Rate<br>20% increased Damage for each time you've Warcried Recently"
   },
   "8749": {
     "name": "Flaying",
@@ -597,11 +597,11 @@
   },
   "20413": {
     "name": "Versatile Stance",
-    "description": "30% increased Damage while in Blood Stance<br>15% increased Area of Effect while in Sand Stance<br>10% increased Attack Speed if you’ve changed Stance Recently"
+    "description": "30% increased Damage while in Blood Stance<br>15% increased Area of Effect while in Sand Stance<br>10% increased Attack Speed if you've changed Stance Recently"
   },
   "20421": {
     "name": "Intensity",
-    "description": "10% increased Area Damage<br>Skills supported by Intensify have +1 to maximum Intensity"
+    "description": "Spells which can gain Intensity have +1 to maximum Intensity"
   },
   "20493": {
     "name": "Forethought",
@@ -637,7 +637,7 @@
   },
   "22599": {
     "name": "Brand Equity",
-    "description": "You can Cast an additional Brand<br>Brand Skills have 20% increased Duration<br>Brand Recall has 20% increased Cooldown Recovery Speed"
+    "description": "You can Cast an additional Brand<br>Brand Skills have 20% increased Duration<br>Brand Recall has 20% increased Cooldown Recovery Rate"
   },
   "24057": {
     "name": "Graceful Assault",
@@ -668,7 +668,7 @@
     "description": "+3% Chance to Block Attack Damage while Dual Wielding<br>Attack Skills deal 24% increased Damage while Dual Wielding<br>6% increased Attack Speed while Dual Wielding"
   },
   "26973": {
-    "name": "Ricochet",
+    "name": "Trick Shot",
     "description": "Projectiles deal 20% increased Damage for each time they have Chained"
   },
   "28431": {
@@ -709,7 +709,7 @@
   },
   "45927": {
     "name": "Corruption",
-    "description": "25% increased Chaos Damage<br>20% increased Effect of Withered"
+    "description": "25% increased Chaos Damage<br>0.2% of Chaos Damage Leeched as Energy Shield<br>20% increased Effect of Withered"
   },
   "59049": {
     "name": "Disciple of the Forbidden",
@@ -733,7 +733,7 @@
   },
   "59061": {
     "name": "Fleetfoot",
-    "description": "20% increased Evasion Rating<br>5% increased Movement Speed<br>10% increased Attack and Cast Speed if you've used a Movement Skill Recently<br>20% increased Cooldown Recovery Speed of Movement Skills"
+    "description": "20% increased Evasion Rating<br>5% increased Movement Speed<br>10% increased Attack and Cast Speed if you've used a Movement Skill Recently<br>20% increased Cooldown Recovery Rate of Movement Skills"
   },
   "59067": {
     "name": "Divine Wrath",
@@ -781,7 +781,7 @@
   },
   "59295": {
     "name": "Admonisher",
-    "description": "30% increased Warcry Speed<br>12% increased Warcry Cooldown Recovery Speed<br>Remove an Ailment when you Warcry"
+    "description": "30% increased Warcry Speed<br>12% increased Warcry Cooldown Recovery Rate<br>Remove an Ailment when you Warcry"
   },
   "59301": {
     "name": "Amplify",
@@ -813,7 +813,7 @@
   },
   "59859": {
     "name": "Deep Breaths",
-    "description": "30% increased Warcry Cooldown Recovery Speed<br>20% increased total Power counted by Warcries<br>Warcry Skills have 30% increased Area of Effect"
+    "description": "30% increased Warcry Cooldown Recovery Rate<br>20% increased total Power counted by Warcries<br>Warcry Skills have 30% increased Area of Effect"
   },
   "61237": {
     "name": "Blade Barrier",
@@ -913,7 +913,7 @@
   },
   "85293": {
     "name": "Hex Master",
-    "description": "40% increased Area of Effect of Curse Skills<br>5% increased Effect of your Curses<br>Curse Skills have 80% increased Skill Effect Duration"
+    "description": "40% increased Area of Effect of Hex Skills<br>5% increased Effect of your Curses<br>Hex Skills have 80% increased Skill Effect Duration"
   },
   "98415": {
     "name": "Way of the Warrior",
@@ -921,7 +921,7 @@
   },
   "118099": {
     "name": "Avatar of the Hunt",
-    "description": "24% increased Damage with Bows<br>+200 to Evasion Rating<br>6% increased Movement Speed<br>24% increased Damage Over Time with Bow Skills<br>20% increased Cooldown Recovery Speed of Movement Skills"
+    "description": "24% increased Damage with Bows<br>+200 to Evasion Rating<br>6% increased Movement Speed<br>24% increased Damage Over Time with Bow Skills<br>20% increased Cooldown Recovery Rate of Movement Skills"
   },
   "118101": {
     "name": "Prism Weave",
@@ -957,7 +957,7 @@
   },
   "137781": {
     "name": "Crackling Speed",
-    "description": "16% increased Lightning Damage<br>6% increased Cast Speed<br>10% increased Effect of Shock"
+    "description": "16% increased Lightning Damage<br>6% increased Cast Speed<br>10% increased Effect of Lightning Ailments"
   },
   "177147": {
     "name": "Tireless",
@@ -965,7 +965,7 @@
   },
   "177149": {
     "name": "Arcing Blows",
-    "description": "Damage with Weapons Penetrates 8% Lightning Resistance<br>30% increased Lightning Damage with Attack Skills<br>10% increased Effect of Shock"
+    "description": "Damage with Weapons Penetrates 8% Lightning Resistance<br>10% increased Effect of Lightning Ailments<br>30% increased Lightning Damage with Attack Skills"
   },
   "177151": {
     "name": "Blade Master",
@@ -973,7 +973,7 @@
   },
   "177153": {
     "name": "Fangs of Frost",
-    "description": "Damage with Weapons Penetrates 8% Cold Resistance<br>30% increased Cold Damage with Attack Skills<br>10% increased Effect of Chill"
+    "description": "Damage with Weapons Penetrates 8% Cold Resistance<br>10% increased Effect of Cold Ailments<br>30% increased Cold Damage with Attack Skills"
   },
   "177157": {
     "name": "Counterweight",
@@ -1209,7 +1209,7 @@
   },
   "354375": {
     "name": "Breath of Rime",
-    "description": "+10% to Cold Damage over Time Multiplier<br>20% increased Cold Damage<br>20% increased Freeze Duration on Enemies<br>10% chance to Freeze<br>20% increased Effect of Chill"
+    "description": "+10% to Cold Damage over Time Multiplier<br>20% increased Cold Damage<br>20% increased Freeze Duration on Enemies<br>10% chance to Freeze<br>20% increased Effect of Cold Ailments"
   },
   "354537": {
     "name": "Frenetic",
@@ -1233,7 +1233,7 @@
   },
   "413343": {
     "name": "Skittering Runes",
-    "description": "15% increased Effect of your Curses"
+    "description": "10% increased Effect of your Curses<br>Hexes you inflict have +10 to maximum Doom"
   },
   "531441": {
     "name": "Sovereignty",
@@ -1349,7 +1349,7 @@
   },
   "533871": {
     "name": "Breath of Lightning",
-    "description": "20% increased Lightning Damage<br>20% increased Shock Duration on Enemies<br>15% chance to Shock<br>20% increased Effect of Shock"
+    "description": "20% increased Lightning Damage<br>15% chance to Shock<br>20% increased Duration of Lightning Ailments<br>20% increased Effect of Lightning Ailments"
   },
   "535815": {
     "name": "Born to Fight",
@@ -1381,7 +1381,7 @@
   },
   "540189": {
     "name": "Fingers of Frost",
-    "description": "25% increased Cold Damage<br>Enemies Become Chilled as they Unfreeze<br>15% chance to Freeze Enemies which are Chilled<br>20% increased Effect of Chill"
+    "description": "25% increased Cold Damage<br>Enemies Become Chilled as they Unfreeze<br>15% chance to Freeze Enemies which are Chilled<br>20% increased Effect of Cold Ailments"
   },
   "544563": {
     "name": "Arcane Expanse",
