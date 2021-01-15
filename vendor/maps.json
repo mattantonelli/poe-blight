@@ -27,7 +27,7 @@
     "name": "Teal Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/teal_oil.png",
-    "mod": 2
+    "mod": 5
   },
   "243": {
     "name": "Azure Oil",
@@ -51,7 +51,7 @@
     "name": "Crimson Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/crimson_oil.png",
-    "mod": 3
+    "mod": 10
   },
   "19683": {
     "name": "Black Oil",
@@ -69,7 +69,7 @@
     "name": "Silver Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/silver_oil.png",
-    "mod": 5
+    "mod": 15
   },
   "531441": {
     "name": "Golden Oil",

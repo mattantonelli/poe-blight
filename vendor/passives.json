@@ -169,7 +169,7 @@
   },
   "273": {
     "name": "Battle Rouse",
-    "description": "+15 to maximum Mana<br>15% increased maximum Mana<br>10% of Damage taken gained as Mana over 4 seconds when Hit"
+    "description": "+15 to maximum Mana<br>15% increased maximum Mana<br>10% of Damage taken Recouped as Mana"
   },
   "279": {
     "name": "Executioner",
@@ -234,6 +234,10 @@
   "757": {
     "name": "Risk Awareness",
     "description": "30% reduced Reflected Physical Damage taken<br>15% increased Physical Damage"
+  },
+  "837": {
+    "name": "Blade Sovereign",
+    "description": "Call of Steel has +4 to maximum Steel Shards<br>Call of Steel has 30% increased Use Speed<br>Call of Steel causes 10% increased Reflected Damage"
   },
   "2187": {
     "name": "Shocking Strikes",
@@ -439,6 +443,10 @@
     "name": "Holy Dominion",
     "description": "+12% to all Elemental Resistances<br>12% increased Elemental Damage<br>10% chance to Freeze, Shock and Ignite<br>12% increased Physical Damage"
   },
+  "7293": {
+    "name": "Mark the Prey",
+    "description": "Marked Enemy grants 30% increased Flask Charges to you<br>Marked Enemy takes 10% increased Damage"
+  },
   "7371": {
     "name": "Harpooner",
     "description": "20% chance to Impale Enemies on Hit with Two Handed Weapons<br>20% increased Effect of Impales you inflict with Two Handed Weapons on Non-Impaled Enemies<br>25% increased Impale Duration"
@@ -485,7 +493,7 @@
   },
   "13125": {
     "name": "Ash, Frost and Storm",
-    "description": "30% increased Elemental Damage<br>10% chance to Freeze, Shock and Ignite<br>20% increased Effect of Non-Damaging Ailments<br>20% reduced Effect of Non-Damaging Ailments on you"
+    "description": "30% increased Elemental Damage<br>10% chance to Freeze, Shock and Ignite<br>20% increased Effect of Non-Damaging Ailments<br>20% reduced Effect of Chill and Shock on you"
   },
   "13131": {
     "name": "Nimbleness",
@@ -1051,9 +1059,17 @@
     "name": "Force Shaper",
     "description": "Gain 4% of Physical Damage as Extra Chaos Damage<br>4% increased Attack and Cast Speed<br>20% increased Physical Damage"
   },
+  "177879": {
+    "name": "Marked for Death",
+    "description": "Culling Strike against Marked Enemy<br>25% increased Damage with Hits and Ailments against Marked Enemy"
+  },
   "177885": {
     "name": "Gladiatoral Combat",
     "description": "2% increased Attack Damage per 75 Armour or Evasion Rating on Shield<br>+1% to Critical Strike Multiplier per 10 Maximum Energy Shield on Shield"
+  },
+  "178605": {
+    "name": "Malicious Intent",
+    "description": "Hexes you inflict have +4 Doom<br>20% increased Damage with Hits and Ailments against Cursed Enemies"
   },
   "179335": {
     "name": "Fatal Toxins",
@@ -1081,7 +1097,7 @@
   },
   "181521": {
     "name": "Swift Skewering",
-    "description": "15% increased Attack Physical Damage<br>5% increased Attack Speed<br>Impale Damage dealt to Enemies Impaled by you Overwhelms 10% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks"
+    "description": "5% increased Attack Speed<br>Impale Damage dealt to Enemies Impaled by you Overwhelms 10% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect"
   },
   "183709": {
     "name": "Death Attunement",
@@ -1489,7 +1505,7 @@
   },
   "708831": {
     "name": "Golem Commander",
-    "description": "20% increased Damage while you have a Summoned Golem<br>30% increased Effect of Buffs granted by your Golems<br>Golems have 15% increased Maximum Life<br>+1 to maximum number of Golems"
+    "description": "20% increased Damage while you have a Summoned Golem<br>30% increased Effect of Buffs granted by your Golems<br>Golems have 15% increased Maximum Life<br>+1 to maximum number of Summoned Golems"
   },
   "710775": {
     "name": "Heart of the Warrior",
@@ -1537,7 +1553,7 @@
   },
   "1063611": {
     "name": "Anointed Flesh",
-    "description": "+5% to all Elemental Resistances<br>+1% to all maximum Elemental Resistances<br>15% reduced Elemental Ailment Duration on you<br>15% reduced Effect of Non-Damaging Ailments on you"
+    "description": "+5% to all Elemental Resistances<br>+1% to all maximum Elemental Resistances<br>15% reduced Elemental Ailment Duration on you<br>15% reduced Effect of Chill and Shock on you"
   },
   "1065069": {
     "name": "Aspect of Stone",
