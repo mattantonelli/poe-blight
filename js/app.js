@@ -68,7 +68,7 @@ const app = new Vue({
     reset: function() {
       this.search = ''
       this.combo = []
-      this.myOils = _.fill(Array(12), 0)
+      this.myOils = _.fill(Array(13), 0)
     }
   },
   computed: {
