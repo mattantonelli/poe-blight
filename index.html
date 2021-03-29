@@ -119,6 +119,7 @@
       <tr>
         <th scope="col" v-on:click="sortBy('name')" v-html="sortHeader('Name')"></th>
         <th scope="col" v-on:click="sortBy('description')" v-html="sortHeader('Description')"></th>
+        <th scope="col" v-if="type !== 'map'">Oils</th>
       </tr>
     </thead>
     <tbody>
@@ -129,7 +130,11 @@
             <a href="#" @click.prevent="setCombo(anointment.value)">{{ anointment.name }}</a>
           </div>
         </td>
-        <td v-html="formatDescription(anointment)"></td>
+        <td class="description" v-html="formatDescription(anointment)"></td>
+        <td class="oils" v-if="type !== 'map'">
+          <img v-for="oil in getAnointmentCombo(anointment.value)" :src="oil.image"
+            :alt="oil.name" :title="oil.name" data-toggle="tooltip">
+        </td>
       </tr>
     </tbody>
   </table>

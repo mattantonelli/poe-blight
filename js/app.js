@@ -146,7 +146,7 @@ Vue.component('anointments-table', {
   },
   template: '#anointments-table',
   methods: {
-    setCombo: function(value) {
+    getAnointmentCombo: function(value) {
       value = parseInt(value)
 
       if (this.type === 'map') {
@@ -154,7 +154,7 @@ Vue.component('anointments-table', {
           return oil.value === value
         })
 
-        this.$parent.addOil(oil)
+        return [oil]
       } else {
         var combo = []
         const maxOils = this.$parent.maxOils
@@ -171,7 +171,20 @@ Vue.component('anointments-table', {
           value -= oil.value
         }
 
-        this.$parent.combo = combo
+        return combo
+      }
+    },
+    setCombo: function(value) {
+      value = parseInt(value)
+
+      if (this.type === 'map') {
+        const oil = _.find(this.$parent.oils, function(oil) {
+          return oil.value === value
+        })
+
+        this.$parent.addOil(oil)
+      } else {
+        this.$parent.combo = this.getAnointmentCombo(value)
       }
     },
     formatDescription: function(anointment) {
