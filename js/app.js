@@ -36,10 +36,20 @@ const app = new Vue({
     _.each(['passives', 'enchantments', 'maps'], function(type) {
       $.getJSON(`vendor/${type}.json`, function (data) {
         _.each(data, function(value, key) {
-          data[key]['value'] = parseInt(key)
+          const oilValue = parseInt(key)
+          data[key]['value'] = oilValue
+          if (type !== 'maps') {
+            data[key]['combo'] = self.getAnointmentCombo(oilValue, type)
+          }
         })
 
         self[type] = data
+
+        if (type === 'passives') {
+          Vue.nextTick(function() {
+            $('td.oils img').tooltip()
+          })
+        }
       })
     })
 
@@ -51,6 +61,32 @@ const app = new Vue({
     })
   },
   methods: {
+    getAnointmentCombo: function(value, type) {
+      var combo = []
+      const maxOils = this.getMaxOilsByType(type)
+
+      // Build up the oil combo by collecting the largest value oils usable
+      while (value > 0) {
+        const oil = _.maxBy(this.oils, function(oil) {
+          // if (value - oil.value >= 0) {
+          if (value - oil.value > 0 || (value - oil.value === 0 && (combo.length === maxOils - 1))) {
+            return oil.value
+          }
+        })
+
+        combo.push(oil)
+        value -= oil.value
+      }
+
+      return combo
+    },
+    getMaxOilsByType: function(type) {
+      if (type === 'ring' || type === 'enchantments') {
+        return 2
+      } else {
+        return 3
+      }
+    },
     addOil: function(oil) {
       if (this.combo.length < this.maxOils) {
         this.combo.push(oil)
@@ -64,6 +100,12 @@ const app = new Vue({
       this.search = ''
       this.combo = this.combo.slice(0, this.maxOils)
       $('.table-data').scrollTop(0)
+
+      // Create tooltips for newly rendered oil combo images
+      Vue.nextTick(function() {
+        $('td.oils img').tooltip('dispose')
+        $('td.oils img').tooltip()
+      })
     },
     reset: function() {
       this.search = ''
@@ -122,11 +164,7 @@ const app = new Vue({
       }
     },
     maxOils: function() {
-      if (this.type === 'ring') {
-        return 2
-      } else {
-        return 3
-      }
+      return this.getMaxOilsByType(this.type)
     }
   },
   watch: {
@@ -146,7 +184,7 @@ Vue.component('anointments-table', {
   },
   template: '#anointments-table',
   methods: {
-    setCombo: function(value) {
+    getAnointmentCombo: function(value) {
       value = parseInt(value)
 
       if (this.type === 'map') {
@@ -154,7 +192,7 @@ Vue.component('anointments-table', {
           return oil.value === value
         })
 
-        this.$parent.addOil(oil)
+        return [oil]
       } else {
         var combo = []
         const maxOils = this.$parent.maxOils
@@ -171,7 +209,18 @@ Vue.component('anointments-table', {
           value -= oil.value
         }
 
-        this.$parent.combo = combo
+        return combo
+      }
+    },
+    setCombo: function(anointment) {
+      if (this.type === 'map') {
+        const oil = _.find(this.$parent.oils, function(oil) {
+          return oil.value === parseInt(anointment.value)
+        })
+
+        this.$parent.addOil(oil)
+      } else {
+        this.$parent.combo = anointment.combo
       }
     },
     formatDescription: function(anointment) {
@@ -242,6 +291,7 @@ Vue.component('anointments-table', {
         })
       }
 
+      // Sort the anointments based on the selected column
       if (this.sortKey !== null) {
         const key = this.sortKey
         results = _.sortBy(_.values(results), function(result) { return result[key] })
