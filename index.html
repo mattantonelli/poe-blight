@@ -127,13 +127,12 @@
         <td class="name">
           <div class="d-flex align-items-center h-100">
             <img v-if="type !== 'amulet'" :src="anointment.image" class="icon mr-2">
-            <a href="#" @click.prevent="setCombo(anointment.value)">{{ anointment.name }}</a>
+            <a href="#" @click.prevent="setCombo(anointment)">{{ anointment.name }}</a>
           </div>
         </td>
         <td class="description" v-html="formatDescription(anointment)"></td>
         <td class="oils" v-if="type !== 'map'">
-          <img v-for="oil in getAnointmentCombo(anointment.value)" :src="oil.image"
-            :alt="oil.name" :title="oil.name" data-toggle="tooltip">
+          <img v-for="oil in anointment.combo" :src="oil.image" :alt="oil.name" :title="oil.name" data-toggle="tooltip">
         </td>
       </tr>
     </tbody>
