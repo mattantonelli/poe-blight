@@ -44,6 +44,12 @@ const app = new Vue({
         })
 
         self[type] = data
+
+        if (type === 'passives') {
+          Vue.nextTick(function() {
+            $('td.oils img').tooltip()
+          })
+        }
       })
     })
 
@@ -94,6 +100,12 @@ const app = new Vue({
       this.search = ''
       this.combo = this.combo.slice(0, this.maxOils)
       $('.table-data').scrollTop(0)
+
+      // Create tooltips for newly rendered oil combo images
+      Vue.nextTick(function() {
+        $('td.oils img').tooltip('dispose')
+        $('td.oils img').tooltip()
+      })
     },
     reset: function() {
       this.search = ''
