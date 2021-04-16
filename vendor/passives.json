@@ -77,7 +77,7 @@
   },
   "81": {
     "name": "Spirit Void",
-    "description": "0.8% of Attack Damage Leeched as Mana<br>25% increased Maximum total Recovery per second from Mana Leech<br>60% increased total Recovery per second from Mana Leech"
+    "description": "0.8% of Attack Damage Leeched as Mana<br>25% increased Maximum total Mana Recovery per second from Leech<br>60% increased total Recovery per second from Mana Leech"
   },
   "83": {
     "name": "Physique",
@@ -165,7 +165,7 @@
   },
   "271": {
     "name": "Martial Experience",
-    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased total Recovery per second from Life Leech<br>Overwhelm 12% Physical Damage Reduction"
+    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased Recovery per second from Life Leech<br>Overwhelm 12% Physical Damage Reduction"
   },
   "273": {
     "name": "Battle Rouse",
@@ -216,8 +216,8 @@
     "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>12% increased Area of Effect<br>+2 to Melee Strike Range with Maces and Sceptres"
   },
   "567": {
-    "name": "Red Storm",
-    "description": "+8% to Damage over Time Multiplier for Bleeding<br>Attacks have 15% chance to cause Bleeding<br>30% increased Physical Damage"
+    "name": "Vitality Extraction",
+    "description": "Recover 2% of Life on Kill if you've Spent Life Recently<br>25% increased Damage with Skills that Cost Life<br>Life Flasks gain 1 Charge every 3 seconds"
   },
   "729": {
     "name": "Slaughter",
@@ -234,6 +234,10 @@
   "757": {
     "name": "Risk Awareness",
     "description": "30% reduced Reflected Physical Damage taken<br>15% increased Physical Damage"
+  },
+  "759": {
+    "name": "Relentless",
+    "description": "Regenerate 1% of Life per second if you have Stunned an Enemy Recently<br>25% increased Physical Damage"
   },
   "837": {
     "name": "Blade Sovereign",
@@ -289,7 +293,7 @@
   },
   "2271": {
     "name": "Efficient Explosives",
-    "description": "25% increased Mine Damage<br>15% reduced Mana Reservation of Skills that throw Mines<br>Mines have a 10% chance to be Detonated an Additional Time"
+    "description": "25% increased Mine Damage<br>15% reduced Reservation of Skills that throw Mines<br>Mines have a 10% chance to be Detonated an Additional Time"
   },
   "2277": {
     "name": "Gemini",
@@ -477,7 +481,7 @@
   },
   "8991": {
     "name": "Light Eater",
-    "description": "0.8% of Spell Damage Leeched as Energy Shield<br>20% increased Maximum total Recovery per second from Energy Shield Leech<br>24% increased Damage while on Full Energy Shield"
+    "description": "0.8% of Spell Damage Leeched as Energy Shield<br>20% increased Maximum total Energy Shield Recovery per second from Leech<br>24% increased Damage while on Full Energy Shield"
   },
   "9477": {
     "name": "Bannerman",
@@ -637,7 +641,7 @@
   },
   "21951": {
     "name": "Essence Sap",
-    "description": "0.6% of Attack Damage Leeched as Mana<br>25% increased Maximum total Recovery per second from Mana Leech<br>+2 Mana gained for each Enemy hit by your Attacks<br>50% increased total Recovery per second from Mana Leech"
+    "description": "0.6% of Attack Damage Leeched as Mana<br>25% increased Maximum total Mana Recovery per second from Leech<br>+2 Mana gained for each Enemy hit by your Attacks<br>50% increased total Recovery per second from Mana Leech"
   },
   "22113": {
     "name": "Adamant",
@@ -969,7 +973,7 @@
   },
   "177147": {
     "name": "Tireless",
-    "description": "8% increased maximum Life<br>6% reduced Mana Cost of Skills"
+    "description": "8% increased maximum Life<br>6% reduced Cost of Skills"
   },
   "177149": {
     "name": "Arcing Blows",
@@ -1001,7 +1005,7 @@
   },
   "177177": {
     "name": "Soul Raker",
-    "description": "Claw Attacks deal 20% increased Damage with Hits and Ailments<br>1.2% of Attack Damage Leeched as Life<br>0.8% of Attack Damage Leeched as Mana<br>50% increased total Recovery per second from Life Leech"
+    "description": "Claw Attacks deal 20% increased Damage with Hits and Ailments<br>1.2% of Attack Damage Leeched as Life<br>0.8% of Attack Damage Leeched as Mana<br>50% increased Recovery per second from Life Leech"
   },
   "177183": {
     "name": "Tempest Blast",
@@ -1049,7 +1053,7 @@
   },
   "177471": {
     "name": "Gladiator's Perseverance",
-    "description": "20% increased Physical Damage with One Handed Melee Weapons<br>Attacks with One Handed Melee Weapons deal 20% increased Damage with Ailments<br>0.6% of Physical Attack Damage Leeched as Life<br>10% increased Maximum total Recovery per second from Life Leech<br>30% increased Attack Damage while Leeching"
+    "description": "20% increased Physical Damage with One Handed Melee Weapons<br>Attacks with One Handed Melee Weapons deal 20% increased Damage with Ailments<br>0.6% of Physical Attack Damage Leeched as Life<br>10% increased Maximum total Life Recovery per second from Leech<br>30% increased Attack Damage while Leeching"
   },
   "177633": {
     "name": "Bloodletting",
@@ -1067,6 +1071,10 @@
     "name": "Gladiatoral Combat",
     "description": "2% increased Attack Damage per 75 Armour or Evasion Rating on Shield<br>+1% to Critical Strike Multiplier per 10 Maximum Energy Shield on Shield"
   },
+  "177903": {
+    "name": "Vanquisher",
+    "description": "Crush Enemies for 4 seconds when you Hit them while they are on Full Life<br>40% increased Physical Damage"
+  },
   "178605": {
     "name": "Malicious Intent",
     "description": "Hexes you inflict have +4 Doom<br>20% increased Damage with Hits and Ailments against Cursed Enemies"
@@ -1081,7 +1089,7 @@
   },
   "179343": {
     "name": "Lucidity",
-    "description": "40% chance to Avoid being Stunned while Channelling<br>Channelling Skills deal 30% increased Damage<br>Channelling Skills have -3 to Total Mana Cost"
+    "description": "40% chance to Avoid being Stunned while Channelling<br>Channelling Skills deal 30% increased Damage<br>Channelling Skills have -3 to Total Cost"
   },
   "179361": {
     "name": "King of the Hill",
@@ -1157,7 +1165,7 @@
   },
   "199017": {
     "name": "Hematophagy",
-    "description": "1% of Physical Attack Damage Leeched as Life<br>15% increased Maximum total Recovery per second from Life Leech<br>100% increased total Recovery per second from Life Leech<br>30% increased Damage while Leeching"
+    "description": "1% of Physical Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>100% increased Recovery per second from Life Leech<br>30% increased Damage while Leeching"
   },
   "203391": {
     "name": "Overcharge",
@@ -1253,7 +1261,7 @@
   },
   "531441": {
     "name": "Sovereignty",
-    "description": "6% reduced Mana Reserved<br>10% increased effect of Non-Curse Auras from your Skills"
+    "description": "6% reduced Reservation of Skills<br>10% increased effect of Non-Curse Auras from your Skills"
   },
   "531443": {
     "name": "Lava Lash",
@@ -1343,6 +1351,10 @@
     "name": "No Witnesses",
     "description": "10% chance to gain Elusive on Kill<br>25% increased Elusive Effect"
   },
+  "532251": {
+    "name": "Veteran Soldier",
+    "description": "+10% to Physical Damage over Time Multiplier<br>+20 to maximum Life<br>20% increased Physical Damage"
+  },
   "533629": {
     "name": "Persistence",
     "description": "-10 Physical Damage taken from Hits<br>-1 Physical Damage taken from Hits per Level"
@@ -1369,7 +1381,7 @@
   },
   "535815": {
     "name": "Born to Fight",
-    "description": "4% increased Melee Attack Speed<br>+20 to Accuracy Rating<br>26% increased Melee Physical Damage<br>+20 to Strength"
+    "description": "4% increased Attack Speed<br>+20 to Accuracy Rating<br>+20 to Strength<br>26% increased Physical Damage"
   },
   "538003": {
     "name": "Druidic Rite",
@@ -1389,7 +1401,7 @@
   },
   "538083": {
     "name": "Champion of the Cause",
-    "description": "12% increased Area of Effect of Aura Skills<br>4% reduced Mana Reserved<br>6% increased effect of Non-Curse Auras from your Skills"
+    "description": "12% increased Area of Effect of Aura Skills<br>4% reduced Reservation of Skills<br>6% increased effect of Non-Curse Auras from your Skills"
   },
   "538245": {
     "name": "Survivalist",
@@ -1421,7 +1433,7 @@
   },
   "551205": {
     "name": "Hardened Scars",
-    "description": "15% increased Life Recovery from Flasks<br>You have Fortify during Effect of any Life Flask"
+    "description": "15% increased Life Recovery from Flasks<br>You have Fortify while Recovering Life from a Life Flask"
   },
   "551367": {
     "name": "Rampart",
@@ -1429,7 +1441,7 @@
   },
   "551853": {
     "name": "Discord Artisan",
-    "description": "Herald Skills have 20% increased Area of Effect<br>15% increased Damage for each Herald affecting you<br>10% reduced Mana Reservation of Herald Skills"
+    "description": "Herald Skills have 20% increased Area of Effect<br>15% increased Damage for each Herald affecting you<br>10% reduced Reservation of Herald Skills"
   },
   "553311": {
     "name": "Arcane Capacitor",
@@ -1461,7 +1473,7 @@
   },
   "590571": {
     "name": "Lust for Carnage",
-    "description": "12% increased Attack Speed<br>1.2% of Physical Attack Damage Leeched as Life<br>60% increased total Recovery per second from Life Leech"
+    "description": "12% increased Attack Speed<br>1.2% of Physical Attack Damage Leeched as Life<br>60% increased Recovery per second from Life Leech"
   },
   "590733": {
     "name": "Master of Force",
@@ -1485,7 +1497,7 @@
   },
   "708589": {
     "name": "Vitality Void",
-    "description": "0.8% of Attack Damage Leeched as Life<br>15% increased Maximum total Recovery per second from Life Leech<br>60% increased total Recovery per second from Life Leech"
+    "description": "0.8% of Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>60% increased Recovery per second from Life Leech"
   },
   "708591": {
     "name": "Natural Authority",
@@ -1493,7 +1505,7 @@
   },
   "708597": {
     "name": "Ethereal Feast",
-    "description": "0.6% of Spell Damage Leeched as Energy Shield<br>30% increased Maximum total Recovery per second from Energy Shield Leech<br>6% increased Attack and Cast Speed while Leeching Energy Shield"
+    "description": "0.6% of Spell Damage Leeched as Energy Shield<br>30% increased Maximum total Energy Shield Recovery per second from Leech<br>6% increased Attack and Cast Speed while Leeching Energy Shield"
   },
   "708615": {
     "name": "Resourcefulness",
@@ -1569,7 +1581,7 @@
   },
   "1121931": {
     "name": "Charisma",
-    "description": "8% reduced Mana Reserved<br>6% increased effect of Non-Curse Auras from your Skills"
+    "description": "8% reduced Reservation of Skills<br>6% increased effect of Non-Curse Auras from your Skills"
   },
   "1240029": {
     "name": "Constitution",
