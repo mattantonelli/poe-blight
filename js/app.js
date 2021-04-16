@@ -122,27 +122,30 @@ const app = new Vue({
         // Sum up the total values for each mod
         _.each(this.combo, function(oil) {
           const anointment = anointments[oil.value]
+
           if (mods[anointment.description]) {
             mods[anointment.description] += anointment.mod
           } else {
             mods[anointment.description] = anointment.mod
           }
+
+          // Handle anointments with multiple modifiers
+          if (_.has(anointment, 'mod2')) {
+            if (mods[anointment.description2]) {
+              mods[anointment.description2] += anointment.mod2
+            } else {
+              mods[anointment.description2] = anointment.mod2
+            }
+          }
         })
 
         // Add the implicit +5% pack size per oil
         const packSize = 'MOD% Monster pack size'
-        if (mods[packSize]) {
-          // If we use an oil with additional pack size, move it to the end of the list for consisteny
-          const size = mods[packSize]
-          delete mods[packSize]
-          mods[packSize] = size + this.combo.length * 5
-        } else {
-          mods[packSize] = this.combo.length * 5
-        }
+        mods[packSize] = this.combo.length * 5
 
         // Substitue the total mod values into the descriptions
         const description = _.map(mods, function(value, mod) {
-          return `${mod.replace('MOD', value)}`
+          return `${mod.replace(/MOD\d?/, value)}`
         })
 
         return { "description": _.join(description, '<br>') }
@@ -225,12 +228,13 @@ Vue.component('anointments-table', {
     },
     formatDescription: function(anointment) {
       if (this.type === 'map') {
-        // Substitue mod values into their descriptions. For oils with pack size, we need to add 5 extra.
-        if (anointment.description.match('pack size')) {
-          return anointment.description.replace('MOD', anointment.mod + 5)
-        } else {
-          return `${anointment.description.replace('MOD', anointment.mod)}<br>+5% Monster pack size`
+        description = `${anointment.description.replace('MOD', anointment.mod)}<br>`
+
+        if (_.has(anointment, 'mod2')) {
+          description += `${anointment.description2.replace('MOD2', anointment.mod2)}<br>`
         }
+
+        return description + '+5% Monster pack size'
       } else {
         return anointment.description
       }

@@ -19,33 +19,35 @@
   },
   "27": {
     "name": "Verdant Oil",
-    "description": "MOD% Monster pack size",
+    "description": "MOD% increased Experience gain",
     "image": "img/oils/verdant_oil.png",
-    "mod": 10
+    "mod": 35
   },
   "81": {
     "name": "Teal Oil",
-    "description": "MOD Blight Chests are Lucky",
+    "description": "Blight Monsters spawn MOD% faster",
+    "description2": "Encounter Duration is MOD2 seconds shorter",
     "image": "img/oils/teal_oil.png",
-    "mod": 5
+    "mod": 25,
+    "mod2": 40
   },
   "243": {
     "name": "Azure Oil",
-    "description": "MOD% increased Experience gain",
+    "description": "Varieties of Items contained in MOD Blight Chests are Lucky",
     "image": "img/oils/azure_oil.png",
-    "mod": 15
+    "mod": 4
   },
   "729": {
     "name": "Indigo Oil",
-    "description": "Towers deal MOD% More Damage",
+    "description": "Area contains up to MOD additional Blight Bosses",
     "image": "img/oils/indigo_oil.png",
-    "mod": 40
+    "mod": 3
   },
   "2187": {
     "name": "Violet Oil",
-    "description": "MOD% increased Quantity of Items found in this Area",
+    "description": "Lanes of Blight Encounters have MOD% chance for an additional Reward Chest",
     "image": "img/oils/violet_oil.png",
-    "mod": 30
+    "mod": 20
   },
   "6561": {
     "name": "Crimson Oil",
@@ -57,19 +59,19 @@
     "name": "Black Oil",
     "description": "MOD% chance for Blight Chests to drop an additional Reward",
     "image": "img/oils/black_oil.png",
-    "mod": 10
+    "mod": 6
   },
   "59049": {
     "name": "Opalescent Oil",
-    "description": "MOD% Monster pack size",
+    "description": "Varieties of Items contained in MOD Blight Chests are Lucky",
     "image": "img/oils/opalescent_oil.png",
-    "mod": 20
+    "mod": 15
   },
   "177147": {
     "name": "Silver Oil",
-    "description": "MOD Blight Chests are Lucky",
+    "description": "MOD% increased Item Quantity",
     "image": "img/oils/silver_oil.png",
-    "mod": 15
+    "mod": 65
   },
   "531441": {
     "name": "Golden Oil",
