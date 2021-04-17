@@ -25,7 +25,7 @@
   },
   "81": {
     "name": "Teal Oil",
-    "description": "Blight Monsters spawn MOD% faster",
+    "description": "Blight Monsters in Areas spawn MOD% faster",
     "description2": "Encounter Duration is MOD2 seconds shorter",
     "image": "img/oils/teal_oil.png",
     "mod": 25,
@@ -39,13 +39,13 @@
   },
   "729": {
     "name": "Indigo Oil",
-    "description": "Area contains up to MOD additional Blight Bosses",
+    "description": "Blight Encounters in Areas contain up to MOD additional Blight Bosses",
     "image": "img/oils/indigo_oil.png",
     "mod": 3
   },
   "2187": {
     "name": "Violet Oil",
-    "description": "Lanes of Blight Encounters have MOD% chance for an additional Reward Chest",
+    "description": "Lanes of Blight Encounters in Areas have MOD% chance for an additional Reward Chest",
     "image": "img/oils/violet_oil.png",
     "mod": 20
   },
@@ -57,7 +57,7 @@
   },
   "19683": {
     "name": "Black Oil",
-    "description": "MOD% chance for Blight Chests to drop an additional Reward",
+    "description": "MOD% chance for Blight Chests to contain an additional Reward",
     "image": "img/oils/black_oil.png",
     "mod": 6
   },
@@ -69,13 +69,13 @@
   },
   "177147": {
     "name": "Silver Oil",
-    "description": "MOD% increased Item Quantity",
+    "description": "MOD% increased Quantity of Items found in this Area",
     "image": "img/oils/silver_oil.png",
     "mod": 65
   },
   "531441": {
     "name": "Golden Oil",
-    "description": "MOD% chance for Blight Chests to drop an additional Reward",
+    "description": "MOD% chance for Blight Chests to contain an additional Reward",
     "image": "img/oils/golden_oil.png",
     "mod": 25
   }
