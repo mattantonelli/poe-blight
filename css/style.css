@@ -160,6 +160,7 @@ input {
 }
 
 .table-data {
+  min-height: 200px;
   max-height: 705px;
   overflow-y: auto;
   border-top: 1px solid #745A2F;
