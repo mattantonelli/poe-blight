@@ -1,3 +1,10 @@
+function refreshTableTooltips() {
+  Vue.nextTick(function() {
+    $('td.oils img').tooltip('dispose')
+    $('td.oils img').tooltip()
+  })
+}
+
 const app = new Vue({
   el: '#app',
   data: {
@@ -101,11 +108,7 @@ const app = new Vue({
       this.combo = this.combo.slice(0, this.maxOils)
       $('.table-data').scrollTop(0)
 
-      // Create tooltips for newly rendered oil combo images
-      Vue.nextTick(function() {
-        $('td.oils img').tooltip('dispose')
-        $('td.oils img').tooltip()
-      })
+      refreshTableTooltips()
     },
     reset: function() {
       this.search = ''
@@ -303,6 +306,8 @@ Vue.component('anointments-table', {
           results = _.reverse(results)
         }
       }
+
+      refreshTableTooltips()
 
       return results
     }
