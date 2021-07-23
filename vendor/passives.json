@@ -145,7 +145,7 @@
   },
   "247": {
     "name": "Dynamo",
-    "description": "20% increased maximum Mana<br>Guard Skills have 25% increased Duration<br>Recover 20% of Mana over 1 second when you use a Guard Skill"
+    "description": "20% increased maximum Mana<br>Guard Skills have 25% increased Duration<br>Recover 10% of Mana over 1 second when you use a Guard Skill"
   },
   "249": {
     "name": "Aspect of the Panther",
@@ -165,7 +165,7 @@
   },
   "271": {
     "name": "Martial Experience",
-    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased Recovery per second from Life Leech<br>Overwhelm 12% Physical Damage Reduction"
+    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased total Recovery per second from Life Leech<br>Overwhelm 12% Physical Damage Reduction"
   },
   "273": {
     "name": "Battle Rouse",
@@ -216,8 +216,8 @@
     "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>12% increased Area of Effect<br>+2 to Melee Strike Range with Maces and Sceptres"
   },
   "567": {
-    "name": "Vitality Extraction",
-    "description": "Recover 2% of Life on Kill if you've Spent Life Recently<br>25% increased Damage with Skills that Cost Life<br>Life Flasks gain 1 Charge every 3 seconds"
+    "name": "Cannibalistic Rite",
+    "description": "Recover 2% of Life on Kill if you've Spent Life Recently<br>25% increased Damage with Skills that Cost Life"
   },
   "729": {
     "name": "Slaughter",
@@ -321,7 +321,7 @@
   },
   "2457": {
     "name": "Forceful Skewering",
-    "description": "Impale Damage dealt to Enemies Impaled by you Overwhelms 10% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect<br>+20 to Strength"
+    "description": "Impale Damage dealt to Enemies Impaled by you Overwhelms 25% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect<br>+20 to Strength"
   },
   "2511": {
     "name": "Sacrifice",
@@ -597,7 +597,7 @@
   },
   "19953": {
     "name": "Command of the Elements",
-    "description": "6% increased Attack Speed while holding a Shield<br>40% increased Defences from Equipped Shield<br>Damage with Weapons Penetrates 4% Elemental Resistance<br>24% increased Elemental Damage with Attack Skills"
+    "description": "6% increased Attack Speed while holding a Shield<br>40% increased Defences from Equipped Shield<br>Attack Damage Penetrates 4% of Enemy Elemental Resistances<br>24% increased Elemental Damage with Attack Skills"
   },
   "20007": {
     "name": "Finesse",
@@ -645,7 +645,7 @@
   },
   "22113": {
     "name": "Adamant",
-    "description": "20% increased Armour<br>+400 to Armour while affected by a Guard Skill Buff<br>Regenerate 1.5% of Life per second while affected by a Guard Skill Buff"
+    "description": "20% increased Armour<br>+400 to Armour while affected by a Guard Skill Buff<br>Remove Bleeding when you use a Guard Skill<br>Remove Corrupted Blood when you use a Guard Skill"
   },
   "22599": {
     "name": "Brand Equity",
@@ -689,7 +689,7 @@
   },
   "32805": {
     "name": "Essence Extraction",
-    "description": "25% increased Mana Regeneration Rate<br>15% increased Flask Charges gained<br>Mana Flasks gain 1 Charge every 3 seconds<br>Remove a random Elemental Ailment when you use a Mana Flask"
+    "description": "25% increased Mana Regeneration Rate<br>20% increased Flask Charges gained<br>Remove a random Elemental Ailment when you use a Mana Flask"
   },
   "39367": {
     "name": "Lethal Assault",
@@ -869,7 +869,7 @@
   },
   "65619": {
     "name": "Command of Steel",
-    "description": "1% increased Damage per 1% Chance to Block Attack Damage<br>+3% Chance to Block Attack Damage while holding a Shield"
+    "description": "5% increased Attack Damage per 5% Chance to Block Attack Damage<br>+3% Chance to Block Attack Damage while holding a Shield"
   },
   "65637": {
     "name": "Retaliation",
@@ -918,6 +918,10 @@
   "78975": {
     "name": "Serpent Stance",
     "description": "40% increased Global Critical Strike Chance while wielding a Staff<br>+30% to Global Critical Strike Multiplier while wielding a Staff<br>+5% Chance to Block Attack Damage if you've dealt a Critical Strike Recently"
+  },
+  "79461": {
+    "name": "Careful Conservationist",
+    "description": "10% reduced Flask Charges used<br>Flasks applied to you have 5% increased Effect<br>20% increased Flask Charges gained if you've dealt a Critical Strike Recently"
   },
   "80919": {
     "name": "Claws of the Hawk",
@@ -1005,7 +1009,7 @@
   },
   "177177": {
     "name": "Soul Raker",
-    "description": "Claw Attacks deal 20% increased Damage with Hits and Ailments<br>1.2% of Attack Damage Leeched as Life<br>0.8% of Attack Damage Leeched as Mana<br>50% increased Recovery per second from Life Leech"
+    "description": "Claw Attacks deal 20% increased Damage with Hits and Ailments<br>1.2% of Attack Damage Leeched as Life<br>0.8% of Attack Damage Leeched as Mana<br>50% increased total Recovery per second from Life Leech"
   },
   "177183": {
     "name": "Tempest Blast",
@@ -1049,7 +1053,7 @@
   },
   "177417": {
     "name": "Forces of Nature",
-    "description": "Damage with Weapons Penetrates 6% Elemental Resistance<br>20% increased Elemental Damage with Attack Skills"
+    "description": "Attack Damage Penetrates 6% of Enemy Elemental Resistances<br>20% increased Elemental Damage with Attack Skills"
   },
   "177471": {
     "name": "Gladiator's Perseverance",
@@ -1089,7 +1093,7 @@
   },
   "179343": {
     "name": "Lucidity",
-    "description": "40% chance to Avoid being Stunned while Channelling<br>Channelling Skills deal 30% increased Damage<br>Channelling Skills have -3 to Total Cost"
+    "description": "40% chance to Avoid being Stunned while Channelling<br>Channelling Skills deal 30% increased Damage<br>Channelling Skills have -3 to Total Mana Cost"
   },
   "179361": {
     "name": "King of the Hill",
@@ -1101,11 +1105,15 @@
   },
   "179577": {
     "name": "Primeval Force",
-    "description": "Damage with Weapons Penetrates 5% Elemental Resistance<br>20% increased Elemental Damage during any Flask Effect<br>20% increased Elemental Damage with Attack Skills"
+    "description": "Attack Damage Penetrates 5% of Enemy Elemental Resistances<br>20% increased Elemental Damage during any Flask Effect<br>20% increased Elemental Damage with Attack Skills"
+  },
+  "180063": {
+    "name": "Asylum",
+    "description": "10% reduced Effect of Curses on you<br>10% increased Effect of Consecrated Ground you create<br>20% reduced Effect of Curses on you while on Consecrated Ground"
   },
   "181521": {
     "name": "Swift Skewering",
-    "description": "5% increased Attack Speed<br>Impale Damage dealt to Enemies Impaled by you Overwhelms 10% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect"
+    "description": "5% increased Attack Speed<br>Impale Damage dealt to Enemies Impaled by you Overwhelms 15% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect"
   },
   "183709": {
     "name": "Death Attunement",
@@ -1153,7 +1161,7 @@
   },
   "196857": {
     "name": "Profane Chemistry",
-    "description": "6% increased maximum Life<br>30% increased Life Recovery from Flasks<br>Flasks applied to you have 8% increased Effect"
+    "description": "6% increased maximum Life<br>30% increased Life Recovery from Flasks<br>Life Flasks gain 1 Charge every 3 seconds"
   },
   "196911": {
     "name": "Cruel Preparation",
@@ -1165,7 +1173,7 @@
   },
   "199017": {
     "name": "Hematophagy",
-    "description": "1% of Physical Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>100% increased Recovery per second from Life Leech<br>30% increased Damage while Leeching"
+    "description": "1% of Physical Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>100% increased total Recovery per second from Life Leech<br>30% increased Damage while Leeching"
   },
   "203391": {
     "name": "Overcharge",
@@ -1189,7 +1197,7 @@
   },
   "236223": {
     "name": "Divine Fervour",
-    "description": "25% increased Melee Critical Strike Chance<br>Damage with Weapons Penetrates 3% Elemental Resistance<br>24% increased Elemental Damage with Attack Skills<br>+10 to Strength and Intelligence"
+    "description": "25% increased Melee Critical Strike Chance<br>Attack Damage Penetrates 3% of Enemy Elemental Resistances<br>24% increased Elemental Damage with Attack Skills<br>+10 to Strength and Intelligence"
   },
   "236277": {
     "name": "Herbalism",
@@ -1198,6 +1206,10 @@
   "236439": {
     "name": "Blood Siphon",
     "description": "10% increased maximum Life<br>+10 Life gained on Kill<br>+20 to Strength"
+  },
+  "236925": {
+    "name": "Natural Remedies",
+    "description": "20% increased Flask Effect Duration<br>Flasks applied to you have 10% increased Effect<br>Remove Maim and Hinder when you use a Flask"
   },
   "238383": {
     "name": "Leadership",
@@ -1224,8 +1236,8 @@
     "description": "Dagger Attacks deal 24% increased Damage with Hits and Ailments<br>6% increased Attack Speed with Daggers<br>0.5% of Attack Damage Leeched as Life<br>0.5% of Attack Damage Leeched as Mana"
   },
   "354303": {
-    "name": "Primal Spirit",
-    "description": "15% increased maximum Mana<br>20% increased Mana Regeneration Rate<br>20% increased Flask Charges gained<br>+20 to Strength and Intelligence"
+    "name": "Arcane Chemistry",
+    "description": "15% increased maximum Mana<br>30% increased Mana Recovery from Flasks<br>Mana Flasks gain 1 Charge every 3 seconds"
   },
   "354321": {
     "name": "Instability",
@@ -1312,8 +1324,8 @@
     "description": "Dagger Attacks deal 20% increased Damage with Hits and Ailments<br>+20% to Critical Strike Multiplier with Daggers<br>+150 to Accuracy Rating with Daggers<br>25% increased Elusive Effect"
   },
   "531531": {
-    "name": "Arcane Chemistry",
-    "description": "15% increased maximum Mana<br>25% increased Mana Recovery from Flasks<br>10% reduced Flask Charges used<br>Flasks applied to you have 8% increased Effect"
+    "name": "Primal Spirit",
+    "description": "15% increased maximum Mana<br>20% increased Flask Charges gained<br>Flasks applied to you have 10% increased Effect<br>+20 to Strength and Intelligence"
   },
   "531549": {
     "name": "Influence",
@@ -1473,7 +1485,7 @@
   },
   "590571": {
     "name": "Lust for Carnage",
-    "description": "12% increased Attack Speed<br>1.2% of Physical Attack Damage Leeched as Life<br>60% increased Recovery per second from Life Leech"
+    "description": "12% increased Attack Speed<br>1.2% of Physical Attack Damage Leeched as Life<br>60% increased total Recovery per second from Life Leech"
   },
   "590733": {
     "name": "Master of Force",
@@ -1497,7 +1509,7 @@
   },
   "708589": {
     "name": "Vitality Void",
-    "description": "0.8% of Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>60% increased Recovery per second from Life Leech"
+    "description": "0.8% of Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>60% increased total Recovery per second from Life Leech"
   },
   "708591": {
     "name": "Natural Authority",
