@@ -38,24 +38,26 @@
   <body>
     <div class="container-fluid" id="app">
       <div class="row mt-3">
-        <div class="col-12 col-lg-4 offset-lg-1">
+        <div class="col-12 col-lg-5 col-xl-4 offset-xl-1">
           <div class="d-flex flex-column align-items-center">
             <div class="anointing px-3 py-2">
               <h1 class="text-center">{{ _.capitalize(type) }} Anointing</h1>
               <div class="d-flex justify-content-center my-3">
-                <img v-on:click="setType('amulet')" src="img/amulet.png" alt="Anoint Amulet" class="type-select mr-3"
+                <img v-on:click="setType('amulet')" src="img/amulet.png" alt="Anoint Amulet" class="type-select"
                   :class="type === 'amulet' ? '' : 'faded'">
-                <img v-on:click="setType('ring')" src="img/ring.png" alt="Anoint Ring" class="type-select mr-3"
+                <img v-on:click="setType('ring')" src="img/ring.png" alt="Anoint Ring" class="type-select"
                   :class="type === 'ring' ? '' : 'faded'">
                 <img v-on:click="setType('map')" src="img/map.png" alt="Anoint Map" class="type-select"
                   :class="type === 'map' ? '' : 'faded'">
+                <img v-on:click="setType('ravaged')" src="img/ravaged.png" alt="Anoint Ravaged Map" class="type-select"
+                  :class="type === 'ravaged' ? '' : 'faded'">
               </div>
-              <div class="d-flex justify-content-center">
-                <div v-for="(oil, i) in combo" class="oil-select boxed">
+              <div class="d-flex flex-wrap justify-content-center oil-select">
+                <div v-for="(oil, i) in combo" class="boxed">
                   <img v-on:click="removeOil(i)" :src="oil.image" :alt="oil.name" :title="oil.name"
                     data-toggle="tooltip" class="oil">
                 </div>
-                <div v-for="n in (maxOils - combo.length)" class="oil-select boxed"></div>
+                <div v-for="n in (maxOils - combo.length)" class="boxed"></div>
               </div>
             </div>
             <div class="anointment mt-3 p-3 w-100">
@@ -63,19 +65,21 @@
                 <div>
                   <h3 class="name">
                     <img v-if="type === 'ring'":src="anointment.image" class="icon">
-                    {{ type === 'map' ? 'Blighted Map Modifiers' : anointment.name }}
+                    {{ isMapType() ? 'Blighted Map Modifiers' : anointment.name }}
                   </h3>
                   <p v-html="anointment.description" class="description mb-0"></p>
                 </div>
               </div>
             </div>
-            <div class="d-flex flex-wrap justify-content-center px-xl-4 mx-xl-4 my-3">
-              <img v-for="oil in oils" v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil boxed mr-2 mt-2"
-                :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
+            <div class="d-flex flex-wrap justify-content-center mx-xl-5">
+              <div v-for="oil in oils" class="boxed">
+                <img v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil"
+                  :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-6 offset-lg-1 mt-4 mt-lg-0 mx-auto">
+        <div class="col-12 col-lg-5 offset-lg-1 col-xl-6 mt-4 mt-lg-0 mx-auto">
           <div class="d-flex align-items-center mb-2">
             <input type="text" name="search" v-model="search" placeholder="Search by name or description..." class="flex-grow-1">
             <button type="button" class="btn btn-sm ml-4" v-on:click="reset()">Reset All</button>
@@ -119,7 +123,7 @@
       <tr>
         <th scope="col" v-on:click="sortBy('name')" v-html="sortHeader('Name')"></th>
         <th scope="col" v-on:click="sortBy('description')" v-html="sortHeader('Description')"></th>
-        <th scope="col" v-if="type !== 'map'">Oils</th>
+        <th scope="col" v-if="!isMapType()">Oils</th>
       </tr>
     </thead>
     <tbody>
@@ -131,7 +135,7 @@
           </div>
         </td>
         <td class="description" v-html="formatDescription(anointment)"></td>
-        <td class="oils" v-if="type !== 'map'">
+        <td class="oils" v-if="!isMapType()">
           <img v-for="oil in anointment.combo" :src="oil.image" :alt="oil.name" :title="oil.name" data-toggle="tooltip">
         </td>
       </tr>

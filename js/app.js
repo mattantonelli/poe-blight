@@ -90,13 +90,26 @@ const app = new Vue({
     getMaxOilsByType: function(type) {
       if (type === 'ring' || type === 'enchantments') {
         return 2
+      } else if (type === 'ravaged') {
+        return 9
       } else {
         return 3
       }
     },
+    isMapType: function() {
+      return this.type === 'map' || this.type === 'ravaged'
+    },
     addOil: function(oil) {
       if (this.combo.length < this.maxOils) {
-        this.combo.push(oil)
+        if (this.type === 'ravaged') {
+          // Ensure an oil appears no more than 3 times in a ravaged combo
+          quantity = _.countBy(this.combo, 'value')[oil.value] || 0
+          if (quantity < 3) {
+            this.combo.push(oil)
+          }
+        } else {
+          this.combo.push(oil)
+        }
       }
     },
     removeOil: function(index) {
@@ -118,7 +131,7 @@ const app = new Vue({
   },
   computed: {
     anointment: function() {
-      if (this.combo.length > 0 && this.type === 'map') {
+      if (this.combo.length > 0 && this.isMapType()) {
         const anointments = this.anointments
         var mods = {}
 
@@ -165,7 +178,7 @@ const app = new Vue({
         return this.passives
       } else if (this.type === 'ring') {
         return this.enchantments
-      } else if (this.type === 'map') {
+      } else if (this.isMapType()) {
         return this.maps
       }
     },
@@ -190,10 +203,13 @@ Vue.component('anointments-table', {
   },
   template: '#anointments-table',
   methods: {
+    isMapType: function() {
+      return app.isMapType()
+    },
     getAnointmentCombo: function(value) {
       value = parseInt(value)
 
-      if (this.type === 'map') {
+      if (this.isMapType()) {
         const oil = _.find(this.$parent.oils, function(oil) {
           return oil.value === value
         })
@@ -219,7 +235,7 @@ Vue.component('anointments-table', {
       }
     },
     setCombo: function(anointment) {
-      if (this.type === 'map') {
+      if (this.isMapType()) {
         const oil = _.find(this.$parent.oils, function(oil) {
           return oil.value === parseInt(anointment.value)
         })
@@ -230,7 +246,7 @@ Vue.component('anointments-table', {
       }
     },
     formatDescription: function(anointment) {
-      if (this.type === 'map') {
+      if (this.isMapType()) {
         description = `${anointment.description.replace('MOD', anointment.mod)}<br>`
 
         if (_.has(anointment, 'mod2')) {
@@ -264,7 +280,7 @@ Vue.component('anointments-table', {
       const search = this.search.toLowerCase()
       const oils = _.map(this.myOils, function(x) { return parseInt(x) })
       const oilCount = _.sum(oils)
-      const maxOils = this.type === 'map' ? 1 : this.$parent.maxOils
+      const maxOils = this.isMapType() ? 1 : this.$parent.maxOils
       const type = this.type
       var results = this.anointments
 

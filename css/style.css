@@ -67,12 +67,22 @@ a:hover {
 .anointing {
   border: 3px solid #745A2F;
   border-radius: 2px;
-  min-width: 350px;
+  min-width: 400px;
+  max-width: 400px;
+}
+
+.boxed img {
+  width: 50px;
+  height: 50px;
+  margin: 2px;
 }
 
 .boxed {
+  margin: 1rem;
   border: 2px solid #A08C4A;
   background-color: #1A1A1A;
+  width: 58px;
+  height: 58px;
 }
 
 .oil:hover {
@@ -83,6 +93,10 @@ a:hover {
 .oil.disabled {
   cursor: not-allowed;
   opacity: 0.5;
+}
+
+.type-select:not(:last-child) {
+  margin-right: 1rem;
 }
 
 .type-select:hover {
@@ -98,13 +112,7 @@ a:hover {
 }
 
 .oil-select {
-  width: 82px;
-  height: 82px;
-  margin: 1rem 0;
-}
-
-.oil-select:not(:last-child) {
-  margin-right: 2rem;
+  padding: 0 30px;
 }
 
 .anointment {
