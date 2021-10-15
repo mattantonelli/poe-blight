@@ -282,12 +282,12 @@ Vue.component('anointments-table', {
       const oilCount = _.sum(oils)
       const maxOils = this.isMapType() ? 1 : this.$parent.maxOils
       const type = this.type
+      const fuse = new Fuse(_.values(this.anointments), { keys: ['name', 'description'], threshold: '0.5' })
       var results = this.anointments
 
-      if (search !== '') {
-        results = _.pickBy(results, function(anointment) {
-          return anointment.name.toLowerCase().indexOf(search) > -1 ||
-            anointment.description.toLowerCase().indexOf(search) > -1
+      if (search.length > 2) {
+        results = _.map(fuse.search(search), function (result, _) {
+          return result['item']
         })
       }
 
