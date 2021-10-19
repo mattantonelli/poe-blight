@@ -242,7 +242,7 @@ Vue.component('anointments-table', {
 
         this.$parent.addOil(oil)
       } else {
-        this.$parent.combo = anointment.combo
+        this.$parent.combo = [...anointment.combo]
       }
     },
     formatDescription: function(anointment) {
