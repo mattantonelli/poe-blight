@@ -469,7 +469,7 @@
   },
   "8751": {
     "name": "Redemption",
-    "description": "Minions have 10% increased Movement Speed<br>Minions have 10% increased Attack Speed<br>Minions have 10% increased Cast Speed"
+    "description": "Minions deal 20% increased Damage<br>Minions have 10% increased Attack Speed<br>Minions have 10% increased Cast Speed"
   },
   "8757": {
     "name": "Utmost Intellect",
@@ -1133,7 +1133,7 @@
   },
   "183735": {
     "name": "Lord of the Dead",
-    "description": "Minions have 15% increased maximum Life<br>Minions deal 15% increased Damage<br>+1 to Maximum number of Raised Zombies<br>+1 to Maximum number of Skeletons"
+    "description": "Minions have 15% increased maximum Life<br>Minions deal 20% increased Damage<br>+1 to Maximum number of Raised Zombies<br>+1 to Maximum number of Skeletons"
   },
   "183789": {
     "name": "Blunt Trauma",
