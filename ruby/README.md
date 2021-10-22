@@ -12,12 +12,10 @@ These Ruby scripts are used to generate the latest versions of the application's
 #### Option 1: Use the GitHub data
 
 ```
-cd tmp
-rm data.json
-wget https://raw.githubusercontent.com/grindinggear/skilltree-export/master/data.json
-cd ..
-ruby generate_passives.rb
+./fetch_skill_tree.sh
 ```
+
+This shell script will fetch the latest skill tree data from GGG's [GitHub](https://github.com/grindinggear/skilltree-export) repository and run the Ruby script to generate the passive data. Alternatively, you can download the file manually and save it to `tmp/data.json`.
 
 #### Option 2: Use the live passive tree data
 
