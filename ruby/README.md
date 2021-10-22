@@ -9,7 +9,15 @@ These Ruby scripts are used to generate the latest versions of the application's
 ## Usage
 ### Passives
 
-#### Option 1: Use the live passive tree data
+#### Option 1: Use the GitHub data
+
+```
+./fetch_skill_tree.sh
+```
+
+This shell script will fetch the latest skill tree data from GGG's [GitHub](https://github.com/grindinggear/skilltree-export) repository and run the Ruby script to generate the passive data. Alternatively, you can download the file manually and save it to `tmp/data.json`.
+
+#### Option 2: Use the live passive tree data
 
 ```
 ruby generate_passives.rb live
@@ -17,25 +25,13 @@ ruby generate_passives.rb live
 
 **Note:** The `live` option will also save the passive data to `tmp/data.json`. This allows you to run the script again *without* the `live` option to avoid having to re-download the data.
 
-#### Option 2: Use the pre-patch data
-
-Download the passive tree data when it becomes available. Modify the URL and filenames as appropriate.
-
-```
-cd tmp
-wget https://web.poecdn.com/public/news/2020-03-14/Delirium/3100_PassiveSkillTree.zip
-unzip 3100_PassiveSkillTree.zip
-mv 3100/data.json .
-rm -rf 3100*
-cd ..
-ruby generate_passives.rb
-```
-
 ---
 
 After running the script, the `passives.json` file used by the application will be updated with the latest data.
 
 ### Tower Enchantments
+
+Follow these additional instructions to update tower enchantment data if it has changed.
 
 ##### 1. Update `enchantments.csv` with the latest data
 
