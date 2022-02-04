@@ -397,7 +397,7 @@
   },
   "6591": {
     "name": "Master Fletcher",
-    "description": "15% increased Attack Speed with Bows<br>20% increased Accuracy Rating with Bows<br>20% increased Arrow Speed"
+    "description": "15% increased Attack Speed with Bows<br>20% increased Accuracy Rating with Bows<br>20% increased Projectile Speed"
   },
   "6597": {
     "name": "Primal Manifestation",
@@ -505,7 +505,7 @@
   },
   "13131": {
     "name": "Nimbleness",
-    "description": "8% increased Cast Speed<br>+15% to Critical Strike Multiplier for Spells"
+    "description": "8% increased Cast Speed<br>+15% to Critical Strike Multiplier for Spell Damage"
   },
   "13149": {
     "name": "Arcane Focus",
@@ -529,7 +529,7 @@
   },
   "19685": {
     "name": "Annihilation",
-    "description": "50% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spells"
+    "description": "50% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spell Damage"
   },
   "19687": {
     "name": "Testudo",
@@ -561,7 +561,7 @@
   },
   "19719": {
     "name": "Rampart",
-    "description": "40% increased Attack Damage while you have at least 20 Fortification<br>Fortifying Hits against Unique Enemies grant 100% increased Fortification"
+    "description": "40% increased Damage with Attack Skills while you have at least 20 Fortification<br>Fortifying Hits against Unique Enemies grant 100% increased Fortification"
   },
   "19737": {
     "name": "Trickery",
@@ -1173,7 +1173,7 @@
   },
   "197073": {
     "name": "Arcane Potency",
-    "description": "30% increased Critical Strike Chance for Spells<br>+30% to Critical Strike Multiplier for Spells"
+    "description": "30% increased Critical Strike Chance for Spells<br>+30% to Critical Strike Multiplier for Spell Damage"
   },
   "199017": {
     "name": "Hematophagy",
@@ -1349,7 +1349,7 @@
   },
   "531693": {
     "name": "Doom Cast",
-    "description": "60% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spells"
+    "description": "60% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spell Damage"
   },
   "531711": {
     "name": "Breath of Flames",
