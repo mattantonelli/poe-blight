@@ -26,7 +26,7 @@
   },
   "18": {
     "name": "Scout Tower Damage",
-    "description": "Minions summoned by Your Scout Tower have 25% increased Damage",
+    "description": "Minions summoned by Your Scout Towers have 25% increased Damage",
     "image": "img/towers/scout.png"
   },
   "28": {
@@ -356,7 +356,7 @@
   },
   "177390": {
     "name": "Scout Tower Life",
-    "description": "Minions summoned by Your Scout Towers have 50% increased Life",
+    "description": "Your Scout Towers summon an additional minion",
     "image": "img/towers/scout.png"
   },
   "177876": {
