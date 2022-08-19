@@ -61,7 +61,7 @@
   },
   "45": {
     "name": "Quickstep",
-    "description": "+6% chance to Suppress Spell Damage<br>6% increased Movement Speed"
+    "description": "+10% chance to Suppress Spell Damage<br>6% increased Movement Speed"
   },
   "55": {
     "name": "Path of the Hunter",
@@ -149,7 +149,7 @@
   },
   "249": {
     "name": "Instinct",
-    "description": "+10% chance to Suppress Spell Damage<br>Recover 50 Energy Shield when you Suppress Spell Damage"
+    "description": "+12% chance to Suppress Spell Damage<br>Recover 50 Energy Shield when you Suppress Spell Damage"
   },
   "253": {
     "name": "Poisonous Fangs",
@@ -160,8 +160,8 @@
     "description": "20% increased Duration of Elemental Ailments on Enemies<br>20% increased Elemental Damage<br>20% increased Effect of Non-Damaging Ailments"
   },
   "261": {
-    "name": "Hasty Reconstruction",
-    "description": "30% increased Cooldown Recovery Rate for throwing Traps<br>Skills which Throw Traps have +1 Cooldown Use"
+    "name": "Overprepared",
+    "description": "Skills which Throw Traps have +1 Cooldown Use"
   },
   "271": {
     "name": "Martial Experience",
@@ -247,6 +247,10 @@
     "name": "Divine Fervour",
     "description": "20% increased Attack Damage<br>30% increased Melee Critical Strike Chance<br>+10 to Strength and Intelligence"
   },
+  "1467": {
+    "name": "High Voltage",
+    "description": "100% increased Critical Strike Chance against Shocked Enemies"
+  },
   "2187": {
     "name": "Powerful Bond",
     "description": "Link Skills have 20% increased Buff Effect<br>Link Skills have 10% increased Skill Effect Duration"
@@ -285,7 +289,7 @@
   },
   "2223": {
     "name": "Silent Steps",
-    "description": "20% increased Evasion Rating<br>30% increased Blind Effect"
+    "description": "20% increased Evasion Rating<br>40% increased Blind Effect"
   },
   "2241": {
     "name": "Totemic Zeal",
@@ -317,7 +321,7 @@
   },
   "2433": {
     "name": "Entrench",
-    "description": "+10% chance to Suppress Spell Damage<br>Life Flasks gain 3 Charges when you Suppress Spell Damage"
+    "description": "+12% chance to Suppress Spell Damage<br>Life Flasks gain 3 Charges when you Suppress Spell Damage"
   },
   "2439": {
     "name": "Kinetic Impacts",
@@ -349,7 +353,7 @@
   },
   "4383": {
     "name": "Intuition",
-    "description": "+5% chance to Suppress Spell Damage<br>15% increased Evasion Rating<br>5% increased maximum Life"
+    "description": "+8% chance to Suppress Spell Damage<br>15% increased Evasion Rating<br>5% increased maximum Life"
   },
   "4401": {
     "name": "Spinecruncher",
@@ -361,7 +365,7 @@
   },
   "4617": {
     "name": "Courage",
-    "description": "30% increased Armour if you have been Hit Recently<br>30% increased Evasion Rating if you haven't been Hit Recently<br>+10% chance to Suppress Spell Damage if you've Hit an Enemy Recently"
+    "description": "30% increased Armour if you have been Hit Recently<br>30% increased Evasion Rating if you haven't been Hit Recently<br>+15% chance to Suppress Spell Damage if you've Hit an Enemy Recently"
   },
   "6561": {
     "name": "Enigmatic Defence",
@@ -445,7 +449,7 @@
   },
   "6885": {
     "name": "Fearsome Force",
-    "description": "Minions have 15% increased Area of Effect<br>Minions have 15% increased Area of Effect if you have used a Minion Skill Recently"
+    "description": "Minions have 60% increased Critical Strike Chance<br>Minions have +20% to Critical Strike Multiplier"
   },
   "7047": {
     "name": "Holy Dominion",
@@ -953,7 +957,7 @@
   },
   "118125": {
     "name": "Resourcefulness",
-    "description": "+5% chance to Suppress Spell Damage<br>10% increased maximum Energy Shield<br>5% increased maximum Life"
+    "description": "+8% chance to Suppress Spell Damage<br>10% increased maximum Energy Shield<br>5% increased maximum Life"
   },
   "118179": {
     "name": "One with the River",
@@ -1145,7 +1149,7 @@
   },
   "185895": {
     "name": "Indomitable Army",
-    "description": "Minions have 15% increased maximum Life<br>Minions have 15% additional Physical Damage Reduction<br>Minions have +15% to all Elemental Resistances<br>Moving while Bleeding doesn't cause Minions to take extra Damage"
+    "description": "Minions have 15% additional Physical Damage Reduction<br>Minions have +15% to all Elemental Resistances<br>Moving while Bleeding doesn't cause Minions to take extra Damage"
   },
   "190269": {
     "name": "Devotion",
@@ -1469,7 +1473,7 @@
   },
   "570807": {
     "name": "Inveterate",
-    "description": "Prevent +3% of Suppressed Spell Damage<br>+12% chance to Suppress Spell Damage"
+    "description": "Prevent +3% of Suppressed Spell Damage<br>+15% chance to Suppress Spell Damage"
   },
   "590491": {
     "name": "Mana Flows",
