@@ -277,7 +277,7 @@
   },
   "2205": {
     "name": "Soul Siphon",
-    "description": "+20 to maximum Mana<br>18% increased maximum Mana<br>+10 Mana gained on Kill"
+    "description": "+20 to maximum Mana<br>18% increased maximum Mana<br>Gain 10 Mana per Enemy Killed"
   },
   "2215": {
     "name": "Deep Thoughts",
@@ -597,7 +597,7 @@
   },
   "19929": {
     "name": "Primal Spirit",
-    "description": "20% increased maximum Mana<br>Gain 4 Mana per Enemy Hit by Attacks if you've used a Mana Flask in the past 10 seconds<br>+20 to Strength and Intelligence"
+    "description": "20% increased maximum Mana<br>Gain 4 Mana per Enemy Hit with Attacks if you've used a Mana Flask in the past 10 seconds<br>+20 to Strength and Intelligence"
   },
   "19935": {
     "name": "Ambidexterity",
@@ -1017,7 +1017,7 @@
   },
   "177177": {
     "name": "Life Raker",
-    "description": "12% increased Attack Speed with Claws<br>12% increased Accuracy Rating with Claws<br>+6 Life gained for each Enemy hit by your Attacks"
+    "description": "12% increased Attack Speed with Claws<br>12% increased Accuracy Rating with Claws<br>Gain 6 Life per Enemy Hit with Attacks"
   },
   "177183": {
     "name": "Tempest Blast",
@@ -1101,7 +1101,7 @@
   },
   "179343": {
     "name": "Taste for Blood",
-    "description": "0.5% of Attack Damage Leeched as Life<br>10% increased Maximum total Life Recovery per second from Leech<br>+10 Life gained for each Enemy hit by your Attacks"
+    "description": "0.5% of Attack Damage Leeched as Life<br>10% increased Maximum total Life Recovery per second from Leech<br>Gain 10 Life per Enemy Hit with Attacks"
   },
   "179361": {
     "name": "King of the Hill",
@@ -1213,7 +1213,7 @@
   },
   "236439": {
     "name": "Blood Siphon",
-    "description": "10% increased maximum Life<br>+10 Life gained on Kill<br>+20 to Strength"
+    "description": "10% increased maximum Life<br>Gain 10 Life per Enemy Killed<br>+20 to Strength"
   },
   "236925": {
     "name": "Natural Remedies",
