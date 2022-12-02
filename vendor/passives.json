@@ -377,7 +377,7 @@
   },
   "6565": {
     "name": "Galvanic Hammer",
-    "description": "10% increased Accuracy Rating with Maces or Sceptres<br>30% increased Elemental Damage with Maces or Sceptres<br>Damage with Weapons Penetrates 5% Elemental Resistance"
+    "description": "10% increased Accuracy Rating with Maces or Sceptres<br>30% increased Elemental Damage with Maces or Sceptres<br>Damage with Weapons Penetrates 5% Elemental Resistances"
   },
   "6567": {
     "name": "Precision",
@@ -661,7 +661,7 @@
   },
   "24057": {
     "name": "Graceful Assault",
-    "description": "30% increased Onslaught Effect<br>10% chance to gain Onslaught for 4 seconds on Kill<br>30% increased Armour and Evasion Rating during Onslaught"
+    "description": "30% increased Effect of Onslaught on you<br>10% chance to gain Onslaught for 4 seconds on Kill<br>30% increased Armour and Evasion Rating during Onslaught"
   },
   "26245": {
     "name": "Arcanist's Dominion",
@@ -704,8 +704,8 @@
     "description": "+15% to Damage over Time Multiplier"
   },
   "39369": {
-    "name": "Carrion",
-    "description": "Enemies Cursed by you have 50% reduced Life Regeneration Rate<br>Regenerate 2% of Life per second if you've Hit a Cursed Enemy Recently"
+    "name": "Last Rites",
+    "description": "Cursed Enemies you Kill are destroyed<br>Enemies Cursed by you have 50% reduced Life Regeneration Rate<br>Enemies you Curse cannot Recharge Energy Shield"
   },
   "39375": {
     "name": "Magmatic Strikes",
@@ -936,8 +936,8 @@
     "description": "60% increased Critical Strike Chance with Claws<br>+20% to Critical Strike Multiplier with Claws"
   },
   "85293": {
-    "name": "Hex Master",
-    "description": "50% increased Area of Effect of Hex Skills<br>Hex Skills have 100% increased Skill Effect Duration"
+    "name": "Defiled Forces",
+    "description": "Refresh Duration of Ignite, Chill and Shock on Enemies you Curse<br>Remove Elemental Ailments when you Cast a Curse Spell"
   },
   "98415": {
     "name": "Way of the Warrior",
@@ -949,7 +949,7 @@
   },
   "118101": {
     "name": "Prism Weave",
-    "description": "6% increased Attack Speed with Wands<br>24% increased Elemental Damage with Wands<br>Damage with Weapons Penetrates 5% Elemental Resistance"
+    "description": "6% increased Attack Speed with Wands<br>24% increased Elemental Damage with Wands<br>Damage with Weapons Penetrates 5% Elemental Resistances"
   },
   "118107": {
     "name": "Fatal Blade",
@@ -961,7 +961,7 @@
   },
   "118179": {
     "name": "One with the River",
-    "description": "30% increased Elemental Damage with Staves<br>Damage with Weapons Penetrates 5% Elemental Resistance"
+    "description": "30% increased Elemental Damage with Staves<br>Damage with Weapons Penetrates 5% Elemental Resistances"
   },
   "118341": {
     "name": "Volatile Mines",
@@ -1089,7 +1089,7 @@
   },
   "178605": {
     "name": "Malicious Intent",
-    "description": "Hexes you inflict have +4 Doom<br>20% increased Damage with Hits and Ailments against Cursed Enemies"
+    "description": "+2 to Level of all Curse Skill Gems"
   },
   "179335": {
     "name": "Fatal Toxins",
@@ -1277,7 +1277,7 @@
   },
   "413343": {
     "name": "Skittering Runes",
-    "description": "10% increased Effect of your Curses<br>Hexes you inflict have +10 to maximum Doom"
+    "description": "50% increased Area of Effect of Hex Skills<br>20% increased Mana Reservation Efficiency of Curse Aura Skills<br>20% reduced Mana Cost of Curse Skills"
   },
   "531441": {
     "name": "Sovereignty",
@@ -1553,7 +1553,7 @@
   },
   "767637": {
     "name": "Tribal Fury",
-    "description": "Strike Skills target 1 additional nearby Enemy"
+    "description": "Melee Strike Skills deal Splash Damage to surrounding targets"
   },
   "885735": {
     "name": "Spiritual Aid",
