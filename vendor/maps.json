@@ -3,39 +3,39 @@
     "name": "Clear Oil",
     "description": "MOD% reduced Monster Movement Speed",
     "image": "img/oils/clear_oil.png",
-    "mod": 10
+    "mod": 12
   },
   "3": {
     "name": "Sepia Oil",
     "description": "Towers deal MOD% more Damage",
     "image": "img/oils/sepia_oil.png",
-    "mod": 20
+    "mod": 25
   },
   "9": {
     "name": "Amber Oil",
     "description": "MOD% reduced Cost of Building and Upgrading Towers",
     "image": "img/oils/amber_oil.png",
-    "mod": 20
+    "mod": 25
   },
   "27": {
     "name": "Verdant Oil",
     "description": "MOD% increased Experience gain",
     "image": "img/oils/verdant_oil.png",
-    "mod": 35
+    "mod": 45
   },
   "81": {
     "name": "Teal Oil",
     "description": "Blight Monsters in Areas spawn MOD% faster",
     "description2": "Encounter Duration is MOD2 seconds shorter",
     "image": "img/oils/teal_oil.png",
-    "mod": 25,
-    "mod2": 40
+    "mod": 30,
+    "mod2": 50
   },
   "243": {
     "name": "Azure Oil",
     "description": "Varieties of Items contained in MOD Blight Chests are Lucky",
     "image": "img/oils/azure_oil.png",
-    "mod": 4
+    "mod": 5
   },
   "729": {
     "name": "Indigo Oil",
@@ -47,36 +47,36 @@
     "name": "Violet Oil",
     "description": "Lanes of Blight Encounters in Areas have MOD% chance for an additional Reward Chest",
     "image": "img/oils/violet_oil.png",
-    "mod": 20
+    "mod": 25
   },
   "6561": {
     "name": "Crimson Oil",
     "description": "MOD Blight Chests are Lucky",
     "image": "img/oils/crimson_oil.png",
-    "mod": 10
+    "mod": 12
   },
   "19683": {
     "name": "Black Oil",
     "description": "MOD% chance for Blight Chests to contain an additional Reward",
     "image": "img/oils/black_oil.png",
-    "mod": 6
+    "mod": 7
   },
   "59049": {
     "name": "Opalescent Oil",
     "description": "Varieties of Items contained in MOD Blight Chests are Lucky",
     "image": "img/oils/opalescent_oil.png",
-    "mod": 15
+    "mod": 18
   },
   "177147": {
     "name": "Silver Oil",
     "description": "MOD% increased Quantity of Items found in this Area",
     "image": "img/oils/silver_oil.png",
-    "mod": 65
+    "mod": 80
   },
   "531441": {
     "name": "Golden Oil",
     "description": "MOD% chance for Blight Chests to contain an additional Reward",
     "image": "img/oils/golden_oil.png",
-    "mod": 25
+    "mod": 30
   }
 }

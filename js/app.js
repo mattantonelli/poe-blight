@@ -155,9 +155,9 @@ const app = new Vue({
           }
         })
 
-        // Add the implicit +5% pack size per oil
+        // Add the implicit +6% pack size per oil
         const packSize = 'MOD% Monster pack size'
-        mods[packSize] = this.combo.length * 5
+        mods[packSize] = this.combo.length * 6
 
         // Substitue the total mod values into the descriptions
         const description = _.map(mods, function(value, mod) {
