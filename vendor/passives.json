@@ -281,7 +281,7 @@
   },
   "2189": {
     "name": "Practical Application",
-    "description": "+10% to all Elemental Resistances<br>25% chance to Avoid interruption from Stuns while Casting<br>+20 to Strength and Dexterity"
+    "description": "+10% to all Elemental Resistances<br>25% chance to Ignore Stuns while Casting<br>+20 to Strength and Dexterity"
   },
   "2191": {
     "name": "Freedom of Movement",
@@ -436,8 +436,8 @@
     "description": "Skills used by Mines deal 30% increased Area Damage if you Detonated a Mine Recently<br>Skills used by Mines have 15% increased Area of Effect if you Detonated a Mine Recently"
   },
   "6591": {
-    "name": "Master Fletcher",
-    "description": "Bow Attacks fire an additional Arrow"
+    "name": "Deadly Draw",
+    "description": "30% increased Damage Over Time with Bow Skills<br>Damaging Ailments deal damage 10% faster"
   },
   "6597": {
     "name": "Primal Manifestation",
@@ -677,7 +677,7 @@
   },
   "20439": {
     "name": "Conjured Barrier",
-    "description": "30% chance to Avoid interruption from Stuns while Casting<br>50% increased Stun and Block Recovery<br>30% increased Mana Regeneration Rate while stationary"
+    "description": "30% chance to Ignore Stuns while Casting<br>50% increased Stun and Block Recovery<br>30% increased Mana Regeneration Rate while stationary"
   },
   "20493": {
     "name": "Forethought",
@@ -1168,8 +1168,8 @@
     "description": "0.6% of Attack Damage Leeched as Life<br>20% increased Maximum total Life Recovery per second from Leech"
   },
   "179361": {
-    "name": "Deadly Draw",
-    "description": "30% increased Damage Over Time with Bow Skills<br>Damaging Ailments deal damage 10% faster"
+    "name": "King of the Hill",
+    "description": "100% increased Critical Strike Chance with Bows"
   },
   "179415": {
     "name": "Swagger",
@@ -1192,8 +1192,8 @@
     "description": "+1 to Maximum number of Spectres<br>+1 to Maximum number of Raised Zombies<br>+1 to Maximum number of Skeletons"
   },
   "183711": {
-    "name": "King of the Hill",
-    "description": "100% increased Critical Strike Chance with Bows"
+    "name": "Master Fletcher",
+    "description": "Bow Attacks fire an additional Arrow"
   },
   "183717": {
     "name": "Explosive Elements",
