@@ -223,6 +223,10 @@
     "name": "Slaughter",
     "description": "25% increased Physical Damage with Axes<br>Axe Attacks deal 25% increased Damage with Ailments<br>8% increased Attack Speed with Axes<br>+5 to Maximum Rage"
   },
+  "735": {
+    "name": "Cauterisation",
+    "description": "Bleeding enemies cannot inflict Bleeding on you<br>Ignited enemies cannot Ignite you"
+  },
   "739": {
     "name": "Harvester of Foes",
     "description": "30% increased Physical Damage with Axes<br>Axe Attacks deal 30% increased Damage with Ailments<br>12% increased Impale Effect"
@@ -242,6 +246,10 @@
   "783": {
     "name": "Escalation",
     "description": "10% increased Melee Damage for each second you've been affected by a Warcry Buff, up to a maximum of 60%"
+  },
+  "811": {
+    "name": "Invigorating Blaze",
+    "description": "+10% to Fire Damage over Time Multiplier with Attack Skills<br>Recover 2% of Life when you Ignite a non-Ignited Enemy"
   },
   "813": {
     "name": "Bastion Breaker",
@@ -765,7 +773,7 @@
   },
   "39375": {
     "name": "Magmatic Strikes",
-    "description": "Gain 10% of Physical Damage as Extra Fire Damage"
+    "description": "Every 10 seconds, gain 30% of Physical Damage\nas Extra Fire Damage for 4 seconds"
   },
   "39393": {
     "name": "Righteous Army",
@@ -892,8 +900,8 @@
     "description": "50% increased Mana Reservation Efficiency of Stance Skills"
   },
   "59805": {
-    "name": "Panopticon",
-    "description": "30% increased Totem Damage<br>Attack Skills have +1 to maximum number of Summoned Ballista Totems<br>50% increased Effect of Buffs your Ancestor Totems grant while Active"
+    "name": "Vengeant Cascade",
+    "description": "Returning Projectiles have 150% increased Speed"
   },
   "59859": {
     "name": "Deep Breaths",
@@ -1150,6 +1158,10 @@
   "177903": {
     "name": "Vanquisher",
     "description": "Crush Enemies for 4 seconds when you Hit them while they are on Full Life<br>40% increased Physical Damage"
+  },
+  "177957": {
+    "name": "Concussive Force",
+    "description": "Hits Stun as though dealing 50% more Melee Fire Damage<br>Ignites from Stunning Melee Hits deal 20% more Damage"
   },
   "178605": {
     "name": "Malicious Intent",
@@ -1435,6 +1447,10 @@
     "name": "Sanctum of Thought",
     "description": "You take 30% reduced Extra Damage from Critical Strikes<br>18% increased Armour<br>12% increased maximum Energy Shield"
   },
+  "532171": {
+    "name": "Settling Ash",
+    "description": "Nearby Enemies are Covered in Ash if you haven't moved in the past 2 seconds"
+  },
   "532173": {
     "name": "Steeped in the Profane",
     "description": "15% reduced Effect of Curses on you<br>10% increased Effect of your Curses"
@@ -1557,7 +1573,7 @@
   },
   "590499": {
     "name": "Dirty Techniques",
-    "description": "+10% to Damage over Time Multiplier for Ailments<br>Damaging Ailments deal damage 10% faster"
+    "description": "Damaging Ailments deal damage 15% faster"
   },
   "590517": {
     "name": "Foresight",
@@ -1640,8 +1656,8 @@
     "description": "+3 to maximum Fortification<br>Regenerate 0.1% of Life per second per Fortification"
   },
   "1062891": {
-    "name": "Vengeant Cascade",
-    "description": "15% increased Projectile Speed<br>Attack Projectiles Return to you<br>Returning Projectiles Pierce all Targets"
+    "name": "Panopticon",
+    "description": "30% increased Totem Damage<br>Attack Skills have +1 to maximum number of Summoned Ballista Totems<br>50% increased Effect of Buffs your Ancestor Totems grant while Active"
   },
   "1062909": {
     "name": "Unnatural Calm",
