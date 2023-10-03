@@ -301,7 +301,7 @@
   },
   "2197": {
     "name": "Weapon Artistry",
-    "description": "+4% Chance to Block Attack Damage while Dual Wielding or holding a Shield<br>8% increased Attack Speed<br>+2 to Melee Strike Range"
+    "description": "+4% Chance to Block Attack Damage while Dual Wielding or holding a Shield<br>8% increased Attack Speed<br>+0.2 metres to Melee Strike Range"
   },
   "2199": {
     "name": "Shamanistic Fury",
@@ -437,7 +437,7 @@
   },
   "6579": {
     "name": "Bladedancer",
-    "description": "Sword Attacks deal 30% increased Damage with Hits and Ailments<br>+3 to Melee Strike Range with Swords"
+    "description": "Sword Attacks deal 30% increased Damage with Hits and Ailments<br>+0.3 metres to Melee Strike Range with Swords"
   },
   "6589": {
     "name": "Blast Waves",
@@ -457,7 +457,7 @@
   },
   "6643": {
     "name": "Warrior Training",
-    "description": "+2 to Melee Strike Range<br>Melee Skills have 12% increased Area of Effect"
+    "description": "+0.2 metres to Melee Strike Range<br>Melee Skills have 12% increased Area of Effect"
   },
   "6645": {
     "name": "Utmost Swiftness",
@@ -673,7 +673,7 @@
   },
   "20413": {
     "name": "Assured Strike",
-    "description": "24% increased Melee Damage<br>+4 to Melee Strike Range while at least 5 Enemies are Nearby"
+    "description": "24% increased Melee Damage<br>+0.4 metres to Melee Strike Range while at least 5 Enemies are Nearby"
   },
   "20415": {
     "name": "Mark the Prey",
@@ -1277,7 +1277,7 @@
   },
   "236199": {
     "name": "Master of the Arena",
-    "description": "Regenerate 1% of Life per second<br>10% increased Melee Physical Damage<br>+3 to Melee Strike Range<br>+20 to Strength"
+    "description": "Regenerate 1% of Life per second<br>10% increased Melee Physical Damage<br>+0.3 metres to Melee Strike Range<br>+20 to Strength"
   },
   "236205": {
     "name": "Mystic Talents",
