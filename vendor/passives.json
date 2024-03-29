@@ -185,7 +185,7 @@
   },
   "327": {
     "name": "Dreamer",
-    "description": "20% increased maximum Mana<br>15% increased Mana Regeneration Rate<br>10% reduced Mana Cost of Skills"
+    "description": "30% increased Mana Regeneration Rate<br>10% reduced Mana Cost of Skills"
   },
   "333": {
     "name": "Discord Artisan",
@@ -689,7 +689,7 @@
   },
   "20493": {
     "name": "Forethought",
-    "description": "20% increased maximum Mana<br>15% increased Mana Regeneration Rate<br>10% increased Mana Cost of Skills"
+    "description": "30% increased maximum Mana<br>10% increased Mana Cost of Skills"
   },
   "21141": {
     "name": "Undertaker",
@@ -1101,7 +1101,7 @@
   },
   "177229": {
     "name": "Backstabbing",
-    "description": "30% increased Critical Strike Chance with Daggers<br>+30% to Critical Strike Multiplier with Daggers<br>100% increased Critical Strike Chance against Enemies on Full Life"
+    "description": "30% increased Critical Strike Chance with Daggers<br>+30% to Critical Strike Multiplier with Daggers<br>100% increased Critical Strike Chance against Enemies that are on Full Life"
   },
   "177231": {
     "name": "Winter Spirit",
