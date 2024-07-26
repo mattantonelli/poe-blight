@@ -21,7 +21,8 @@ const app = new Vue({
       { name: 'Black Oil', level: 68 },
       { name: 'Opalescent Oil', level: 73 },
       { name: 'Silver Oil', level: 78 },
-      { name: 'Golden Oil', level: 80 }
+      { name: 'Golden Oil', level: 80 },
+      { name: 'Prismatic Oil', level: '??' },
     ],
     combo: [],
     type: 'amulet',
@@ -30,7 +31,7 @@ const app = new Vue({
     towers: {},
     maps: {},
     search: '',
-    myOils: _.fill(Array(13), 0)
+    myOils: _.fill(Array(14), 0)
   },
   created: function () {
     const self = this
@@ -126,7 +127,7 @@ const app = new Vue({
     reset: function() {
       this.search = ''
       this.combo = []
-      this.myOils = _.fill(Array(13), 0)
+      this.myOils = _.fill(Array(14), 0)
     }
   },
   computed: {

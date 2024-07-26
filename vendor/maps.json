@@ -78,5 +78,11 @@
     "description": "MOD% chance for Blight Chests to contain an additional Reward",
     "image": "img/oils/golden_oil.png",
     "mod": 30
+  },
+  "1594323": {
+    "name": "Prismatic Oil",
+    "description": "MOD% chance for ???",
+    "image": "img/oils/prismatic_oil.png",
+    "mod": 100
   }
 }

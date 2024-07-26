@@ -1,51 +1,51 @@
 {
   "3": {
-    "name": "Alacrity",
-    "description": "+30 to Dexterity"
+    "name": "Indiscriminate Revenge",
+    "description": "Retaliation Skills have 30% increased Area of Effect"
   },
   "5": {
-    "name": "Beef",
-    "description": "+30 to Strength"
+    "name": "Cruel Retort",
+    "description": "Every fourth Retaliation Skill you use always Critically Strikes<br>Retaliation Skills have 20% increased Speed"
   },
   "7": {
-    "name": "Agility",
-    "description": "+30 to Dexterity"
+    "name": "Prepared Response",
+    "description": "25% chance when you use a Retaliation Skill for a different Retaliation Skill to become Usable<br>Retaliation Skills become Usable for 30% longer"
   },
   "9": {
-    "name": "Expertise",
-    "description": "+30 to Dexterity"
+    "name": "Practised Reapplication",
+    "description": "25% increased Tincture Cooldown Recovery Rate"
   },
   "11": {
-    "name": "Wisdom of the Glade",
-    "description": "+30 to Intelligence"
+    "name": "Careful Counterattack",
+    "description": "10% chance to Block Attack Damage if you've used a Retaliation Skill Recently<br>10% chance to Block Spell Damage if you've used a Retaliation Skill Recently"
   },
   "13": {
-    "name": "Thief's Craft",
-    "description": "+30 to Intelligence"
+    "name": "Crushing Reply",
+    "description": "Retaliation Skills have 50% increased Stun Duration on Enemies<br>Retaliation Skills Fortify on Melee Hit"
   },
   "15": {
-    "name": "Proficiency",
-    "description": "+30 to Dexterity"
+    "name": "Flow of Battle",
+    "description": "Retaliation Skills deal 30% increased Damage<br>Gain 5 Rage on Hit with Retaliation Skills"
   },
   "19": {
-    "name": "Might",
-    "description": "+30 to Strength"
+    "name": "Burst of Energy",
+    "description": "Recover 15% of Mana when you activate a Tincture"
   },
   "21": {
-    "name": "Hard Knocks",
-    "description": "+30 to Intelligence"
+    "name": "Battle Trance",
+    "description": "+10 to Maximum Rage"
   },
   "27": {
     "name": "Path of the Warrior",
     "description": "+50 to Armour<br>+20 to Strength<br>16% increased Physical Damage"
   },
   "29": {
-    "name": "Prowess",
-    "description": "+30 to Strength"
+    "name": "Colloidal Mixture",
+    "description": "Tinctures applied to you have 15% increased Effect<br>Tinctures applied to you have 15% increased Effect if you've used a Life Flask Recently"
   },
   "31": {
-    "name": "Ancestral Knowledge",
-    "description": "+30 to Intelligence"
+    "name": "Roaring Challenge",
+    "description": "25% increased total Power counted by Warcries"
   },
   "33": {
     "name": "Fending",
@@ -77,11 +77,11 @@
   },
   "81": {
     "name": "Spirit Void",
-    "description": "0.8% of Attack Damage Leeched as Mana<br>25% increased Maximum total Mana Recovery per second from Leech<br>60% increased total Recovery per second from Mana Leech"
+    "description": "1% of Attack Damage Leeched as Mana<br>40% increased Maximum total Mana Recovery per second from Leech"
   },
   "83": {
-    "name": "Physique",
-    "description": "+30 to Strength"
+    "name": "Feline Swiftness",
+    "description": "+10% Chance to Block Attack Damage while Dual Wielding<br>8% increased Movement Speed while Dual Wielding"
   },
   "85": {
     "name": "Spiked Bulwark",
@@ -93,7 +93,7 @@
   },
   "91": {
     "name": "Ironwood",
-    "description": "30% increased Totem Life<br>Totems gain +30% to all Elemental Resistances<br>+150 Armour per Summoned Totem"
+    "description": "40% increased Totem Life<br>Totems have 40% additional Physical Damage Reduction"
   },
   "93": {
     "name": "Weathered Hunter",
@@ -129,7 +129,7 @@
   },
   "171": {
     "name": "Sanctuary",
-    "description": "+4% Chance to Block Attack Damage while holding a Shield<br>+4% Chance to Block Spell Damage while holding a Shield<br>+12% Elemental Resistances while holding a Shield"
+    "description": "+4% Chance to Block Attack Damage while holding a Shield<br>+4% Chance to Block Spell Damage while holding a Shield<br>+1% to all maximum Elemental Resistances"
   },
   "189": {
     "name": "Mind Drinker",
@@ -165,7 +165,7 @@
   },
   "271": {
     "name": "Martial Experience",
-    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased total Recovery per second from Life Leech<br>Overwhelm 12% Physical Damage Reduction"
+    "description": "30% increased Physical Damage with Two Handed Melee Weapons<br>Attacks with Two Handed Melee Weapons deal 30% increased Damage with Ailments<br>100% increased total Recovery per second from Life Leech<br>Hits have 30% chance to ignore Enemy Physical Damage Reduction"
   },
   "273": {
     "name": "Battle Rouse",
@@ -197,7 +197,7 @@
   },
   "405": {
     "name": "Steelwood Stance",
-    "description": "Staff Attacks deal 30% increased Damage with Hits and Ailments<br>+800 Armour if you've Blocked Recently<br>+8% Chance to Block Attack Damage while wielding a Staff"
+    "description": "Staff Attacks deal 30% increased Damage with Hits and Ailments<br>+800 Armour if you've Blocked Recently<br>+10% Chance to Block Attack Damage while wielding a Staff"
   },
   "487": {
     "name": "Prodigal Perfection",
@@ -213,15 +213,23 @@
   },
   "513": {
     "name": "Bone Breaker",
-    "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>12% increased Area of Effect"
+    "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>15% increased Area of Effect"
   },
   "567": {
     "name": "Cannibalistic Rite",
-    "description": "10% reduced Life Cost of Skills<br>Recover 2% of Life on Kill if you've Spent Life Recently<br>30% increased Damage with Skills that Cost Life"
+    "description": "Attack Skills Cost Life instead of 10% of Mana Cost<br>15% reduced Mana Cost of Attacks"
   },
   "729": {
     "name": "Slaughter",
-    "description": "25% increased Physical Damage with Axes<br>Axe Attacks deal 25% increased Damage with Ailments<br>8% increased Attack Speed with Axes<br>+5 to Maximum Rage"
+    "description": "25% increased Physical Damage with Axes<br>Axe Attacks deal 25% increased Damage with Ailments<br>8% increased Attack Speed with Axes<br>Gain 1 Rage on Hit with Axes"
+  },
+  "731": {
+    "name": "As The Thunder",
+    "description": "25% increased Warcry Duration<br>20% increased Warcry Buff Effect"
+  },
+  "733": {
+    "name": "Savage Skewering",
+    "description": "15% increased Impale Effect"
   },
   "735": {
     "name": "Cauterisation",
@@ -235,6 +243,10 @@
     "name": "Replenishing Remedies",
     "description": "15% increased Flask Charges gained<br>Life Flasks gain 2 Charges every 3 seconds<br>Mana Flasks gain 2 Charges every 3 seconds"
   },
+  "747": {
+    "name": "Cornered Prey",
+    "description": "+30% to Critical Strike Multiplier against Bleeding Enemies<br>80% increased Critical Strike Chance against Bleeding Enemies"
+  },
   "757": {
     "name": "Clever Thief",
     "description": "1% of Attack Damage Leeched as Life<br>1% of Attack Damage Leeched as Mana"
@@ -242,6 +254,10 @@
   "759": {
     "name": "Relentless",
     "description": "Regenerate 1% of Life per second if you have Stunned an Enemy Recently<br>25% increased Physical Damage"
+  },
+  "765": {
+    "name": "Wicked Blade",
+    "description": "30% increased Damage with Bleeding<br>20% increased Bleeding Duration"
   },
   "783": {
     "name": "Escalation",
@@ -253,7 +269,7 @@
   },
   "813": {
     "name": "Bastion Breaker",
-    "description": "30% increased Attack Physical Damage<br>Overwhelm 20% Physical Damage Reduction"
+    "description": "30% increased Attack Physical Damage<br>Hits have 50% chance to ignore Enemy Physical Damage Reduction"
   },
   "819": {
     "name": "Inspiring Bond",
@@ -262,6 +278,10 @@
   "837": {
     "name": "Divine Fervour",
     "description": "20% increased Attack Damage<br>30% increased Melee Critical Strike Chance<br>+10 to Strength and Intelligence"
+  },
+  "891": {
+    "name": "Nature's Concoction",
+    "description": "Flasks adjacent to active Tinctures gain 2 charges when you Hit an\nEnemy with a Melee Weapon, no more than once every second"
   },
   "1459": {
     "name": "Empowered Bond",
@@ -328,8 +348,8 @@
     "description": "30% increased Totem Placement speed<br>Spells Cast by Totems have 8% increased Cast Speed<br>Attacks used by Totems have 10% increased Attack Speed"
   },
   "2269": {
-    "name": "Hardened Scars",
-    "description": "15% increased Life Recovery from Flasks<br>25% less Damage over Time taken during Effect of any Life Flask"
+    "name": "Master of Wounds",
+    "description": "+12% to Damage over Time Multiplier for Bleeding<br>30% reduced Bleed Duration on you"
   },
   "2271": {
     "name": "Efficient Explosives",
@@ -341,7 +361,7 @@
   },
   "2295": {
     "name": "Razor's Edge",
-    "description": "35% increased Physical Damage with Swords<br>Sword Attacks deal 35% increased Damage with Ailments<br>Overwhelm 20% Physical Damage Reduction"
+    "description": "35% increased Physical Damage with Swords<br>Sword Attacks deal 35% increased Damage with Ailments<br>Hits have 35% chance to ignore Enemy Physical Damage Reduction"
   },
   "2349": {
     "name": "Elder Power",
@@ -361,7 +381,7 @@
   },
   "2457": {
     "name": "Forceful Skewering",
-    "description": "Impale Damage dealt to Enemies Impaled by you Overwhelms 25% Physical Damage Reduction<br>10% chance to Impale Enemies on Hit with Attacks<br>10% increased Impale Effect"
+    "description": "15% chance to Impale Enemies on Hit with Attacks<br>10% increased Impale Effect"
   },
   "2511": {
     "name": "Sacrifice",
@@ -387,6 +407,10 @@
     "name": "Burning Brutality",
     "description": "+12% to Fire Damage over Time Multiplier with Attack Skills<br>6% increased Attack Speed"
   },
+  "3645": {
+    "name": "Perfected Formula",
+    "description": "15% chance for Tinctures to not inflict Mana Burn<br>Tinctures applied to you have 10% reduced Mana Burn rate"
+  },
   "4375": {
     "name": "Pain Forger",
     "description": "60% increased Critical Strike Chance with Maces or Sceptres<br>10% reduced Enemy Stun Threshold with Maces or Sceptres<br>10% chance to gain a Power Charge when you Stun with Melee Damage"
@@ -401,7 +425,7 @@
   },
   "4401": {
     "name": "Spinecruncher",
-    "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>60% increased Stun Duration against Enemies that are on Full Life"
+    "description": "30% increased Physical Damage with Maces or Sceptres<br>Mace or Sceptre Attacks deal 30% increased Damage with Ailments<br>100% increased Stun Duration against Enemies that are on Full Life"
   },
   "4455": {
     "name": "Unstable Munitions",
@@ -413,7 +437,7 @@
   },
   "6561": {
     "name": "Enigmatic Defence",
-    "description": "+6% Chance to Block Spell Damage while wielding a Staff<br>20% increased Spell Damage while wielding a Staff<br>+6% Chance to Block Attack Damage while wielding a Staff"
+    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>20% increased Spell Damage while wielding a Staff<br>+8% Chance to Block Attack Damage while wielding a Staff"
   },
   "6563": {
     "name": "Successive Detonations",
@@ -465,7 +489,7 @@
   },
   "6651": {
     "name": "Whirling Barrier",
-    "description": "+6% Chance to Block Spell Damage while wielding a Staff<br>20% chance to gain a Power Charge when you Block<br>+6% Chance to Block Attack Damage while wielding a Staff"
+    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>20% chance to gain a Power Charge when you Block<br>+8% Chance to Block Attack Damage while wielding a Staff"
   },
   "6669": {
     "name": "Hatchet Master",
@@ -545,7 +569,7 @@
   },
   "9477": {
     "name": "Bannerman",
-    "description": "15% increased Effect of Non-Curse Auras from your Skills on Enemies<br>Placed Banners also grant 30% increased Attack Damage to you and Allies"
+    "description": "Banner Buffs Linger on you for 3 seconds after you leave the Area<br>Banner Skills have 20% increased Duration"
   },
   "10935": {
     "name": "Aspect of the Lynx",
@@ -581,7 +605,7 @@
   },
   "15309": {
     "name": "Light of Divinity",
-    "description": "20% increased Spell Damage<br>30% increased Critical Strike Chance for Spells<br>10% increased Light Radius<br>+10 to Strength and Intelligence"
+    "description": "20% increased Spell Damage<br>30% increased Spell Critical Strike Chance<br>10% increased Light Radius<br>+10 to Strength and Intelligence"
   },
   "19683": {
     "name": "Coldhearted Calculation",
@@ -589,11 +613,11 @@
   },
   "19685": {
     "name": "Annihilation",
-    "description": "50% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spell Damage"
+    "description": "50% increased Spell Critical Strike Chance<br>+15% to Critical Strike Multiplier for Spell Damage"
   },
   "19687": {
     "name": "Testudo",
-    "description": "+6% Chance to Block Attack Damage while holding a Shield<br>60% increased Block Recovery<br>Recover 30 Life when you Block"
+    "description": "+10% Chance to Block Attack Damage while holding a Shield<br>60% increased Block Recovery<br>Recover 30 Life when you Block"
   },
   "19689": {
     "name": "Lightning Walker",
@@ -629,7 +653,7 @@
   },
   "19765": {
     "name": "Arcane Guarding",
-    "description": "+8% Chance to Block Spell Damage while holding a Shield<br>60% increased Energy Shield from Equipped Shield"
+    "description": "+10% Chance to Block Spell Damage while holding a Shield<br>60% increased Energy Shield from Equipped Shield"
   },
   "19767": {
     "name": "Divine Judgement",
@@ -641,7 +665,7 @@
   },
   "19791": {
     "name": "Enigmatic Reach",
-    "description": "10% increased Attack Speed with Staves<br>10% increased Cast Speed while wielding a Staff<br>3% increased Area of Effect per Power Charge"
+    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>3% increased Area of Effect per Power Charge<br>25% chance to gain a Power Charge when you Block Spell Damage"
   },
   "19845": {
     "name": "Warrior's Blood",
@@ -661,7 +685,7 @@
   },
   "19953": {
     "name": "Safeguard",
-    "description": "+8% to all Elemental Resistances<br>Recover 50 Energy Shield when you Block Spell Damage<br>+6% chance to Block Spell Damage while holding a Staff or Shield"
+    "description": "+3% to maximum Chance to Block Spell Damage<br>Recover 50 Energy Shield when you Block Spell Damage<br>+10% chance to Block Spell Damage while holding a Staff or Shield"
   },
   "20007": {
     "name": "Finesse",
@@ -709,7 +733,7 @@
   },
   "21897": {
     "name": "Aggressive Bastion",
-    "description": "+5% Chance to Block Attack Damage while holding a Shield<br>30% increased Physical Attack Damage while holding a Shield<br>Attack Skills deal 30% increased Damage with Ailments while holding a Shield<br>10% chance to gain an Endurance Charge on Kill while holding a Shield"
+    "description": "+8% Chance to Block Attack Damage while holding a Shield<br>30% increased Physical Attack Damage while holding a Shield<br>Attack Skills deal 30% increased Damage with Ailments while holding a Shield<br>10% chance to gain an Endurance Charge on Kill while holding a Shield"
   },
   "21951": {
     "name": "Essence Sap",
@@ -809,7 +833,7 @@
   },
   "59053": {
     "name": "Berserking",
-    "description": "6% increased Attack Speed<br>+10 to Maximum Rage"
+    "description": "6% increased Attack Speed<br>+5 to Maximum Rage"
   },
   "59055": {
     "name": "Potency of Will",
@@ -884,8 +908,8 @@
     "description": "20% increased Spell Damage while Dual Wielding<br>6% increased Cast Speed while Dual Wielding<br>40% increased Mana Regeneration if you've used a Movement Skill Recently"
   },
   "59535": {
-    "name": "Heart of Darkness",
-    "description": "27% increased Chaos Damage<br>Damage Penetrates 7% Chaos Resistance"
+    "name": "Savage Intensity",
+    "description": "20% reduced Cost of Attacks while you have at least 20 Rage<br>Inherent loss of Rage is 20% slower"
   },
   "59779": {
     "name": "Split Shot",
@@ -893,23 +917,27 @@
   },
   "59781": {
     "name": "Surveillance",
-    "description": "30% increased Totem Damage<br>Attacks used by Totems have 8% increased Attack Speed<br>Each Totem applies 1% increased Damage taken to Enemies near it"
+    "description": "Attacks used by Totems have 8% increased Attack Speed<br>Attack Skills have +1 to maximum number of Summoned Ballista Totems<br>Each Totem applies 1% increased Damage taken to Enemies near it"
   },
   "59787": {
     "name": "Seasoned Swordplay",
     "description": "50% increased Mana Reservation Efficiency of Stance Skills"
   },
   "59805": {
-    "name": "Vengeant Cascade",
-    "description": "Returning Projectiles have 150% increased Speed"
+    "name": "Wall of Steel",
+    "description": "+10% Chance to Block Attack Damage while Dual Wielding or holding a Shield<br>+300 Armour if you've Blocked Recently"
   },
   "59859": {
     "name": "Deep Breaths",
-    "description": "30% increased Warcry Cooldown Recovery Rate<br>20% increased total Power counted by Warcries<br>Warcry Skills have 30% increased Area of Effect"
+    "description": "35% increased Warcry Cooldown Recovery Rate<br>Warcry Skills have 40% increased Area of Effect"
+  },
+  "60507": {
+    "name": "Awe and Terror",
+    "description": "Enemies Killed near your Banner have 20% chance to Explode, dealing a tenth of their Life as Physical Damage<br>Banner Skills have 20% increased Area of Effect"
   },
   "61237": {
     "name": "Blade Barrier",
-    "description": "+5% Chance to Block Attack Damage while Dual Wielding<br>50% increased Block Recovery<br>Attack Skills deal 25% increased Damage while Dual Wielding"
+    "description": "+10% Chance to Block Attack Damage while Dual Wielding<br>50% increased Block Recovery<br>Attack Skills deal 25% increased Damage while Dual Wielding"
   },
   "61239": {
     "name": "Melding",
@@ -925,7 +953,7 @@
   },
   "61317": {
     "name": "Dark Arts",
-    "description": "+5% Chance to Block Spell Damage while Dual Wielding<br>+5% Chance to Block Attack Damage while Dual Wielding<br>10% increased Attack Speed while Dual Wielding<br>10% increased Cast Speed while Dual Wielding"
+    "description": "+8% Chance to Block Spell Damage while Dual Wielding<br>+8% Chance to Block Attack Damage while Dual Wielding<br>10% increased Attack Speed while Dual Wielding<br>10% increased Cast Speed while Dual Wielding"
   },
   "61479": {
     "name": "Ballistics",
@@ -949,7 +977,7 @@
   },
   "65619": {
     "name": "Command of Steel",
-    "description": "+5% Chance to Block Attack Damage while holding a Shield<br>30% increased Attack Damage while holding a Shield"
+    "description": "+8% Chance to Block Attack Damage while holding a Shield<br>50% increased Defences from Equipped Shield"
   },
   "65637": {
     "name": "Retaliation",
@@ -1012,8 +1040,8 @@
     "description": "Refresh Duration of Ignite, Chill and Shock on Enemies you Curse<br>Remove Elemental Ailments when you Cast a Curse Spell"
   },
   "98415": {
-    "name": "Way of the Warrior",
-    "description": "16% increased Melee Damage<br>16% increased Armour<br>+16 to maximum Life<br>+30 to Strength"
+    "name": "As The Mountain",
+    "description": "+12% Chance to Block Attack Damage while Dual Wielding or holding a Shield<br>+3% to maximum Chance to Block Attack Damage"
   },
   "118099": {
     "name": "Avatar of the Hunt",
@@ -1141,7 +1169,7 @@
   },
   "177633": {
     "name": "Bloodletting",
-    "description": "+15% to Damage over Time Multiplier for Bleeding<br>40% increased Attack Damage against Bleeding Enemies"
+    "description": "+15% to Damage over Time Multiplier for Bleeding<br>10% chance to Aggravate Bleeding on targets you Hit with Attacks"
   },
   "177877": {
     "name": "Force Shaper",
@@ -1153,7 +1181,7 @@
   },
   "177885": {
     "name": "Deflection",
-    "description": "+5% Chance to Block Attack Damage while holding a Shield<br>25% chance to gain an Endurance Charge when you Block"
+    "description": "+8% Chance to Block Attack Damage while holding a Shield<br>25% chance to gain an Endurance Charge when you Block"
   },
   "177903": {
     "name": "Vanquisher",
@@ -1177,7 +1205,7 @@
   },
   "179343": {
     "name": "Taste for Blood",
-    "description": "0.6% of Attack Damage Leeched as Life<br>20% increased Maximum total Life Recovery per second from Leech"
+    "description": "1% of Attack Damage Leeched as Life<br>30% increased Maximum total Life Recovery per second from Leech"
   },
   "179361": {
     "name": "King of the Hill",
@@ -1185,7 +1213,7 @@
   },
   "179415": {
     "name": "Swagger",
-    "description": "+5% Chance to Block Attack Damage while Dual Wielding<br>25% chance to gain a Frenzy Charge when you Block"
+    "description": "+8% Chance to Block Attack Damage while Dual Wielding<br>25% chance to gain a Frenzy Charge when you Block"
   },
   "179577": {
     "name": "Primeval Force",
@@ -1197,7 +1225,7 @@
   },
   "181521": {
     "name": "Merciless Skewering",
-    "description": "Impale Damage dealt to Enemies Impaled by you Overwhelms 15% Physical Damage Reduction<br>15% chance to Impale Enemies on Hit with Attacks<br>5% increased Impale Effect"
+    "description": "15% chance to Impale Enemies on Hit with Attacks<br>12% increased Impale Effect"
   },
   "183709": {
     "name": "Death Attunement",
@@ -1253,7 +1281,7 @@
   },
   "197073": {
     "name": "Arcane Potency",
-    "description": "30% increased Critical Strike Chance for Spells<br>+30% to Critical Strike Multiplier for Spell Damage"
+    "description": "30% increased Spell Critical Strike Chance<br>+30% to Critical Strike Multiplier for Spell Damage"
   },
   "197559": {
     "name": "Multishot",
@@ -1261,7 +1289,7 @@
   },
   "199017": {
     "name": "Hematophagy",
-    "description": "10% increased Maximum total Life Recovery per second from Leech<br>100% increased total Recovery per second from Life Leech<br>40% increased Damage while Leeching"
+    "description": "40% increased Maximum total Life Recovery per second from Leech<br>100% increased total Recovery per second from Life Leech"
   },
   "203391": {
     "name": "Overcharge",
@@ -1280,8 +1308,8 @@
     "description": "Regenerate 1% of Life per second<br>10% increased Melee Physical Damage<br>+0.3 metres to Melee Strike Range<br>+20 to Strength"
   },
   "236205": {
-    "name": "Mystic Talents",
-    "description": "16% increased Spell Damage<br>+14 to maximum Energy Shield<br>25% increased Mana Regeneration Rate<br>+30 to Intelligence"
+    "name": "Vengeance",
+    "description": "Every Rage also grants 1% increased Armour<br>Gain 3 Rage when Hit by an Enemy"
   },
   "236223": {
     "name": "Hearty",
@@ -1317,7 +1345,7 @@
   },
   "354295": {
     "name": "Arcane Sanctuary",
-    "description": "30% increased Spell Damage while holding a Shield<br>30% reduced Elemental Ailment Duration on you while holding a Shield"
+    "description": "+8% Chance to Block Spell Damage while holding a Shield<br>25% increased Spell Damage while holding a Shield<br>25% reduced Elemental Ailment Duration on you while holding a Shield"
   },
   "354297": {
     "name": "Wasting",
@@ -1424,8 +1452,8 @@
     "description": "7% increased maximum Life<br>20% increased Mana Regeneration Rate<br>Regenerate 0.8% of Life per second"
   },
   "531685": {
-    "name": "Cleansed Thoughts",
-    "description": "Chaos Resistance is doubled"
+    "name": "Rallying Icon",
+    "description": "Banner Skills have 15% increased Aura Effect<br>Banners also grant +5% to all Elemental Resistances to you and Allies"
   },
   "531687": {
     "name": "Heart of Thunder",
@@ -1433,7 +1461,7 @@
   },
   "531693": {
     "name": "Doom Cast",
-    "description": "60% increased Critical Strike Chance for Spells<br>+15% to Critical Strike Multiplier for Spell Damage"
+    "description": "60% increased Spell Critical Strike Chance<br>+15% to Critical Strike Multiplier for Spell Damage"
   },
   "531711": {
     "name": "Breath of Flames",
@@ -1464,8 +1492,8 @@
     "description": "+15% to Physical Damage over Time Multiplier<br>+25 to maximum Life"
   },
   "533629": {
-    "name": "Persistence",
-    "description": "-10 Physical Damage taken from Hits<br>-1 Physical Damage taken from Hits per Level"
+    "name": "Spirit of War",
+    "description": "0.5% of Physical Attack Damage Leeched as Mana<br>15% reduced Mana Cost of Attacks"
   },
   "533631": {
     "name": "Written in Blood",
@@ -1536,8 +1564,8 @@
     "description": "Warcries Exert 1 additional Attack"
   },
   "551151": {
-    "name": "Deadly Inclinations",
-    "description": "18% increased Evasion Rating<br>+12 to maximum Life<br>16% increased Projectile Damage<br>+30 to Dexterity"
+    "name": "Defiant Stand",
+    "description": "Gain 3 Endurance Charges when you consume maximum Valour to place a Banner<br>Gain 3 Frenzy Charges when you consume maximum Valour to place a Banner"
   },
   "551205": {
     "name": "Savage Wounds",
@@ -1581,11 +1609,15 @@
   },
   "590571": {
     "name": "Lust for Carnage",
-    "description": "12% increased Attack Speed<br>1.2% of Physical Attack Damage Leeched as Life<br>60% increased total Recovery per second from Life Leech"
+    "description": "12% increased Attack Speed<br>1.5% of Physical Attack Damage Leeched as Life"
   },
   "590733": {
     "name": "Master of Blades",
-    "description": "Overwhelm 10% Physical Damage Reduction<br>+30 to Strength<br>30% increased Physical Damage"
+    "description": "Hits have 30% chance to ignore Enemy Physical Damage Reduction<br>+30 to Strength<br>30% increased Physical Damage"
+  },
+  "591219": {
+    "name": "Renowned Deeds",
+    "description": "+30 to maximum Valour"
   },
   "592677": {
     "name": "Dismembering",
@@ -1605,7 +1637,7 @@
   },
   "708589": {
     "name": "Vitality Void",
-    "description": "0.8% of Attack Damage Leeched as Life<br>15% increased Maximum total Life Recovery per second from Leech<br>60% increased total Recovery per second from Life Leech"
+    "description": "1% of Attack Damage Leeched as Life<br>40% increased Maximum total Life Recovery per second from Leech"
   },
   "708591": {
     "name": "Natural Authority",
@@ -1626,6 +1658,10 @@
   "708831": {
     "name": "Golem Commander",
     "description": "40% increased Effect of Buffs granted by your Golems<br>+1 to maximum number of Summoned Golems"
+  },
+  "709317": {
+    "name": "Thrill of Battle",
+    "description": "Gain 2 Mana per Enemy Hit with Attacks<br>15% reduced Mana Cost of Attacks"
   },
   "710775": {
     "name": "Heart of the Warrior",
@@ -1656,8 +1692,8 @@
     "description": "+3 to maximum Fortification<br>Regenerate 0.1% of Life per second per Fortification"
   },
   "1062891": {
-    "name": "Panopticon",
-    "description": "30% increased Totem Damage<br>Attack Skills have +1 to maximum number of Summoned Ballista Totems<br>50% increased Effect of Buffs your Ancestor Totems grant while Active"
+    "name": "Wild Hunger",
+    "description": "0.8% of Attack Damage Leeched as Life<br>30% increased Maximum total Life Recovery per second from Leech"
   },
   "1062909": {
     "name": "Unnatural Calm",
@@ -1668,24 +1704,24 @@
     "description": "10% increased maximum Life<br>Regenerate 1.6% of Life per second"
   },
   "1063125": {
-    "name": "Tranquility",
-    "description": "5% increased maximum Energy Shield<br>Transfiguration of Soul"
+    "name": "Brutal Skewering",
+    "description": "Impales you inflict last 1 additional Hit"
   },
   "1063611": {
     "name": "Anointed Flesh",
     "description": "+1% to all maximum Elemental Resistances<br>20% reduced Elemental Ailment Duration on you<br>20% reduced Effect of Chill and Shock on you"
   },
   "1065069": {
-    "name": "Aspect of Stone",
-    "description": "20% chance to Avoid Physical Damage from Hits"
+    "name": "Veteran's Wrath",
+    "description": "Gain 2 Rage on Melee Hit<br>Inherent Rage Loss starts 1 second later"
   },
   "1069443": {
-    "name": "Tenacity",
-    "description": "5% increased maximum Life<br>Transfiguration of Body"
+    "name": "Leader of the Pack",
+    "description": "20% increased Area of Effect of Aura Skills<br>12% increased Reservation Efficiency of Skills"
   },
   "1082565": {
-    "name": "Crusader",
-    "description": "8% increased maximum Mana<br>Transfiguration of Mind"
+    "name": "Nomadic Teachings",
+    "description": "+2% to all maximum Elemental Resistances"
   },
   "1121931": {
     "name": "Charisma",
@@ -1698,5 +1734,129 @@
   "1594323": {
     "name": "Whispers of Doom",
     "description": "You can apply an additional Curse"
+  },
+  "1598697": {
+    "name": "Heart of Darkness",
+    "description": "27% increased Chaos Damage<br>Damage Penetrates 7% Chaos Resistance"
+  },
+  "1601127": {
+    "name": "Hardened Scars",
+    "description": "15% increased Life Recovery from Flasks<br>25% less Damage over Time taken during Effect of any Life Flask"
+  },
+  "1601613": {
+    "name": "Persistence",
+    "description": "-10 Physical Damage taken from Hits<br>-1 Physical Damage taken from Hits per Level"
+  },
+  "1603071": {
+    "name": "Beacon of Hope",
+    "description": "80% increased Area of Effect of Aura Skills"
+  },
+  "1607445": {
+    "name": "Bastion of Faith",
+    "description": "Consecrated Ground you create also grants\n50% reduced duration of Damaging Ailments on you"
+  },
+  "1614249": {
+    "name": "Sione's Ambition",
+    "description": "Strike Skills which target additional Enemies can do so from 40% further away"
+  },
+  "1614735": {
+    "name": "Deadly Inclinations",
+    "description": "18% increased Evasion Rating<br>+12 to maximum Life<br>16% increased Projectile Damage<br>+30 to Dexterity"
+  },
+  "1620567": {
+    "name": "Legacy of the Wilds",
+    "description": "Tinctures have 40% increased effect while at or above 10 stacks of Mana Burn"
+  },
+  "1633689": {
+    "name": "Adaptive Steel",
+    "description": "5% chance to Defend with double your Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
+  },
+  "1653615": {
+    "name": "Mystic Talents",
+    "description": "16% increased Spell Damage<br>+14 to maximum Energy Shield<br>25% increased Mana Regeneration Rate<br>+30 to Intelligence"
+  },
+  "1654101": {
+    "name": "Vengeant Cascade",
+    "description": "Returning Projectiles have 150% increased Speed"
+  },
+  "1655559": {
+    "name": "Lasting Tempest",
+    "description": "50% increased Duration of Elemental Ailments on Enemies"
+  },
+  "1659933": {
+    "name": "Mixed Munitions",
+    "description": "5% increased Cooldown Recovery Rate for throwing Traps per Mine Detonated Recently"
+  },
+  "1673055": {
+    "name": "Way of the Warrior",
+    "description": "16% increased Melee Damage<br>16% increased Armour<br>+16 to maximum Life<br>+30 to Strength"
+  },
+  "1712421": {
+    "name": "Force of Darkness",
+    "description": "Damage Penetrates 15% Chaos Resistance"
+  },
+  "1771713": {
+    "name": "Always Angry",
+    "description": "+8 to Minimum Rage"
+  },
+  "1772199": {
+    "name": "Wood, Stone, and Spell",
+    "description": "10% increased effect of Arcane Surge on you per Summoned Totem"
+  },
+  "1773657": {
+    "name": "Deliberate Brutality",
+    "description": "Impales you inflict gain 50% increased Effect once 1 second of Duration has expired"
+  },
+  "1778031": {
+    "name": "Hollow Effigy",
+    "description": "Your Offering Skills do not require a Corpse"
+  },
+  "1791153": {
+    "name": "Vinespike Cordial",
+    "description": "Inflict a Grasping Vine on Hit against Enemies with fewer than\n8 Grasping Vines during Effect of any Life Flask"
+  },
+  "1830519": {
+    "name": "Knowledge Barrier",
+    "description": "6% increased Energy Shield Recharge Rate for each different type of Mastery you have Allocated"
+  },
+  "1948617": {
+    "name": "Incorporeal",
+    "description": "Elusive on you reduces in effect 50% slower<br>Elusive is removed from you at 20% effect"
+  },
+  "2126007": {
+    "name": "Cleansed Thoughts",
+    "description": "Chaos Resistance is doubled"
+  },
+  "2126493": {
+    "name": "Jagged Wounds",
+    "description": "20% increased Maximum total Life Recovery per second from\nLeech if you've dealt a Critical Strike recently"
+  },
+  "2127951": {
+    "name": "Aspect of Stone",
+    "description": "20% chance to Avoid Physical Damage from Hits"
+  },
+  "2132325": {
+    "name": "Selective Precision",
+    "description": "First and Final shots of Barrage sequences fire Projectiles that Return to you"
+  },
+  "2145447": {
+    "name": "No Forgiveness",
+    "description": "20% chance for used Retaliation Skills to remain Usable and not consume a Cooldown Use"
+  },
+  "2184813": {
+    "name": "Crusader",
+    "description": "8% increased maximum Mana<br>Transfiguration of Mind"
+  },
+  "2302911": {
+    "name": "Tranquility",
+    "description": "5% increased maximum Energy Shield<br>Transfiguration of Soul"
+  },
+  "2657205": {
+    "name": "Tenacity",
+    "description": "5% increased maximum Life<br>Transfiguration of Body"
+  },
+  "4782969": {
+    "name": "Worship the Blightheart",
+    "description": "Create Fungal Ground instead of Consecrated Ground"
   }
 }

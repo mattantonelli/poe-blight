@@ -2,7 +2,7 @@ module Oils
   extend self
 
   OIL_NAMES = %w(ClearOil SepiaOil AmberOil VerdantOil TealOil AzureOil IndigoOil
-               VioletOil CrimsonOil BlackOil OpalescentOil SilverOil GoldenOil).freeze
+               VioletOil CrimsonOil BlackOil OpalescentOil SilverOil GoldenOil PrismaticOil).freeze
 
   def all
     OIL_NAMES.each_with_object({}).with_index do |(oil, h), i|
