@@ -22,7 +22,7 @@ const app = new Vue({
       { name: 'Opalescent Oil', level: 73 },
       { name: 'Silver Oil', level: 78 },
       { name: 'Golden Oil', level: 80 },
-      { name: 'Prismatic Oil', level: '??' },
+      { name: 'Prismatic Oil', level: 80 },
     ],
     combo: [],
     type: 'amulet',
@@ -185,6 +185,13 @@ const app = new Vue({
     },
     maxOils: function() {
       return this.getMaxOilsByType(this.type)
+    },
+    usableOils: function() {
+      if (this.type === 'amulet') {
+        return this.oils
+      } else {
+        return _.dropRight(this.oils, 1)
+      }
     }
   },
   watch: {

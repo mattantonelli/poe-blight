@@ -64,7 +64,7 @@
               </div>
             </div>
             <div class="d-flex flex-wrap justify-content-center mx-xl-5">
-              <div v-for="oil in oils" class="boxed">
+              <div v-for="oil in usableOils" class="boxed">
                 <img v-on:click="addOil(oil)" :src="oil.image" :alt="oil.name" class="oil"
                   :title="`<b>${oil.name}</b><br>Drop Level: ${oil.level}`" data-toggle="tooltip" data-html="true">
               </div>
