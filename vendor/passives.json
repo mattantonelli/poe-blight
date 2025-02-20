@@ -437,7 +437,7 @@
   },
   "6561": {
     "name": "Enigmatic Defence",
-    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>20% increased Spell Damage while wielding a Staff<br>+8% Chance to Block Attack Damage while wielding a Staff"
+    "description": "20% increased Spell Damage while wielding a Staff<br>+8% Chance to Block Attack Damage while wielding a Staff<br>+8% Chance to Block Spell Damage while wielding a Staff"
   },
   "6563": {
     "name": "Successive Detonations",
@@ -489,7 +489,7 @@
   },
   "6651": {
     "name": "Whirling Barrier",
-    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>20% chance to gain a Power Charge when you Block<br>+8% Chance to Block Attack Damage while wielding a Staff"
+    "description": "20% chance to gain a Power Charge when you Block<br>+8% Chance to Block Attack Damage while wielding a Staff<br>+8% Chance to Block Spell Damage while wielding a Staff"
   },
   "6669": {
     "name": "Hatchet Master",
@@ -665,7 +665,7 @@
   },
   "19791": {
     "name": "Enigmatic Reach",
-    "description": "+8% Chance to Block Spell Damage while wielding a Staff<br>3% increased Area of Effect per Power Charge<br>25% chance to gain a Power Charge when you Block Spell Damage"
+    "description": "3% increased Area of Effect per Power Charge<br>25% chance to gain a Power Charge when you Block Spell Damage<br>+8% Chance to Block Spell Damage while wielding a Staff"
   },
   "19845": {
     "name": "Warrior's Blood",
