@@ -569,7 +569,7 @@
   },
   "9477": {
     "name": "Bannerman",
-    "description": "Banner Buffs Linger on you for 3 seconds after you leave the Area<br>Banner Skills have 20% increased Duration"
+    "description": "Your Banner Buffs Linger on you for 3 seconds after you leave the Area<br>Banner Skills have 20% increased Duration"
   },
   "10935": {
     "name": "Aspect of the Lynx",
@@ -1251,6 +1251,10 @@
     "name": "Runesmith",
     "description": "12% increased Cast Speed with Brand Skills<br>Enemies take 5% increased Damage for each of your Brands Attached to them"
   },
+  "184437": {
+    "name": "Arcane Retaliation",
+    "description": "25% more Spell Damage if you've been Stunned while Casting Recently"
+  },
   "185895": {
     "name": "Indomitable Army",
     "description": "Minions have 15% additional Physical Damage Reduction<br>Minions have +15% to all Elemental Resistances<br>Moving while Bleeding doesn't cause Minions to take extra Damage"
@@ -1515,6 +1519,10 @@
     "name": "Breath of Lightning",
     "description": "30% increased Lightning Damage<br>50% increased Effect of Lightning Ailments"
   },
+  "534357": {
+    "name": "Hasty Demise",
+    "description": "30% increased Damage Over Time with Spell Skills<br>8% increased Cast Speed<br>10% reduced Skill Effect Duration"
+  },
   "535815": {
     "name": "Born to Fight",
     "description": "4% increased Attack Speed<br>+20 to Strength<br>26% increased Physical Damage"
@@ -1542,6 +1550,10 @@
   "538245": {
     "name": "Survivalist",
     "description": "24% increased Evasion Rating<br>+8% to all Elemental Resistances<br>+1% to maximum Cold Resistance"
+  },
+  "538731": {
+    "name": "Harsh Lessons",
+    "description": "+12% to Damage Over Time Multiplier with Spell Skills<br>20% reduced Duration of Ailments on You"
   },
   "540189": {
     "name": "Fingers of Frost",
