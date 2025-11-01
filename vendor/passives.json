@@ -809,7 +809,7 @@
   },
   "39609": {
     "name": "Gravepact",
-    "description": "30% increased Minion Accuracy Rating<br>Minions have 6% chance to deal Double Damage"
+    "description": "+7% to Chaos Resistance<br>Minions have 8% chance to deal Double Damage"
   },
   "40095": {
     "name": "Expert Hunter",
@@ -1781,7 +1781,7 @@
   },
   "1633689": {
     "name": "Adaptive Steel",
-    "description": "5% chance to Defend with double your Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
+    "description": "5% chance to Defend with 200% of Armour for each\ntime you've been Hit by an Enemy Recently, up to 30%"
   },
   "1653615": {
     "name": "Mystic Talents",
