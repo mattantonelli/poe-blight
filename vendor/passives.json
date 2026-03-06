@@ -1037,7 +1037,7 @@
   },
   "85293": {
     "name": "Defiled Forces",
-    "description": "Refresh Duration of Ignite, Chill and Shock on Enemies you Curse<br>Remove Elemental Ailments when you Cast a Curse Spell"
+    "description": "Curse Skills have 15% increased Cast Speed<br>Refresh Duration of Chill and Shock on Enemies you Curse<br>Remove Elemental Ailments when you Cast a Curse Spell"
   },
   "98415": {
     "name": "As The Mountain",
@@ -1491,9 +1491,17 @@
     "name": "Presage",
     "description": "Herald Skills have 25% increased Area of Effect<br>20% increased Mana Reservation Efficiency of Herald Skills"
   },
+  "532197": {
+    "name": "Glory of Command",
+    "description": "40% increased Global Accuracy Rating while you have at least 1 nearby Ally<br>15% increased Area of Effect for Attacks while you have at least 1 nearby Ally"
+  },
   "532251": {
     "name": "Veteran Soldier",
     "description": "+15% to Physical Damage over Time Multiplier<br>+25 to maximum Life"
+  },
+  "532899": {
+    "name": "Shining Justice",
+    "description": "20% increased Effect of Consecrated Ground you create<br>Consecrated Ground you create grants 30% increased Accuracy Rating to you and Allies"
   },
   "533629": {
     "name": "Spirit of War",
