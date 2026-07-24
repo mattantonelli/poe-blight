@@ -89,7 +89,7 @@
   },
   "87": {
     "name": "Righteous Decree",
-    "description": "22% increased maximum Mana<br>6% reduced Mana Cost of Skills"
+    "description": "22% increased maximum Mana<br>12% increased Mana Cost Efficiency"
   },
   "91": {
     "name": "Ironwood",
@@ -97,7 +97,7 @@
   },
   "93": {
     "name": "Weathered Hunter",
-    "description": "+100 to Accuracy Rating<br>20% increased Global Accuracy Rating<br>+10% to all Elemental Resistances"
+    "description": "+100 to Accuracy Rating<br>+10% to all Elemental Resistances<br>20% increased Accuracy Rating"
   },
   "99": {
     "name": "Thrill Killer",
@@ -113,7 +113,7 @@
   },
   "117": {
     "name": "Depth Perception",
-    "description": "+100 to Accuracy Rating<br>20% increased Global Accuracy Rating<br>25% increased Critical Strike Chance"
+    "description": "+100 to Accuracy Rating<br>25% increased Critical Strike Chance<br>20% increased Accuracy Rating"
   },
   "135": {
     "name": "Fury Bolts",
@@ -185,7 +185,7 @@
   },
   "327": {
     "name": "Dreamer",
-    "description": "30% increased Mana Regeneration Rate<br>10% reduced Mana Cost of Skills"
+    "description": "30% increased Mana Regeneration Rate<br>15% increased Mana Cost Efficiency"
   },
   "333": {
     "name": "Discord Artisan",
@@ -217,7 +217,7 @@
   },
   "567": {
     "name": "Cannibalistic Rite",
-    "description": "Attack Skills Cost Life instead of 10% of Mana Cost<br>15% reduced Mana Cost of Attacks"
+    "description": "Attack Skills Cost Life instead of 10% of Mana Cost<br>25% increased Cost Efficiency of Attacks"
   },
   "729": {
     "name": "Slaughter",
@@ -435,6 +435,10 @@
     "name": "Courage",
     "description": "30% increased Armour if you have been Hit Recently<br>30% increased Evasion Rating if you haven't been Hit Recently<br>+15% chance to Suppress Spell Damage if you've Hit an Enemy Recently"
   },
+  "5103": {
+    "name": "Arcane Conservation",
+    "description": "10% increased Cast Speed<br>20% increased Mana Cost Efficiency of Spells<br>3% increased Intelligence"
+  },
   "6561": {
     "name": "Enigmatic Defence",
     "description": "20% increased Spell Damage while wielding a Staff<br>+8% Chance to Block Attack Damage while wielding a Staff<br>+8% Chance to Block Spell Damage while wielding a Staff"
@@ -449,7 +453,7 @@
   },
   "6567": {
     "name": "Precision",
-    "description": "10% increased Global Accuracy Rating<br>6% increased Attack and Cast Speed<br>+20 to Dexterity"
+    "description": "6% increased Attack and Cast Speed<br>+20 to Dexterity<br>10% increased Accuracy Rating"
   },
   "6571": {
     "name": "Toxic Strikes",
@@ -605,7 +609,7 @@
   },
   "15309": {
     "name": "Light of Divinity",
-    "description": "20% increased Spell Damage<br>30% increased Spell Critical Strike Chance<br>10% increased Light Radius<br>+10 to Strength and Intelligence"
+    "description": "20% increased Spell Damage<br>30% increased Spell Critical Strike Chance<br>+10 to Strength and Intelligence<br>10% increased Light Radius"
   },
   "19683": {
     "name": "Coldhearted Calculation",
@@ -689,7 +693,7 @@
   },
   "20007": {
     "name": "Finesse",
-    "description": "8% increased Attack Speed<br>15% increased Global Accuracy Rating<br>+20 to Dexterity"
+    "description": "8% increased Attack Speed<br>+20 to Dexterity<br>15% increased Accuracy Rating"
   },
   "20169": {
     "name": "Sanctity",
@@ -721,7 +725,7 @@
   },
   "21871": {
     "name": "Acuity",
-    "description": "6% increased Attack Speed<br>+100 to Accuracy Rating<br>20% increased Global Accuracy Rating"
+    "description": "6% increased Attack Speed<br>+100 to Accuracy Rating<br>20% increased Accuracy Rating"
   },
   "21873": {
     "name": "Mental Rapidity",
@@ -829,7 +833,7 @@
   },
   "59051": {
     "name": "Eagle Eye",
-    "description": "+150 to Accuracy Rating<br>20% increased Global Accuracy Rating<br>20% increased Critical Strike Chance"
+    "description": "+150 to Accuracy Rating<br>20% increased Critical Strike Chance<br>20% increased Accuracy Rating"
   },
   "59053": {
     "name": "Berserking",
@@ -865,7 +869,7 @@
   },
   "59103": {
     "name": "Versatility",
-    "description": "15% increased Global Accuracy Rating<br>5% increased Movement Speed<br>+20 to Dexterity and Intelligence"
+    "description": "5% increased Movement Speed<br>+20 to Dexterity and Intelligence<br>15% increased Accuracy Rating"
   },
   "59131": {
     "name": "Wrecking Ball",
@@ -909,7 +913,7 @@
   },
   "59535": {
     "name": "Savage Intensity",
-    "description": "20% reduced Cost of Attacks while you have at least 20 Rage<br>Inherent loss of Rage is 20% slower"
+    "description": "30% increased Cost Efficiency of Attacks<br>Inherent loss of Rage is 20% slower"
   },
   "59779": {
     "name": "Split Shot",
@@ -1025,7 +1029,7 @@
   },
   "78975": {
     "name": "Serpent Stance",
-    "description": "40% increased Global Critical Strike Chance while wielding a Staff<br>+30% to Global Critical Strike Multiplier while wielding a Staff<br>+5% Chance to Block Attack Damage if you've dealt a Critical Strike Recently"
+    "description": "40% increased Critical Strike Chance while wielding a Staff<br>+30% to Critical Strike Multiplier while wielding a Staff<br>+5% Chance to Block Attack Damage if you've dealt a Critical Strike Recently"
   },
   "79461": {
     "name": "Careful Conservationist",
@@ -1085,7 +1089,7 @@
   },
   "177147": {
     "name": "Tireless",
-    "description": "10% increased maximum Life<br>6% reduced Cost of Skills"
+    "description": "10% increased maximum Life<br>10% increased Cost Efficiency"
   },
   "177149": {
     "name": "Arcing Blows",
@@ -1101,7 +1105,7 @@
   },
   "177157": {
     "name": "Counterweight",
-    "description": "60% increased Global Critical Strike Chance while wielding a Staff<br>+30% to Global Critical Strike Multiplier while wielding a Staff"
+    "description": "60% increased Critical Strike Chance while wielding a Staff<br>+30% to Critical Strike Multiplier while wielding a Staff"
   },
   "177159": {
     "name": "Destructive Apparatus",
@@ -1149,7 +1153,7 @@
   },
   "177391": {
     "name": "Shaman's Dominion",
-    "description": "60% increased Critical Strike Chance with Totem Skills<br>+20% to Critical Strike Multiplier with Totem Skills"
+    "description": "50% increased Critical Strike Chance with Totem Skills<br>+20% to Critical Strike Multiplier with Totem Skills"
   },
   "177393": {
     "name": "Blade of Cunning",
@@ -1190,6 +1194,10 @@
   "177957": {
     "name": "Concussive Force",
     "description": "Hits Stun as though dealing 50% more Melee Fire Damage<br>Ignites from Stunning Melee Hits deal 20% more Damage"
+  },
+  "178119": {
+    "name": "Contemplative Meditation",
+    "description": "8% increased Reservation Efficiency of Skills<br>20% increased Cost Efficiency"
   },
   "178605": {
     "name": "Malicious Intent",
@@ -1389,7 +1397,7 @@
   },
   "413343": {
     "name": "Skittering Runes",
-    "description": "50% increased Area of Effect of Hex Skills<br>20% increased Mana Reservation Efficiency of Curse Aura Skills<br>20% reduced Mana Cost of Curse Skills"
+    "description": "50% increased Area of Effect of Hex Skills<br>20% increased Mana Cost Efficiency of Curse Skills<br>20% increased Mana Reservation Efficiency of Curse Aura Skills"
   },
   "531441": {
     "name": "Sovereignty",
@@ -1433,7 +1441,7 @@
   },
   "531495": {
     "name": "Insightfulness",
-    "description": "10% increased maximum Energy Shield<br>16% increased maximum Mana<br>10% reduced Mana Cost of Skills while on Full Energy Shield"
+    "description": "10% increased maximum Energy Shield<br>16% increased maximum Mana<br>16% increased Mana Cost Efficiency"
   },
   "531523": {
     "name": "Growth and Decay",
@@ -1493,7 +1501,7 @@
   },
   "532197": {
     "name": "Glory of Command",
-    "description": "40% increased Global Accuracy Rating while you have at least 1 nearby Ally<br>15% increased Area of Effect for Attacks while you have at least 1 nearby Ally"
+    "description": "40% increased Accuracy Rating while you have at least 1 nearby Ally<br>15% increased Area of Effect for Attacks while you have at least 1 nearby Ally"
   },
   "532251": {
     "name": "Veteran Soldier",
@@ -1505,7 +1513,7 @@
   },
   "533629": {
     "name": "Spirit of War",
-    "description": "0.5% of Physical Attack Damage Leeched as Mana<br>15% reduced Mana Cost of Attacks"
+    "description": "0.5% of Physical Attack Damage Leeched as Mana<br>25% increased Cost Efficiency of Attacks"
   },
   "533631": {
     "name": "Written in Blood",
@@ -1617,7 +1625,7 @@
   },
   "590493": {
     "name": "Art of the Gladiator",
-    "description": "10% increased Attack Speed<br>10% increased Global Accuracy Rating<br>Ignore all Movement Penalties from Armour<br>+20 to Dexterity"
+    "description": "10% increased Attack Speed<br>Ignore all Movement Penalties from Armour<br>+20 to Dexterity<br>10% increased Accuracy Rating"
   },
   "590499": {
     "name": "Dirty Techniques",
@@ -1681,7 +1689,7 @@
   },
   "709317": {
     "name": "Thrill of Battle",
-    "description": "Gain 2 Mana per Enemy Hit with Attacks<br>15% reduced Mana Cost of Attacks"
+    "description": "Gain 2 Mana per Enemy Hit with Attacks<br>25% increased Cost Efficiency of Attacks"
   },
   "710775": {
     "name": "Heart of the Warrior",
