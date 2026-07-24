@@ -6,6 +6,7 @@
 html {
   position: relative;
   min-height: 100%;
+  color-scheme: dark;
 }
 
 body {
@@ -150,6 +151,11 @@ input {
   padding: 0 0.2rem;
 }
 
+input:focus {
+  outline: none;
+  border-color: #A38D6D;
+}
+
 .my-oils > div:not(:last-child) {
   margin-right: 0.5rem;
 }
@@ -177,7 +183,7 @@ input {
 
 .table-data {
   min-height: 200px;
-  max-height: 705px;
+  max-height: 690px;
   overflow-y: auto;
   border-top: 1px solid #745A2F;
 }
